@@ -30,6 +30,7 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 .who{display:flex;gap:8px;flex-wrap:wrap}
 .who span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
 .tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:10px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+@media (max-width:640px){.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.tabs button{white-space:nowrap;flex:none}}
 .tabs button{font:600 15px var(--f-body);padding:11px 18px;border-radius:12px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:flex;gap:10px;align-items:center}
 .tabs button small{font-weight:500;color:var(--muted)}
 .tabs button[aria-selected="true"]{background:var(--lake);border-color:var(--lake);color:#fff}
@@ -71,6 +72,23 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 .card ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
 .card a{color:var(--lake);font-weight:600}
 .btn{display:inline-block;text-decoration:none;background:var(--lake);color:#fff!important;padding:10px 14px;border-radius:10px;font-weight:600;text-align:center}
+.more{margin-top:36px;display:grid;gap:14px}
+.more h2{font-size:26px;margin-top:10px}
+.seasons{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.season{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px;border-top:4px solid var(--lake)}
+.season b{font-family:var(--f-display);font-size:19px}
+.season p{margin:6px 0 0;font-size:15px}
+.s-jaro{border-top-color:var(--green)}.s-leto{border-top-color:var(--sun)}.s-podzim{border-top-color:#c0642f}.s-zima{border-top-color:var(--lake)}
+.sights{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.sights li{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:15px}
+.routes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.routes>div{display:grid;gap:10px;align-content:start}
+.route{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--lake);border-radius:12px;padding:12px 14px;display:grid;gap:2px}
+.route.bike{border-left-color:var(--green)}
+.route .km{font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.route p{margin:0;font-size:15px}
+.note{color:var(--muted);font-size:13.5px;margin:0}
+@media (max-width:900px){.seasons{grid-template-columns:repeat(2,minmax(0,1fr))}.sights{grid-template-columns:minmax(0,1fr)}.routes{grid-template-columns:minmax(0,1fr)}}
 .gallery{margin-top:34px}
 .gallery h2{font-size:28px;margin-bottom:12px}
 .gal{columns:3 260px;column-gap:12px}
@@ -93,14 +111,11 @@ footer{margin-block:40px 30px;color:var(--muted);font-size:13px}
   <header class="top">
     <div>
       <h1>Na kole k jezeru</h1>
-      <p>Týden s Marco Polem: dvě varianty, vyberte si.</p>
+      <p>Týden s Marco Polem: sedm jezer do 900 km od Prahy, vyberte si.</p>
     </div>
     <div class="who"><span>2 dospělí</span><span>dítě 7 let</span><span>3 kola na nosiči</span><span>Mercedes Marco Polo</span></div>
   </header>
-  <nav class="tabs" role="tablist" aria-label="Varianty výletu">
-    <button role="tab" id="t-garda" data-v="garda" aria-selected="true">Itálie · Lago di Garda <small>7 dní · cca 790 km</small></button>
-    <button role="tab" id="t-wolf" data-v="wolf" aria-selected="false">Rakousko · Wolfgangsee <small>7 dní · cca 400 km</small></button>
-  </nav>
+  <nav class="tabs" role="tablist" aria-label="Varianty výletu" id="tabs"></nav>
   <main id="app"></main>
 
   <section class="common" aria-label="Pro obě varianty">
@@ -198,7 +213,189 @@ wolf: {
   route:"https://www.google.com/maps/dir/Praha/Abersee,+St.+Gilgen",
   links:[["Seecamping Wolfgangblick","https://wolfgangsee.salzkammergut.at/en/oesterreich-location/detail/430000325/seecamping-wolfgangblick.html"],["Okruh kolem Wolfgangsee (28 km)","https://www.salzkammergut.at/oesterreich-tour/detail/430007441/die-aussichtsreiche-tour-fast-rund-um-den-wolfgangsee.html"],["Salzkammergut Radweg","https://www.salzkammergut.at/oesterreich-tour/detail/430006020/salzkammergut-radweg.html"]],
   gallery:["Wolfgangsee","St. Wolfgang im Salzkammergut","Schafbergbahn","Hallstatt","Mondsee lake"]
+},
+faak: {
+  tab:"Rakousko · Faaker See", sub:"cca 650 km",
+  eyebrow:"Rakousko · Korutany", title:"Faaker See a Wörthersee",
+  lead:"Nejteplejší jezera Rakouska: koupání jako u moře, cyklostezka podél Drávy, opičí park, rozhledna se skluzavkou a Minimundus.",
+  hero:{wiki:"en:Faaker_See"},
+  facts:[["cca 650 km","z Prahy přes Linec a Pyhrn (A9)"],["7 h","jízda, zvládne se za den"],["Dráva","rovinatá cyklostezka podél řeky"],["Camping Arneitz","přímo na břehu Faaker See"]],
+  days:[
+    {no:"Den 1",t:"Praha → Faaker See",img:{wiki:"en:Pyhrn_Autobahn"},chips:[["car","cca 650 km · 7 h"]],
+     items:["Přes Linec po dálnici A9 (Pyhrn) a Graz nebo dál na Villach.","Večer příjezd do kempu a koupání."],
+     tip:"Ubytování: Camping Arneitz ve Faak am See, přímo na jezeře, pláž, hřiště venku i uvnitř, dětské kino. Otevřeno zhruba od poloviny dubna do konce září."},
+    {no:"Den 2",t:"Den na pláži a kolo kolem jezera",img:{wiki:"en:Faaker_See"},chips:[["bike","krátký okruh"]],
+     items:["Ráno krátká vyjížďka kolem jezera s výhledem na horu Mittagskogel.","Zbytek dne pláž v kempu, šlapadlo nebo SUP."]},
+    {no:"Den 3",t:"Villach a cyklostezka podél Drávy",img:{wiki:"en:Villach"},chips:[["bike","10–20 km po rovině"]],
+     items:["Drauradweg patří k nejhezčím cyklostezkám v Rakousku, kolem Villachu vede po rovině podél řeky.","Zastávka ve starém městě Villachu na zmrzlinu."]},
+    {no:"Den 4",t:"Opičí park a hrad Landskron",img:{wiki:"en:Villach"},chips:[["car","cca 15 km"]],
+     items:["Affenberg Landskron: makakové volně v lese, procházka s průvodcem.","Na stejném kopci zřícenina hradu Landskron s ukázkami dravců."]},
+    {no:"Den 5",t:"Pyramidenkogel a Wörthersee",img:{wiki:"en:Pyramidenkogel"},chips:[["car","cca 35 km"]],
+     items:["Dřevěná rozhledna Pyramidenkogel s dlouhou krytou skluzavkou dolů.","Odpoledne lodí po Wörthersee nebo koupání ve Veldenu."]},
+    {no:"Den 6",t:"Minimundus v Klagenfurtu",img:{wiki:"en:Minimundus"},chips:[["car","cca 40 km"]],
+     items:["Park miniatur slavných staveb světa, dětem se líbí.","Nábřeží Wörthersee v Klagenfurtu a hřiště u vody."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Linz"},chips:[["car","cca 650 km · 7 h"]],
+     items:["Dopoledne poslední koupání, pak zpět přes Pyhrn a Linec."]}
+  ],
+  costs:["Rakousko: dálniční známka 10 dní 12,80 €","Tunel Bosruck (A9): 7 € a Gleinalm (A9): 12 €, každý směr","Alternativa přes Salcburk: tunel Katschberg (A10) 15 €"],
+  route:"https://www.google.com/maps/dir/Praha/Faak+am+See",
+  links:[["Camping Arneitz","https://alanrogers.com/campsite/camping-arneitz-carinthia"],["Drauradweg","https://www.linexo.de/magazin/radrouten-touren/drauradweg-die-schoenste-fahrradroute-durch-oesterreich"],["Mýtné Rakousko 2026","https://www.tolls.eu/cs/rakousko"]],
+  gallery:["Faaker See","Wörthersee","Pyramidenkogel","Velden am Wörthersee","Villach Drau"]
+},
+valsugana: {
+  tab:"Itálie · Caldonazzo", sub:"cca 780 km",
+  eyebrow:"Itálie · Trentino", title:"Lago di Caldonazzo a Valsugana",
+  lead:"Dvě klidná jezera pod Dolomity a jedna z nejoblíbenějších rodinných cyklostezek v Itálii: po rovině nebo z kopce, zpátky vlakem s koly.",
+  hero:{wiki:"en:Lake_Caldonazzo"},
+  facts:[["cca 780 km","z Prahy přes Brenner a Trento"],["8 h","jízda, s přespáním po cestě"],["50+ km","cyklostezka Valsugana, převážně z kopce"],["Camping Riviera","Calceranica, 100 m od jezera"]],
+  days:[
+    {no:"Den 1",t:"Praha → Tyrolsko",img:{wiki:"en:Innsbruck"},chips:[["car","cca 500 km · 5,5 h"]],
+     items:["Přes Mnichov do Tyrolska, přespání v okolí Innsbrucku."]},
+    {no:"Den 2",t:"Přes Brenner do Valsugany",img:{wiki:"en:Lake_Caldonazzo"},chips:[["car","cca 280 km · 3 h"]],
+     items:["Brenner, A22 do Trenta a krátce do Valsugany.","Odpoledne koupání v Lago di Caldonazzo."],
+     tip:"Ubytování: Camping Riviera v Calceranica al Lago, asi 100 m od jezera, travnatá místa, hřiště."},
+    {no:"Den 3",t:"Cyklostezka Calceranica → Levico",img:{wiki:"en:Levico_Terme"},chips:[["bike","cca 10 km tam a zpět"],["","rovina"]],
+     items:["Nejjednodušší úsek cyklostezky Valsugana, rovinatý, kolem jezera po dřevěných lávkách.","V Levicu velké hřiště na pláži a bici-grill se zmrzlinou.","Koupání v Lago di Levico."]},
+    {no:"Den 4",t:"Z kopce podél Brenty a vlakem zpět",img:{wiki:"en:Borgo_Valsugana"},chips:[["bike","20–30 km z kopce"],["","vlak s koly"]],
+     items:["Delší úsek údolím směrem k Borgo Valsugana, převážně mírně z kopce.","Zastávka v muzeu strašáků u Roncegna (asi 18 km od startu).","Zpět vlakem: v létě jezdí vlaky s místem pro 32 kol."],
+     tip:"Kola se dají půjčit v jednom místě a vrátit jinde (Valsugana Rent Bike, Valsugana InBike)."},
+    {no:"Den 5",t:"Arte Sella",img:{wiki:"en:Arte_Sella"},chips:[["car","cca 30 km"]],
+     items:["Umění v lese: velké sochy a stavby z přírodních materiálů, procházka pro celou rodinu.","Odpoledne pláž na Caldonazzu."]},
+    {no:"Den 6",t:"MUSE v Trentu",img:{wiki:"en:MUSE_(museum)"},chips:[["car","cca 25 km"]],
+     items:["Moderní přírodovědné muzeum s dinosaury a interaktivními expozicemi, ideální i za deště.","Procházka centrem Trenta."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Brenner_Pass"},chips:[["car","cca 780 km · 8 h"]],
+     items:["Přes Brenner a Mnichov, případně s přespáním v Tyrolsku."]}
+  ],
+  costs:["Rakousko: dálniční známka 10 dní 12,80 €","Brenner A13: 12,50 € každý směr","Itálie A22: mýtné na branách","Kemp: orientačně kolem 47 € za noc pro 2 osoby"],
+  route:"https://www.google.com/maps/dir/Praha/Innsbruck/Calceranica+al+Lago",
+  links:[["Cyklostezka Valsugana s dětmi","https://www.iltrentinodeibambini.it/ciclabile-della-valsugana/"],["Camping Riviera","https://www.campercontact.com/en/italy/trentino-alto-adigesudtirol/calceranica-al-lago/51818/camping-riviera.md"],["Ciclabile della Valsugana","https://www.dolomiti.it/it/itinerari/bici/ciclabile-della-valsugana/"]],
+  gallery:["Lago di Caldonazzo","Lago di Levico","Valsugana","Arte Sella","Levico Terme"]
+},
+reschen: {
+  tab:"Itálie · Reschensee", sub:"cca 650 km",
+  eyebrow:"Itálie · Jižní Tyrolsko", title:"Reschensee a údolí Vinschgau",
+  lead:"Jezero s kostelní věží trčící z vody a cyklostezka údolím Vinschgau, která vede hlavně z kopce mezi jabloňovými sady až k Meranu.",
+  hero:{wiki:"en:Lake_Reschen"},
+  facts:[["cca 650 km","z Prahy přes Mnichov a Fernpass"],["7 h","jízda, zvládne se za den"],["z kopce","Mals → Meran, 61 km, jen 168 m stoupání"],["Graun","kempy přímo u Reschensee"]],
+  days:[
+    {no:"Den 1",t:"Praha → Reschensee",img:{wiki:"en:Fern_Pass"},chips:[["car","cca 650 km · 7 h"]],
+     items:["Přes Mnichov, Garmisch a Fernpass do Landecku a přes Reschenský průsmyk do Itálie.","Večer procházka k zatopené kostelní věži v Graunu."],
+     tip:"Ubytování: kempy v Graun im Vinschgau přímo u jezera (např. Camping Zum See), rezervujte předem."},
+    {no:"Den 2",t:"Okruh kolem Reschensee",img:{wiki:"en:Lake_Reschen"},chips:[["bike","cca 15 km okruh"],["","skoro rovina"]],
+     items:["Cyklostezka kolem celého jezera, pro sedmiletého ideální první den.","Zastávky na hřištích a u kostelní věže."]},
+    {no:"Den 3",t:"Z kopce do Malsu a Glurns",img:{wiki:"en:Glurns"},chips:[["bike","cca 25 km převážně z kopce"]],
+     items:["Z Reschen po cyklostezce dolů do Malsu a do nejmenšího středověkého města Jižního Tyrolska Glurns s hradbami.","Zpět autobusem nebo jeden z rodičů dojede pro auto."],
+     tip:"Převoz kol vlakem a autobusem v údolí je omezený, ověřte si aktuální pravidla na südtirolmobil."},
+    {no:"Den 4",t:"Vinschgau: Mals → Schlanders",img:{wiki:"en:Val_Venosta"},chips:[["bike","cca 30 km z kopce"]],
+     items:["Nejhezčí část trasy mezi jabloňovými sady, většinou mírně z kopce.","Kola se dají půjčit v Malsu a vrátit na nádraží po cestě (Spondinig, Schlanders, Latsch, Naturns, Meran)."]},
+    {no:"Den 5",t:"Meran",img:{wiki:"en:Merano"},chips:[["car","cca 80 km"]],
+     items:["Lázeňské město s promenádou podél řeky, termální lázně s dětskými bazény.","Alternativa: celý zbytek cyklostezky do Meranu."]},
+    {no:"Den 6",t:"Den u jezera",img:{wiki:"en:Lake_Reschen"},chips:[["","odpočinek"]],
+     items:["Koupání, šlapadla, lanovka Schöneben nad jezerem na krátkou procházku.","Večer grilování u Marco Pola."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Landeck"},chips:[["car","cca 650 km · 7 h"]],
+     items:["Zpět přes Landeck a Fernpass, v sezóně počítejte s kolonou na Fernpassu."]}
+  ],
+  costs:["Rakousko: dálniční známku mějte pro jistotu (10 dní 12,80 €), trasa přes Fernpass vede hlavně po silnicích","Německo a Itálie po této trase bez dálničního mýtného","Půjčení kol a vlak podle sezónních ceníků"],
+  route:"https://www.google.com/maps/dir/Praha/Graun+im+Vinschgau",
+  links:[["Cyklotrasa Mals → Marling","https://www.suedtirol.info/de/de/erlebnisse-und-events/plp-erlebnisse/erlebnisse-suedtirol/pdp-erlebnisse.smgpoi0102360e0d5e8c8c5e6b61874d4e3f41.von-mals-nach-marling.marling"],["Kempy v Graunu","https://www.promobil.de/stellplatz/stellplatz-camping-zum-see-5d42c40237b89e0800ef0c38.html"]],
+  gallery:["Reschensee","Graun im Vinschgau church tower","Vinschgau","Glurns","Merano"]
+},
+bodensee: {
+  tab:"Německo · Bodensee", sub:"cca 600 km",
+  eyebrow:"Německo · Bodamské jezero", title:"Bodensee z Lindau",
+  lead:"Velké jezero tří zemí: rovinatá cyklostezka po břehu, lodě, kůlové stavby, ostrov květin Mainau a Ravensburger Spieleland.",
+  hero:{wiki:"en:Lindau"},
+  facts:[["cca 600 km","z Prahy přes Mnichov"],["6 h","jízda, bez dálničních poplatků"],["23 km","nejkratší etapa Friedrichshafen–Lindau"],["Park-Camping Lindau","přímo na břehu jezera"]],
+  days:[
+    {no:"Den 1",t:"Praha → Lindau",img:{wiki:"en:Lindau"},chips:[["car","cca 600 km · 6 h"]],
+     items:["Přes Mnichov po A96 až k jezeru.","Večer procházka na ostrově Lindau k majáku a lvu v přístavu."],
+     tip:"Ubytování: Park-Camping Lindau am See přímo na břehu, místa s elektřinou a vodou, koupání z kempu."},
+    {no:"Den 2",t:"Na kole Lindau → Friedrichshafen, zpět lodí",img:{wiki:"en:Friedrichshafen"},chips:[["bike","cca 23 km"],["","loď zpět"]],
+     items:["Nejkratší a nejrovnější etapa okruhu kolem jezera, koupání ve Friedrichshafenu a Eriskirchu.","Muzeum zeppelinů ve Friedrichshafenu, zpět lodí."],
+     tip:"Převoz kol na lodi si ověřte u přepravce předem."},
+    {no:"Den 3",t:"Ravensburger Spieleland",img:{wiki:"en:Ravensburger_Spieleland"},chips:[["car","cca 35 km"]],
+     items:["Zábavní park podle her Ravensburger, ideální věk právě kolem 7 let."]},
+    {no:"Den 4",t:"Kůlové stavby a Meersburg",img:{wiki:"en:Meersburg"},chips:[["car","cca 50 km"]],
+     items:["Pfahlbauten Unteruhldingen: vesnice z doby kamenné na kůlech nad vodou.","Hrad Meersburg a uličky starého města."]},
+    {no:"Den 5",t:"Ostrov Mainau",img:{wiki:"en:Mainau"},chips:[["","lodí nebo autem"]],
+     items:["Ostrov květin: motýlí dům, palmový dům, dobrodružné hřiště a mini zoo."]},
+    {no:"Den 6",t:"Bregenz a Pfänder",img:{wiki:"en:Pfänder"},chips:[["bike","Lindau → Bregenz cca 10 km"]],
+     items:["Na kole po břehu do rakouského Bregenzu.","Lanovkou na Pfänder: alpská obora a dlouhá lesní skluzavka."],
+     tip:"Na kole do Bregenzu není potřeba dálniční známka."},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Munich"},chips:[["car","cca 600 km · 6 h"]],
+     items:["Zpět přes Mnichov, cestou případně zastávka v parku Legoland u Günzburgu (cca 1,5 h od Lindau)."]}
+  ],
+  costs:["Německo: osobní auta bez dálničních poplatků","Rakousko: známka jen pokud pojedete autem po rakouské dálnici","Lodě a lanovky podle místních ceníků"],
+  route:"https://www.google.com/maps/dir/Praha/Lindau+(Bodensee)",
+  links:[["Kempy v Lindau","https://www.lindau.de/en/discover-lindau/lindau-for/camping/"],["Okruh kolem Bodensee v 8 etapách","https://www.bodensee.de/erleben/natur-und-aktiv/radfahren-am-bodensee/in-acht-etappen-um-den-bodensee"]],
+  gallery:["Lindau Bodensee","Pfahlbauten Unteruhldingen","Mainau","Meersburg","Bregenz Pfänder"]
+},
+bled: {
+  tab:"Slovinsko · Bled", sub:"cca 690 km",
+  eyebrow:"Slovinsko · Julské Alpy", title:"Bled a Bohinj",
+  lead:"Pohádkové jezero s ostrůvkem a kostelíkem, soutěska Vintgar a nová cyklostezka podél Sávy až k jezeru Bohinj.",
+  hero:{wiki:"en:Lake_Bled"},
+  facts:[["cca 690 km","z Prahy přes Linec, Villach a Karavanky"],["7,5 h","jízda, zvládne se za den"],["28 km","nová cyklostezka Bled → Bohinj"],["Camping Bled","v zátoce Zaka přímo u jezera"]],
+  days:[
+    {no:"Den 1",t:"Praha → Bled",img:{wiki:"en:Karawanks_Tunnel"},chips:[["car","cca 690 km · 7,5 h"]],
+     items:["Přes Linec, A9 Pyhrn, Villach a tunel Karavanky.","Večer příjezd do kempu a koupání."],
+     tip:"Ubytování: Camping Bled v zátoce Zaka na konci jezera, pětihvězdičkový kemp."},
+    {no:"Den 2",t:"Kolem jezera a na hrad",img:{wiki:"en:Bled_Castle"},chips:[["bike","cca 6 km okolo jezera"]],
+     items:["Pohodový okruh kolem jezera, zastávky na plážích.","Bledský hrad na skále s výhledem a kremšnita (bledský řez)."]},
+    {no:"Den 3",t:"Loďkou na ostrov a soutěska Vintgar",img:{wiki:"en:Vintgar_Gorge"},chips:[["","pletna na ostrov"]],
+     items:["Tradiční loďkou pletna na ostrov s kostelem a zvonem přání.","Odpoledne soutěska Vintgar po dřevěných lávkách nad řekou."],
+     tip:"Do Vintgaru si kupte vstupenky online na konkrétní čas."},
+    {no:"Den 4",t:"Údolí Radovna na kole",img:{wiki:"en:Radovna"},chips:[["bike","13 km jedním směrem"],["","mírné stoupání"]],
+     items:["Z vesnice Krnica (asi 6 km od Bledu) údolím Radovna po rovinách a lesních cestách.","Oběd v hospodě po cestě, louky na hraní."]},
+    {no:"Den 5",t:"Na kole nebo autem k Bohinji",img:{wiki:"en:Lake_Bohinj"},chips:[["bike","až 28 km podél Sávy"],["car","cca 30 km"]],
+     items:["Nová cyklostezka z Bledu do Bohinjske Bistrice a k jezeru Bohinj, většinou mimo provoz.","Se sedmiletým lze jet jen část a zbytek autem."],
+     tip:"U obce Obrne vede stezka krátce po silnici kvůli opravě sesuvu."},
+    {no:"Den 6",t:"Bohinj a vodopád Savica",img:{wiki:"en:Savica_Falls"},chips:[["car","cca 30 km"]],
+     items:["Krátký výstup k vodopádu Savica, koupání v chladném Bohinji.","Alternativa: lanovka Vogel s výhledem na Julské Alpy."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Villach"},chips:[["car","cca 690 km · 7,5 h"]],
+     items:["Zpět přes Karavanky a Pyhrn."]}
+  ],
+  costs:["Slovinsko: Marco Polo je vyšší než 1,3 m nad přední nápravou, týdenní e-známka 32 €","Tunel Karavanky: 9 € každý směr","Rakousko: známka 10 dní 12,80 €, Bosruck 7 € a Gleinalm 12 € každý směr"],
+  route:"https://www.google.com/maps/dir/Praha/Camping+Bled",
+  links:[["Camping Bled","https://avtokampi.si/campsites/camping-bled"],["Nová cyklostezka Bled–Bohinj","https://www.gov.si/en/news/2026-07-17-new-cycling-route-creates-scenic-link-between-bled-and-bohinj/"],["Údolí Radovna s dětmi","https://www.exploringslovenia.com/blog/2017/04/03/family-cycling-in-the-radovna-valley/"],["Známka Slovinsko 2026","https://www.tolls.eu/cs/slovinsko"]],
+  gallery:["Lake Bled","Bled island church","Vintgar gorge","Lake Bohinj","Radovna valley"]
 }};
+// Program po sezónách, zajímavosti, pěší okruhy (do 18 km) a cyklotrasy (do 30 km)
+const X={
+garda:{seasons:{jaro:"Příjemné teploty na kolo i pěší túry, kvetoucí olivovníky a citronové háje v Limone, méně lidí než v létě.",leto:"Koupání, windsurfing a plachtění v Torbole, večerní promenády v Rivě, výlety lodí po jezeře.",podzim:"Vinobraní a sklizeň oliv, teplé dny na kolo, výlety k Lago di Tenno a do hor nad jezerem.",zima:"Vánoční trhy v Arcu, klidné procházky po promenádách, lyžování na Monte Bondone nebo Paganelle (asi hodina autem)."},
+ sights:["Vodopád Cascata del Varone u Rivy (soutěska s lávkami)","Hrad Arco s výhledem na údolí Sarky","Jezero Tenno a středověká vesnice Canale di Tenno","Malcesine a otočná lanovka na Monte Baldo","Muzeum MAG v pevnosti Rocca v Rivě","Gardaland pro dětský den (asi 1,5 h na jih)"],
+ hikes:[["Okruh Monte Brione","cca 8 km","Hřebínek mezi Rivou a Torbole, výhledy na celé jezero a staré pevnosti."],["Lago di Tenno a Canale di Tenno","cca 6 km","Tyrkysové jezero a kamenná vesnička, vhodné i pro menší děti."],["Sentiero del Ponale","cca 10 km tam a zpět","Stará silnice vytesaná ve skále nad jezerem z Rivy k vodopádu Ponale."],["Busatte – Tempesta (Torbole)","cca 7 km","Kovová schodiště ve skále nad vodou, nejhezčí výhledy na sever Gardy."]],
+ bikes:[["Riva – Arco – Riva","cca 20 km","Rovina podél Sarky, hrad Arco a koupání v řece."],["Torbole – Riva – Varone","cca 15 km","Po promenádě a k vodopádu Varone."],["Okruh kolem Lago di Ledro","cca 10 km","Horské jezero, plážičky a muzeum kůlových staveb."],["Ponale nahoru k Ledru","cca 25 km tam a zpět","Stoupání kolem 500 m, spíš pro elektrokola nebo starší děti."]]},
+wolf:{seasons:{jaro:"Rozkvetlé louky, zubačka na Schafberg zahajuje sezónu, klidná jezera a první vyjížďky na kole.",leto:"Koupání v teplé vodě, lodě po Wolfgangsee, šlapadla a SUP, festivaly v Salcburku.",podzim:"Barevné lesy, slavnostní sehnání dobytka z pastvin (Almabtrieb), ideální počasí na pěší túry.",zima:"Proslulý adventní trh Wolfgangseer Advent, sáňkování a lyžování na Zwölferhornu a Postalmu."},
+ sights:["Kostel v St. Wolfgangu s gotickým oltářem Michaela Pachera","Zubačka na Schafberg","Solné doly Hallstatt se skluzavkami","Císařská vila v Bad Ischlu","Zámek Hellbrunn s vodními hrami","Lanovka na Zwölferhorn ze St. Gilgen"],
+ hikes:[["Okruh kolem Fuschlsee","cca 11 km","Po rovině kolem tyrkysového jezera, cestou koupání."],["Poutní stezka přes Falkenstein","cca 9 km","St. Gilgen – Fürberg – Falkenstein – Ried, zpět lodí."],["Okruh Schwarzensee","cca 5 km","Malé horské jezero nad St. Wolfgangem, krátké a rodinné."],["Schafberg: vrchol a Schafbergalm","cca 3 km","Nahoru zubačkou, kousek dolů pěšky k chatě a zase vlakem."]],
+ bikes:[["(Skoro) kolem Wolfgangsee","cca 28 km","Lehká trasa s výhledem na jezero, část jde nahradit lodí."],["St. Gilgen – Strobl – St. Gilgen","cca 24 km","Po břehu jezera tam a zpět, se zastávkami na pláži."],["Bad Ischl – Strobl","cca 30 km tam a zpět","Podél řeky Ischl po rovině, v Bad Ischlu zmrzlina a lázeňský park."]]},
+faak:{seasons:{jaro:"Teplejší než ve vysokých Alpách, kvetoucí louky, první koupání v květnu a otevírají se kempy.",leto:"Jedna z nejteplejších alpských jezer, plážový den za plážovým dnem, lodě po Wörthersee.",podzim:"Barevné lesy kolem Villachu, výhledy z Dobratsche, teplá voda ještě v září.",zima:"Adventní trhy ve Villachu a Klagenfurtu, lyžování na Gerlitzen, bruslení na zamrzlém Weissensee."},
+ sights:["Opičí park Affenberg a hrad Landskron s dravci","Rozhledna Pyramidenkogel se skluzavkou","Minimundus v Klagenfurtu","Soutěska Tscheppaschlucht u Ferlachu","Villacher Alpenstraße na Dobratsch","Zoo plazů Happ v Klagenfurtu"],
+ hikes:[["Soutěska Tscheppaschlucht","cca 6 km","Lávky a vodopády v lese, vhodné pro děti."],["Dobratsch od konce Alpské silnice","cca 10 km","Na vrchol s výhledem na tři země, hřebenem a zpět."],["Pyramidenkogel – Keutschacher See","cca 10 km","Lesem od rozhledny k dalšímu teplému jezeru a zpět."]],
+ bikes:[["Villach – Faaker See – Villach","cca 25 km","Po cyklostezkách kolem jezera a Drávy."],["Drauradweg z Villachu","cca 20–30 km tam a zpět","Rovina podél řeky, odbočky ke koupání."],["Velden – Maria Wörth","cca 15 km","Po jižním břehu Wörthersee, zpět lodí."]]},
+valsugana:{seasons:{jaro:"Kvetoucí ovocné sady, rozkvetlý lázeňský park v Levicu, ideální teploty na cyklostezku.",leto:"Koupání ve dvou jezerech, bici-grilly se zmrzlinou na cyklostezce, večerní trhy.",podzim:"Sklizeň jablek a kaštanů, barevná Arte Sella, slavnosti vína a kaštanů.",zima:"Vánoční trh v habsburském parku v Levicu, trhy v Trentu, lyžování na Panarottě."},
+ sights:["Habsburský park v Levico Terme","Arte Sella – umění v lese","MUSE v Trentu","Hrad Castel Pergine nad jezerem","Bassano del Grappa a dřevěný most Ponte degli Alpini","Muzeum strašáků u Roncegna"],
+ hikes:[["Okruh kolem Lago di Levico","cca 6 km","Po stezkách u vody a lesem, pláže a hřiště."],["Arte Sella a Malga Costa","cca 4 km","Okruh mezi uměleckými díly v lese."],["Castel Pergine z Pergine","cca 5 km","Krátce do kopce na hrad s výhledem na Caldonazzo."]],
+ bikes:[["Calceranica – Levico – Barco","cca 20 km tam a zpět","Nejjednodušší rovinatý úsek cyklostezky Valsugana."],["Levico – Borgo Valsugana","cca 15 km jedním směrem","Mírně z kopce, zpět vlakem s koly."],["Okruh kolem Lago di Caldonazzo","cca 12 km","Kolem jezera, část po klidných silnicích."]]},
+reschen:{seasons:{jaro:"Rozkvetlé jabloňové sady ve Vinschgau, teplé dny v údolí a sníh ještě na horách.",leto:"Kolo z kopce údolím, kite a SUP na Reschensee, koupání v nižších jezerech a lázních v Meranu.",podzim:"Sklizeň jablek, tradiční ochutnávky Törggelen, zlatavé modříny nad jezerem.",zima:"Zamrzlé jezero s bruslením a běžkami, lyžování na Schöneben a Haideralm, vánoční trh v Meranu."},
+ sights:["Kostelní věž v jezeře v Graunu","Středověké městečko Glurns s hradbami","Klášter Marienberg nad Malsem","Hrad Churburg v Schludersu","Zahrady zámku Trauttmansdorff v Meranu","Lanovka Schöneben nad jezerem"],
+ hikes:[["Okruh kolem Reschensee","cca 15 km","Po rovině kolem jezera, hřiště a kostelní věž."],["Okruh kolem Haider See","cca 5 km","Menší jezero pod Reschen, klidné a rodinné."],["Zavlažovací stezka Waalweg","cca 8–10 km","Po rovině podél starých vodních kanálů ve svahu nad údolím."]],
+ bikes:[["Okruh kolem Reschensee","cca 15 km","Skoro po rovině, první den pro dítě."],["Reschen – Mals – Glurns","cca 25 km","Převážně z kopce, zpět autobusem."],["Mals – Schlanders","cca 30 km","Mezi sady z kopce, kola půjčit a vrátit po cestě."]]},
+bodensee:{seasons:{jaro:"Kvetoucí ovocné sady kolem jezera, tulipány na ostrově Mainau, první výlety na kole.",leto:"Koupání z kempu, lodě mezi Německem, Rakouskem a Švýcarskem, festival v Bregenzu.",podzim:"Vinobraní a mošt, teplé dny na kolo, barevné sady.",zima:"Adventní trh v přístavu Lindau, vánoční lodě, pohádkový advent na Mainau."},
+ sights:["Ostrov květin Mainau","Kůlové stavby Unteruhldingen","Zeppelin Museum ve Friedrichshafenu","Ravensburger Spieleland","Opičí park Affenberg Salem","Rýnské vodopády u Schaffhausenu (asi 1 h)"],
+ hikes:[["Soutěska Eistobel","cca 6 km","Lávky a vodopády v Allgäu, kousek od Lindau."],["Pfänder: vrchol a obora","cca 5 km","Nahoru lanovkou, okruh lesem kolem alpské obory."],["Soutěska Klingenbachschlucht","cca 5 km","Mosty a lávky v lese u Kostnice, za mokra pevné boty."]],
+ bikes:[["Lindau – Friedrichshafen","cca 23 km","Nejkratší etapa okruhu, zpět lodí."],["Lindau – Bregenz – Lochau","cca 20 km tam a zpět","Po břehu do Rakouska."],["Lindau – Wasserburg – Nonnenhorn","cca 15 km tam a zpět","Malé přístavy, sady a koupání."]]},
+bled:{seasons:{jaro:"Vodopády v plné síle (Savica, Vintgar), rozkvetlé louky a klidný Bled bez davů.",leto:"Koupání v jezeře, pletna na ostrov, kolo do Bohinje, večerní promenáda.",podzim:"Barevné Julské Alpy, slavnost Kravji bal v Bohinji při návratu krav z pastvin.",zima:"Adventní trh u jezera, lyžování na Vogelu a Pokljuce, bruslení."},
+ sights:["Bledský hrad a ostrov s kostelem","Soutěska Vintgar","Vodopád Savica","Lanovka Vogel nad Bohinjí","Jezírko Zelenci u Kranjske Gory","Lublaň (asi 50 km)"],
+ hikes:[["Okruh kolem Bledského jezera","cca 6 km","Po rovině, pláže a výhled na ostrov."],["Vyhlídka Mala Osojnica","cca 4 km","Krátce, ale strmě nad jezero na nejslavnější výhled na Bled."],["Okruh kolem jezera Bohinj","cca 12 km","Po břehu a lesem, koupání v chladné vodě."],["Vintgar a Sveta Katarina","cca 8 km","Soutěskou a přes kopec zpět do Bledu."]],
+ bikes:[["Bled – Bohinj","cca 28 km","Nová cyklostezka podél Sávy, většinou mimo provoz."],["Údolí Radovna","cca 26 km tam a zpět","Z Krnice údolím po rovinách a lesních cestách."],["Okruh kolem Bledu","cca 6 km","Pohodová vyjížďka pro první den."]]}
+};
+for(const k in X) Object.assign(V[k],X[k]);
+V.garda.tab="Itálie · Lago di Garda"; V.garda.sub="cca 790 km";
+V.wolf.tab="Rakousko · Wolfgangsee"; V.wolf.sub="cca 400 km";
+const ORDER=["garda","wolf","faak","valsugana","reschen","bodensee","bled"];
+document.getElementById("tabs").innerHTML=ORDER.map((k,i)=>`<button role="tab" id="t-${k}" data-v="${k}" aria-selected="${i===0}">${V[k].tab} <small>${V[k].sub}</small></button>`).join("");
 
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const app=document.getElementById("app");
@@ -224,9 +421,20 @@ function render(k){
       <div class="card"><h3>Užitečné odkazy</h3><ul>${v.links.map(l=>`<li><a href="${l[1]}" target="_blank" rel="noopener">${esc(l[0])}</a></li>`).join("")}</ul></div>
     </aside>
   </div>
+  <section class="more">
+    <h2>Co tu zažít během roku</h2>
+    <div class="seasons">${[["jaro","Jaro"],["leto","Léto"],["podzim","Podzim"],["zima","Zima"]].map(([k,n])=>`<div class="season s-${k}"><b>${n}</b><p>${esc(v.seasons[k])}</p></div>`).join("")}</div>
+    <h2>Tipy na zajímavosti</h2>
+    <ul class="sights">${v.sights.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>
+    <div class="routes">
+      <div><h2>Pěší okruhy do 18 km</h2>${v.hikes.map(r=>`<div class="route"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p></div>`).join("")}</div>
+      <div><h2>Cyklotrasy do 30 km</h2>${v.bikes.map(r=>`<div class="route bike"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p></div>`).join("")}</div>
+    </div>
+    <p class="note">Délky tras jsou orientační. Před výletem si trasu projděte v mapě (např. Mapy.cz) a ověřte aktuální stav.</p>
+  </section>
   <section class="gallery"><h2>Fotky z místa</h2><div class="gal" id="gal"><p class="loading">Načítám fotky…</p></div></section>`;
   loadHero(v.hero.wiki);
-  app.querySelectorAll(".ph[data-wiki]").forEach(el=>loadWiki(el.dataset.wiki).then(p=>{if(p)el.innerHTML=imgHtml(p)}));
+  app.querySelectorAll(".ph[data-wiki]").forEach(el=>loadWiki(el.dataset.wiki).then(p=>p||loadWiki(v.hero.wiki)).then(p=>{if(p)el.innerHTML=imgHtml(p)}));
   loadGallery(v.gallery);
 }
 
@@ -277,7 +485,7 @@ function show(k){
   try{history.replaceState(null,"","#"+k)}catch(e){}
 }
 tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.v);window.scrollTo({top:0})}));
-show(location.hash==="#wolf"?"wolf":"garda");
+show(ORDER.includes(location.hash.slice(1))?location.hash.slice(1):"garda");
 
 document.querySelectorAll(".check").forEach(box=>{
   const key="vylet-"+box.dataset.key; let s={};
