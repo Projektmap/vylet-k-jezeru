@@ -26,8 +26,7 @@ for (const q of qs) {
   if (!c) { console.log(`Bez souřadnic: ${q}`); continue; }
   try {
     await pg.goto(`https://mapy.com/cs/turisticka?x=${c.lon}&y=${c.lat}&z=14`, { waitUntil: "domcontentloaded", timeout: 45000 });
-    await pg.waitForLoadState("networkidle", { timeout: 25000 }).catch(() => {});
-    await pg.waitForTimeout(3000);
+    await pg.waitForTimeout(6000);
     // Skrýt cookie lištu (nic se neodsouhlasuje) a ovládací prvky pro čistý snímek
     await pg.evaluate(() => {
       for (const e of document.querySelectorAll("body *")) {
