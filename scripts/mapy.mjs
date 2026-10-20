@@ -36,7 +36,7 @@ for (const q of qs) {
     });
     await pg.waitForTimeout(700);
     if (first) { await pg.screenshot({ path: "mapy/_debug.png" }); first = false; }
-    await pg.screenshot({ path: f, type: "jpeg", quality: 74, clip: { x: 560, y: 150, width: 640, height: 400 } });
+    await pg.screenshot({ path: f, type: "jpeg", quality: 74, clip: { x: 120, y: 200, width: 640, height: 400 } });
     out[q] = { f, lat: c.lat, lon: c.lon }; n++;
   } catch (e) { console.log(`Chyba u "${q}": ${e.message}`); }
 }
