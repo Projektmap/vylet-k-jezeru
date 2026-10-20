@@ -91,6 +91,25 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 .route.bike{border-left-color:var(--green)}
 .route .km{font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .route p{margin:0;font-size:15px}
+.klara-cta{display:grid;gap:2px;margin:14px 0 4px;padding:14px 18px;border-radius:16px;background:linear-gradient(135deg,var(--sun),#d9822b);color:#2a1a05;text-decoration:none;box-shadow:0 6px 18px rgba(217,130,43,.25)}
+.klara-cta b{font-size:19px}.klara-cta span{font-size:14.5px}
+.tabs button[data-v="klara"]{background:var(--sun-soft);border-color:var(--sun)}
+.tabs button[data-v="klara"][aria-selected="true"]{background:var(--sun);color:#2a1a05}
+.klara{margin-top:18px;border:3px solid var(--sun);border-radius:20px;padding:24px;background:var(--paper);display:grid;gap:12px}
+.klara .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--sun)}
+.klara h2{font-size:clamp(24px,4vw,34px)}.klara p{margin:0}
+.kform{display:grid;gap:12px}.kform label{display:grid;gap:4px;font-weight:700;font-size:14px}
+.kform input,.kform textarea{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg,#fff);color:inherit;width:100%;box-sizing:border-box}
+.kform textarea{resize:vertical;min-height:180px}.hp{position:absolute;left:-9999px}
+.krow{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.krow .btn{border:0;cursor:pointer;font:inherit;font-weight:700}
+.klist{display:grid;gap:10px}.kitem{border:1px solid var(--line);border-left:4px solid var(--sun);border-radius:12px;padding:10px 14px}
+.kitem.done{border-left-color:var(--green)}.khead{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}.khead b{color:inherit}
+.kstate{margin-left:auto;font-weight:700}.kitem p{white-space:pre-wrap;margin:6px 0 0}.kreply{margin-top:8px;font-size:14.5px;background:var(--lake-soft);border-radius:8px;padding:8px 10px}
+.mapshot{margin-top:8px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--lake-soft)}
+.mapshot img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.mapshot span{display:block;font-size:11px;color:var(--muted);padding:4px 8px;background:var(--paper)}
+.maplink{margin-top:6px;font-size:14px;font-weight:700;color:var(--lake)}
+.route.bike .maplink{color:var(--green)}
 .note{color:var(--muted);font-size:13.5px;margin:0}
 @media (max-width:900px){.seasons{grid-template-columns:repeat(2,minmax(0,1fr))}.sights{grid-template-columns:minmax(0,1fr)}.routes{grid-template-columns:minmax(0,1fr)}}
 .gallery{margin-top:34px}
@@ -119,6 +138,7 @@ footer{margin-block:40px 30px;color:var(--muted);font-size:13px}
     </div>
     <div class="who"><span>2 dospělí</span><span>dítě 7 let</span><span>3 kola na nosiči</span><span>Mercedes Marco Polo</span></div>
   </header>
+  <a class="klara-cta" href="#klara"><b>✍ Klára: zadání pro vyhledávání výletů</b><span>Napište, co chcete najít nebo změnit, a plán se podle toho přepracuje.</span></a>
   <nav class="tabs" role="tablist" aria-label="Varianty výletu" id="tabs"></nav>
   <main id="app"></main>
 
@@ -617,7 +637,7 @@ alsasko:T({tab:"Alsasko · Europa-Park",sub:"cca 750 km",eyebrow:"Francie a Něm
  facts:[["cca 750 km","přes Norimberk a Stuttgart"],["8 h","jízda"],["Europa-Park","Rust, kousek za Rýnem"],["vinná stezka","rovinaté cesty mezi vesnicemi"]],
  days:[D("Den 1","Praha → Colmar","en:Colmar",[["car","cca 750 km · 8 h"]],["Přes Norimberk a Stuttgart."],"Kemp vyberte u Colmaru nebo Riquewihru."),
   D("Den 2","Colmar a Riquewihr","en:Riquewihr",[["bike","cca 20 km"]],["Malé Benátky v Colmaru, na kole po vinné stezce do Riquewihru."]),
-  D("Den 3","Hrad Haut-Kœnigsbourg a opičí hora","c:Château du Haut-Koenigsbourg",[["car","cca 30 km"]],["Rekonstruovaný hrad na kopci, odpoledne opičí park Montagne des Singes."]),
+  D("Den 3","Hrad Haut-Kœnigsbourg a opičí hora","c:Haut-Koenigsbourg castle Orschwiller",[["car","cca 30 km"]],["Rekonstruovaný hrad na kopci, odpoledne opičí park Montagne des Singes."]),
   D("Den 4","Europa-Park","en:Europa-Park",[["car","cca 60 km"]],["Celý den v zábavním parku, pak cesta domů."])],
  costs:["Německo: bez poplatků","Francie: v Alsasku bez dálničního mýtného na hlavních tazích"],
  route:"https://www.google.com/maps/dir/Praha/Colmar",
@@ -806,7 +826,9 @@ legoland:T({tab:"Legoland a Ulm",sub:"cca 500 km",eyebrow:"Německo · Bavorsko"
  hikes:[["Blautopf a skály nad Blaubeurenem","cca 8 km","Okruh přes vyhlídky a zříceninu."],["Ulm: hradby a nábřeží Dunaje","cca 6 km","Okruh starým městem."]],
  bikes:[["Günzburg – Ulm","cca 30 km","Po Dunajské cyklostezce, zpět vlakem."],["Kolem jezer u Günzburgu","cca 15 km","Rovinatý okruh s koupáním."]]})
 });
-const GROUPS=[["Top 10 tipů rodin",["plitvice","achensee","pongau","bavorsky","allgau","kras","tatry","pillersee","alsasko","salcburk"]],["Jezera",["garda","wolf","faak","valsugana","reschen","bodensee","bled"]],["Hory, moře, řeky",["dolomity","istrie","wachau","sasko"]],["Dalších 10 rodinných tipů",["zillertal","krimml","luzern","krakov","balaton","berchtesgaden","schwarzwald","benatky","harz","legoland"]]];
+const HIKEQ={"garda":["Monte Brione","Lago di Tenno","Sentiero del Ponale","Busatte Torbole"],"wolf":["Fuschlsee","Falkenstein St. Gilgen","Schwarzensee Salzkammergut","Schafbergalm"],"faak":["Tscheppaschlucht","Dobratsch","Pyramidenkogel"],"valsugana":["Lago di Levico","Arte Sella Malga Costa","Castel Pergine"],"reschen":["Reschensee","Haider See","Waalweg Vinschgau"],"bodensee":["Eistobel","Pfänder","Klingenbachschlucht"],"bled":["Blejsko jezero","Mala Osojnica","Bohinjsko jezero","Vintgar"],"dolomity":["Tre Cime di Lavaredo","Lago di Braies","Val Fiscalina","Lago di Dobbiaco"],"istrie":["Zlatni rt Rovinj","Motovun","Lanterna Poreč"],"wachau":["Burgruine Dürnstein","Weißenkirchen in der Wachau","Spitz an der Donau"],"sasko":["Bastei","Kuhstall Lichtenhain","Schrammsteine","Pravčická brána"],"plitvice":["Veliki slap Plitvice","Jezero Kozjak","Plitvička jezera"],"achensee":["Pertisau Achensee","Gernalm"],"pongau":["Geisterberg St. Johann im Pongau","Liechtensteinklamm"],"bavorsky":["Tierfreigelände Neuschönau","Lusen"],"allgau":["Alpsee Schwangau","Lechfall Füssen"],"kras":["Škocjanske jame","Fiesa"],"tatry":["Štrbské pleso","Studenovodské vodopády","Suchá Belá"],"pillersee":["Pillersee","Teufelsklamm St. Ulrich am Pillersee"],"alsasko":["Hunawihr","Haut-Koenigsbourg"],"salcburk":["Mönchsberg","Kapuzinerberg Salzburg"],"zillertal":["Penken Mayrhofen","Schlegeisspeicher","Gerlossteinwand"],"krimml":["Krimmler Wasserfälle","Hollersbachtal","Zeller See"],"luzern":["Rigi Kaltbad","Fräkmüntegg","Museggmauer Luzern"],"krakov":["Ojcowski Park Narodowy","Kopiec Kościuszki"],"balaton":["Tihany Belső-tó","Badacsony"],"berchtesgaden":["Obersee Berchtesgaden","Zauberwald Ramsau","Wimbachklamm"],"schwarzwald":["Feldsee","Triberger Wasserfälle","Ravennaschlucht"],"benatky":["Ponte di Rialto","Burano"],"harz":["Brocken","Bodetal Thale"],"legoland":["Blautopf","Ulmer Münster"]};
+V.klara={tab:"✍ Zadání Kláry",sub:"pro AI"};
+const GROUPS=[["Klára",["klara"]],["Top 10 tipů rodin",["plitvice","achensee","pongau","bavorsky","allgau","kras","tatry","pillersee","alsasko","salcburk"]],["Jezera",["garda","wolf","faak","valsugana","reschen","bodensee","bled"]],["Hory, moře, řeky",["dolomity","istrie","wachau","sasko"]],["Dalších 10 rodinných tipů",["zillertal","krimml","luzern","krakov","balaton","berchtesgaden","schwarzwald","benatky","harz","legoland"]]];
 const ORDER=GROUPS.flatMap(g=>g[1]);
 document.getElementById("tabs").innerHTML=GROUPS.map(([n,ks])=>`<span class="grp">${n}</span>`+ks.map(k=>`<button role="tab" id="t-${k}" data-v="${k}" aria-selected="${k===ORDER[0]}">${V[k].tab} <small>${V[k].sub}</small></button>`).join("")).join("");
 
@@ -814,6 +836,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const app=document.getElementById("app");
 
 function render(k){
+  if(k==="klara") return renderKlara();
   const v=V[k];
   app.innerHTML=`
   <section class="hero" id="hero"><div class="txt"><span class="eyebrow">${esc(v.eyebrow)}</span><h2>${esc(v.title)}</h2><p>${esc(v.lead)}</p></div></section>
@@ -840,8 +863,8 @@ function render(k){
     <h2>Tipy na zajímavosti</h2>
     <ul class="sights">${v.sights.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>
     <div class="routes">
-      <div><h2>Pěší okruhy do 18 km</h2>${v.hikes.map(r=>`<div class="route"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p></div>`).join("")}</div>
-      <div><h2>Cyklotrasy do 30 km</h2>${v.bikes.map(r=>`<div class="route bike"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p></div>`).join("")}</div>
+      <div><h2>Pěší okruhy do 18 km</h2>${v.hikes.map((r,i)=>{const q=(HIKEQ[k]&&HIKEQ[k][i])||r[0];return `<div class="route"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p><div class="mapshot" data-q="${esc(q)}"></div><a class="maplink" href="${mapyUrl(q)}" target="_blank" rel="noopener">Turistická mapa na Mapy.cz →</a></div>`}).join("")}</div>
+      <div><h2>Cyklotrasy do 30 km</h2>${v.bikes.map(r=>`<div class="route bike"><span class="km">${esc(r[1])}</span><b>${esc(r[0])}</b><p>${esc(r[2])}</p><a class="maplink" href="${mapyUrl(r[0].split(/ – | a zpět/)[0])}" target="_blank" rel="noopener">Cyklomapa na Mapy.cz →</a></div>`).join("")}</div>
     </div>
     <p class="note">Délky tras jsou orientační. Před výletem si trasu projděte v mapě (např. Mapy.cz) a ověřte aktuální stav.</p>
   </section>
@@ -852,6 +875,7 @@ function render(k){
     if(p) el.innerHTML=imgHtml(p); else el.classList.add("noimg");
   });
   loadGallery(v.gallery);
+  fillMaps();
 }
 
 const cache={};
@@ -892,6 +916,12 @@ async function commons(q,n){
   }
   return out;
 }
+const mapyUrl=q=>"https://mapy.cz/turisticka?q="+encodeURIComponent(q);
+const MAPYP=fetch("mapy.json",{cache:"no-cache"}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+async function fillMaps(){
+  const m=await MAPYP;
+  document.querySelectorAll(".mapshot[data-q]").forEach(el=>{const f=m[el.dataset.q]; if(f) el.innerHTML=`<a href="${mapyUrl(el.dataset.q)}" target="_blank" rel="noopener"><img src="${esc(f)}" alt="Turistická mapa: ${esc(el.dataset.q)}" loading="lazy" onerror="this.closest('.mapshot').remove()"></a><span>Náhled: Mapy.cz · © Seznam.cz a OpenStreetMap</span>`; else el.remove();});
+}
 const galCache={};
 async function galleryItems(queries,n=3){
   const man=await MANP;
@@ -908,6 +938,51 @@ async function loadGallery(queries){
   g.innerHTML=out.map(o=>`<figure><img src="${esc(o.src)}" alt="${esc(o.q)}" loading="lazy" onerror="this.closest('figure').remove()"><figcaption><a href="${esc(o.page)}" target="_blank" rel="noopener">${esc(o.q)} · ${esc(o.credit)}</a></figcaption></figure>`).join("");
 }
 
+// ===== Klára: zadání pro AI =====
+const KDRAFT="vylet-klara-draft";
+function renderKlara(){
+  let draft="";try{draft=localStorage.getItem(KDRAFT)||""}catch(e){}
+  app.innerHTML=`<section class="klara">
+    <span class="eyebrow">Zadání pro AI</span>
+    <h2>Klára: zadání pro vyhledávání výletů</h2>
+    <p>Napište sem cokoliv, co se má v plánu výletů změnit: nová místa, jiný termín, delší nebo kratší trasy, víc koupání, jiný design, rozpočet… Po odeslání si zadání Claude načte a v pozadí podle něj upraví obsah, výlety i vzhled stránky. Obvykle do několika hodin, stav uvidíte níže.</p>
+    <form id="kform" class="kform">
+      <label>Jméno<input name="jmeno" value="Klára" maxlength="60"></label>
+      <label>Zadání<textarea name="text" rows="9" maxlength="5000" required placeholder="Např.: Najdi 3 výlety k moři v Chorvatsku na červenec, max. 8 h jízdy, s kempem u pláže a cyklostezkou. Na úvod dej přehledné srovnání podle vzdálenosti.">${esc(draft)}</textarea></label>
+      <label class="kcode" hidden>Kód pro odeslání<input name="kod" autocomplete="off"></label>
+      <input name="web" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="krow"><button type="submit" class="btn">Odeslat zadání</button><span id="kmsg" role="status"></span></div>
+    </form>
+    <h3>Odeslaná zadání</h3>
+    <div id="klist" class="klist"><p class="loading">Načítám…</p></div>
+  </section>`;
+  const f=document.getElementById("kform"),msg=document.getElementById("kmsg");
+  f.text.addEventListener("input",()=>{try{localStorage.setItem(KDRAFT,f.text.value)}catch(e){}});
+  f.addEventListener("submit",async e=>{
+    e.preventDefault(); const t=f.text.value.trim(); if(t.length<5){msg.textContent="Napište prosím zadání.";return}
+    const btn=f.querySelector("button"); btn.disabled=true; msg.textContent="Odesílám…";
+    try{
+      const r=await fetch("/api/zadani",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jmeno:f.jmeno.value,text:t,kod:f.kod.value,web:f.web.value})});
+      const j=await r.json().catch(()=>({}));
+      if(r.ok){msg.textContent="Odesláno. Claude zadání zpracuje v nejbližším běhu.";f.text.value="";try{localStorage.removeItem(KDRAFT)}catch(e){};loadKlara()}
+      else if(j.error==="not_configured") msg.textContent="Odesílání ještě není zapnuté. Text zůstal uložený v tomto prohlížeči.";
+      else if(j.error==="bad_code"){f.querySelector(".kcode").hidden=false;msg.textContent="Zadejte správný kód pro odeslání."}
+      else msg.textContent="Nepodařilo se odeslat, zkuste to prosím znovu.";
+    }catch(err){msg.textContent="Nepodařilo se odeslat (bez připojení?). Text zůstal uložený."}
+    btn.disabled=false;
+  });
+  loadKlara();
+}
+async function loadKlara(){
+  const el=document.getElementById("klist"); if(!el) return;
+  try{
+    const r=await fetch("/api/zadani",{cache:"no-store"}); const j=await r.json();
+    if(j.requiresCode){const c=document.querySelector(".kcode");if(c)c.hidden=false}
+    if(!r.ok){el.innerHTML='<p class="loading">Seznam zadání zatím není k dispozici.</p>';return}
+    el.innerHTML=j.items.length?j.items.map(i=>`<div class="kitem ${i.done?"done":""}"><div class="khead"><b>${esc(i.jmeno)}</b><span>${esc(new Date(i.created).toLocaleString("cs-CZ"))}</span><span class="kstate">${i.done?"Hotovo":"Čeká na zpracování"}</span></div><p>${esc(i.text)}</p>${i.reply?`<div class="kreply"><b>Claude:</b> ${esc(i.reply)}</div>`:""}</div>`).join(""):'<p class="loading">Zatím žádné zadání.</p>';
+  }catch(e){el.innerHTML='<p class="loading">Seznam zadání zatím není k dispozici.</p>'}
+}
+
 const tabs=document.querySelectorAll(".tabs button");
 function show(k){
   tabs.forEach(b=>b.setAttribute("aria-selected",String(b.dataset.v===k)));
@@ -916,6 +991,7 @@ function show(k){
 }
 tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.v);window.scrollTo({top:0})}));
 show(ORDER.includes(location.hash.slice(1))?location.hash.slice(1):"garda");
+addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(ORDER.includes(h)){show(h);window.scrollTo({top:document.getElementById("tabs").offsetTop-10})}});
 document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.v===(ORDER.includes(location.hash.slice(1))?location.hash.slice(1):"garda"))));
 
 document.querySelectorAll(".check").forEach(box=>{

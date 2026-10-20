@@ -4,7 +4,7 @@ const html = fs.readFileSync("index.html", "utf8");
 const specs = [...new Set([...html.matchAll(/wiki:"([a-z]{1,2}:[^"]+)"/g), ...html.matchAll(/D\("[^"]*","[^"]*","([a-z]{1,2}:[^"]+)"/g)].map(m => m[1]))];
 const galleries = [...new Set([...html.matchAll(/gallery:\[([^\]]*)\]/g)].flatMap(m => [...m[1].matchAll(/"([^"]+)"/g)].map(x => x[1])))];
 const UA = { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" };
-const BAD = /map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|sign|schild|locator|location/i;
+const BAD = /map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|sign|schild|locator|location|pompage|station_de/i;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(u) { for (let i = 0; i < 3; i++) { try { const r = await fetch(u, { headers: UA }); if (r.ok) return await r.json(); if (r.status === 404) return null; } catch (e) {} await sleep(800); } return null; }
 async function commons(q, n) {
@@ -33,6 +33,12 @@ for (const s of specs) {
   await sleep(150);
 }
 for (const q of galleries) { res.galleries[q] = await commons(q, 3); if (!res.galleries[q].length) res.report.push(`galerie "${q}": prázdná`); await sleep(150); }
+// Ověř, že se každá jednotlivá fotka opravdu stáhne
+async function ok(u) { for (let i = 0; i < 2; i++) { try { const r = await fetch(u, { method: "HEAD", headers: UA }); if (r.ok) return true; } catch (e) {} await sleep(500); } return false; }
+let checked = 0, broken = 0;
+for (const [k, v] of Object.entries(res.places)) { checked++; if (!(await ok(v.src))) { broken++; delete res.places[k]; res.report.push(`${k}: fotka se nenačte, vyřazena`); } }
+for (const [q, list] of Object.entries(res.galleries)) { const good = []; for (const v of list) { checked++; if (await ok(v.src)) good.push(v); else { broken++; res.report.push(`galerie "${q}": nefunkční fotka vyřazena`); } } res.galleries[q] = good; }
+console.log(`Zkontrolováno fotek: ${checked}, nefunkčních: ${broken}`);
 fs.writeFileSync("fotky.json", JSON.stringify(res, null, 1));
 console.log(`Míst: ${specs.length}, s fotkou: ${Object.keys(res.places).length}; galerií: ${galleries.length}`);
 console.log(res.report.join("\n") || "Vše v pořádku.");
