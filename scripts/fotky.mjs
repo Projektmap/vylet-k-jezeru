@@ -1,7 +1,7 @@
 // Projde všechny fotky z index.html, ověří je na Wikipedii / Wikimedia Commons a uloží do fotky.json
 import fs from "node:fs";
 const html = fs.readFileSync("index.html", "utf8");
-const specs = [...new Set([...html.matchAll(/wiki:"([a-z]{2}:[^"]+)"/g), ...html.matchAll(/D\("[^"]*","[^"]*","([a-z]{2}:[^"]+)"/g)].map(m => m[1]))];
+const specs = [...new Set([...html.matchAll(/wiki:"([a-z]{1,2}:[^"]+)"/g), ...html.matchAll(/D\("[^"]*","[^"]*","([a-z]{1,2}:[^"]+)"/g)].map(m => m[1]))];
 const galleries = [...new Set([...html.matchAll(/gallery:\[([^\]]*)\]/g)].flatMap(m => [...m[1].matchAll(/"([^"]+)"/g)].map(x => x[1])))];
 const UA = { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" };
 const BAD = /map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|sign|schild|locator|location/i;
@@ -23,6 +23,7 @@ async function commons(q, n) {
 const res = { places: {}, galleries: {}, report: [] };
 for (const s of specs) {
   const [lang, title] = s.split(":");
+  if (lang === "c") { const c = await commons(title, 1); if (c[0]) res.places[s] = c[0]; else res.report.push(`${s}: ŽÁDNÁ FOTKA`); continue; }
   const d = await j(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
   let src = d?.originalimage?.width <= 2400 ? d.originalimage.source : d?.thumbnail?.source?.replace(/\/\d+px-/, "/1200px-");
   if (src) { res.places[s] = { src, page: d.content_urls?.desktop?.page || "", credit: "Wikipedie", alt: d.title }; continue; }

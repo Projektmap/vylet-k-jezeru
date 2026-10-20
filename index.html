@@ -265,7 +265,7 @@ valsugana: {
      tip:"Kola se dají půjčit v jednom místě a vrátit jinde (Valsugana Rent Bike, Valsugana InBike)."},
     {no:"Den 5",t:"Arte Sella",img:{wiki:"en:Arte_Sella"},chips:[["car","cca 30 km"]],
      items:["Umění v lese: velké sochy a stavby z přírodních materiálů, procházka pro celou rodinu.","Odpoledne pláž na Caldonazzu."]},
-    {no:"Den 6",t:"MUSE v Trentu",img:{wiki:"en:MUSE_(museum)"},chips:[["car","cca 25 km"]],
+    {no:"Den 6",t:"MUSE v Trentu",img:{wiki:"c:MUSE Trento Renzo Piano"},chips:[["car","cca 25 km"]],
      items:["Moderní přírodovědné muzeum s dinosaury a interaktivními expozicemi, ideální i za deště.","Procházka centrem Trenta."]},
     {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Brenner_Pass"},chips:[["car","cca 780 km · 8 h"]],
      items:["Přes Brenner a Mnichov, případně s přespáním v Tyrolsku."]}
@@ -554,7 +554,7 @@ allgau:T({tab:"Allgäu · Neuschwanstein",sub:"cca 560 km",eyebrow:"Německo · 
  days:[D("Den 1","Praha → Füssen","en:Füssen",[["car","cca 560 km · 6 h"]],["Přes Mnichov, večer procházka k vodopádu Lech."],"Kemp vyberte u Forggensee nebo Hopfensee podle dostupnosti."),
   D("Den 2","Neuschwanstein a Hohenschwangau","en:Neuschwanstein_Castle",[["","prohlídka, vstupenky předem"]],["Zámek z pohádek, most Marienbrücke s výhledem.","Koupání v Alpsee."]),
   D("Den 3","Na kole kolem jezer","en:Forggensee",[["bike","20–30 km"]],["Rovinaté stezky kolem Forggensee a Hopfensee."]),
-  D("Den 4","Skywalk Allgäu","en:Scheidegg",[["car","cca 80 km"]],["Stezka v korunách stromů se stanovišti pro děti, pak domů."])],
+  D("Den 4","Skywalk Allgäu","c:Skywalk Allgäu Scheidegg",[["car","cca 80 km"]],["Stezka v korunách stromů se stanovišti pro děti, pak domů."])],
  costs:["Německo: bez poplatků","Vstupenky do zámku rezervujte online"],
  route:"https://www.google.com/maps/dir/Praha/F%C3%BCssen",
  links:[["13 tipů na rodinnou dovolenou v Německu","https://www.turistika.cz/clanky/13-tipu-na-nezapomenutelnou-rodinnou-dovolenou-v-nemecku/detail"]],
@@ -617,7 +617,7 @@ alsasko:T({tab:"Alsasko · Europa-Park",sub:"cca 750 km",eyebrow:"Francie a Něm
  facts:[["cca 750 km","přes Norimberk a Stuttgart"],["8 h","jízda"],["Europa-Park","Rust, kousek za Rýnem"],["vinná stezka","rovinaté cesty mezi vesnicemi"]],
  days:[D("Den 1","Praha → Colmar","en:Colmar",[["car","cca 750 km · 8 h"]],["Přes Norimberk a Stuttgart."],"Kemp vyberte u Colmaru nebo Riquewihru."),
   D("Den 2","Colmar a Riquewihr","en:Riquewihr",[["bike","cca 20 km"]],["Malé Benátky v Colmaru, na kole po vinné stezce do Riquewihru."]),
-  D("Den 3","Hrad Haut-Kœnigsbourg a opičí hora","en:Haut-Kœnigsbourg_Castle",[["car","cca 30 km"]],["Rekonstruovaný hrad na kopci, odpoledne opičí park Montagne des Singes."]),
+  D("Den 3","Hrad Haut-Kœnigsbourg a opičí hora","c:Château du Haut-Koenigsbourg",[["car","cca 30 km"]],["Rekonstruovaný hrad na kopci, odpoledne opičí park Montagne des Singes."]),
   D("Den 4","Europa-Park","en:Europa-Park",[["car","cca 60 km"]],["Celý den v zábavním parku, pak cesta domů."])],
  costs:["Německo: bez poplatků","Francie: v Alsasku bez dálničního mýtného na hlavních tazích"],
  route:"https://www.google.com/maps/dir/Praha/Colmar",
@@ -864,6 +864,7 @@ async function loadWiki(spec){
   return cache[spec]=(async()=>{
     const man=await MANP; if(man&&man.places&&man.places[spec]) return man.places[spec];
     const [lang,title]=spec.split(":");
+    if(lang==="c") return (await commons(title,1))[0]||null;
     const j=await getJ(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
     let src=j&&((j.originalimage&&j.originalimage.width<=2400&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source.replace(/\/\d+px-/,"/1200px-")));
     if(src) return {src,alt:j.title,page:(j.content_urls&&j.content_urls.desktop.page)||"#",credit:"Wikipedie"};
