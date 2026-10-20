@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Na kole k jezeru</title>
-<meta name="description" content="Dvě varianty rodinného výletu s Mercedesem Marco Polo: Lago di Garda (Itálie) a Wolfgangsee (Rakousko).">
+<meta name="description" content="Rodinné výlety s Mercedesem Marco Polo a koly do 900 km od Prahy: jezera, hory, moře a řeky s itineráři, trasami a fotkami.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: travel-journal feel — photo hero per variant, day cards as a vertical route line, practical panel on the side on wide screens */
 :root{
@@ -126,6 +126,61 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 footer{margin-block:40px 30px;color:var(--muted);font-size:13px}
 @media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}.side{position:static}.common{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:640px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.day{grid-template-columns:minmax(0,1fr)}.day .ph{min-height:190px}.hero{min-height:300px}}
+
+/* ===== Turistický a výletní vzhled ===== */
+:root{--bg:#efe8d8;--paper:#fffcf3;--ink:#1e2a22;--muted:#5f6a5c;--line:#ddd2b8;
+  --lake:#2f6b45;--lake-soft:#dfeadb;--sun:#e9a81f;--sun-soft:#fbf0d2;--green:#2c78a8;--trail:#c8372d;--sky:#2c78a8;
+  --f-display:"Zilla Slab","Fraunces",Georgia,serif}
+@media (prefers-color-scheme: dark){:root{--bg:#151b16;--paper:#1d251f;--ink:#eef1ea;--muted:#a9b5a6;--line:#324034;
+  --lake:#7cc28f;--lake-soft:#203327;--sun:#f2bd45;--sun-soft:#3a3018;--green:#7dbde6;--trail:#ef6b5f;--sky:#7dbde6}}
+body{background-color:var(--bg);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='0 0 600 600'%3E%3Cg fill='none' stroke='%238a7a52' stroke-opacity='.13' stroke-width='1.2'%3E%3Cpath d='M-20 120c80-40 160 30 240 0s150-70 230-30 120 60 170 40'/%3E%3Cpath d='M-20 160c90-30 150 40 240 10s160-60 230-20 120 50 170 30'/%3E%3Cpath d='M-20 205c100-25 150 45 245 15s150-50 225-15 130 45 170 25'/%3E%3Cpath d='M-20 330c70 30 150-30 230 0s160 70 240 30 110-40 170-20'/%3E%3Cpath d='M-20 375c80 25 150-25 235 5s150 60 230 25 120-35 175-15'/%3E%3Cpath d='M-20 420c90 20 150-20 240 10s145 50 225 20 125-30 175-10'/%3E%3Cellipse cx='420' cy='520' rx='70' ry='34'/%3E%3Cellipse cx='420' cy='520' rx='44' ry='20'/%3E%3Cellipse cx='420' cy='520' rx='18' ry='8'/%3E%3Cellipse cx='120' cy='40' rx='60' ry='26'/%3E%3Cellipse cx='120' cy='40' rx='32' ry='13'/%3E%3C/g%3E%3C/svg%3E");background-size:600px 600px;background-attachment:fixed}
+h1,h2,h3{letter-spacing:-.005em}
+.top{position:relative;padding:34px 0 46px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0 120V80l90-45 70 30 110-60 90 55 70-25 120 55 100-70 110 60 80-30 120 45 90-35 150 60v-0 60z' fill='%232f6b45' fill-opacity='.18'/%3E%3Cpath d='M0 120V95l120-30 90 25 140-40 100 40 120-20 110 30 130-45 120 40 110-20 160 35v-0 0z' fill='%232f6b45' fill-opacity='.3'/%3E%3C/svg%3E") bottom/100% 70px no-repeat}
+.top h1{font-size:clamp(34px,6vw,58px);color:var(--lake)}
+.top h1::before{content:"";display:inline-block;width:.62em;height:.62em;margin-right:.28em;vertical-align:.02em;border-radius:3px;background:linear-gradient(180deg,#fff 0 33%,var(--trail) 33% 67%,#fff 67%);box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.who span{background:var(--sun);border:0;color:#2a1f05;border-radius:4px;box-shadow:0 2px 0 rgba(0,0,0,.18);font-weight:700}
+.tabs{background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px)}
+.tabs button{border-radius:6px;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 50%,calc(100% - 12px) 100%,0 100%);padding-right:26px;border-color:var(--line)}
+.tabs button[aria-selected="true"]{background:var(--sun);border-color:var(--sun);color:#2a1f05}
+.tabs button[aria-selected="true"] small{color:#5a4610}
+.tabs .grp{color:var(--lake)}
+.hero{border-radius:22px;background:linear-gradient(135deg,var(--lake),#1c3f2a);box-shadow:0 14px 34px rgba(30,42,34,.22)}
+.hero::before{content:"";position:absolute;left:0;right:0;bottom:-1px;height:44px;z-index:1;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0 120V80l90-45 70 30 110-60 90 55 70-25 120 55 100-70 110 60 80-30 120 45 90-35 150 60v-0 60z' fill='%23000000' fill-opacity='.18'/%3E%3Cpath d='M0 120V95l120-30 90 25 140-40 100 40 120-20 110 30 130-45 120 40 110-20 160 35v-0 0z' fill='%23000000' fill-opacity='.3'/%3E%3C/svg%3E") bottom/100% 100% no-repeat;opacity:.5}
+.hero .eyebrow{display:inline-block;background:var(--sun);color:#2a1f05;padding:3px 10px;border-radius:4px;letter-spacing:.1em}
+.fact{border:2px dashed var(--line);background:var(--paper)}
+.fact b{color:var(--lake)}
+.days{padding-left:34px}
+.days::before{content:"";position:absolute;left:12px;top:10px;bottom:10px;border-left:3px dashed var(--lake);opacity:.55}
+.day{position:relative;overflow:visible;border-radius:16px;box-shadow:0 4px 14px rgba(30,42,34,.08)}
+.day .ph{border-radius:16px 0 0 16px;overflow:hidden}
+.day::before{content:"";position:absolute;left:-30px;top:22px;width:18px;height:18px;border-radius:50%;background:var(--sun);border:3px solid var(--paper);box-shadow:0 0 0 2px var(--lake)}
+.day .no{color:var(--trail)}
+.chip{border-radius:4px}
+.chip.bike{background:#ddebf5;color:var(--sky)}
+@media (prefers-color-scheme: dark){.chip.bike{background:#1b2f3c}}
+.tip{border-left:4px solid var(--sun)}
+.card{border-radius:14px;box-shadow:0 4px 14px rgba(30,42,34,.06)}
+.card h3::before{content:"▲ ";color:var(--lake);font-size:.8em}
+.btn{background:var(--lake);border-radius:8px}
+.more h2,.gallery h2{display:flex;align-items:center;gap:10px}
+.more h2::before,.gallery h2::before{content:"";width:26px;height:26px;flex:none;border-radius:4px;background:linear-gradient(180deg,#fff 0 33%,var(--trail) 33% 67%,#fff 67%);box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.season{border-top-width:6px}
+.season b::before{margin-right:6px}
+.s-jaro b::before{content:"🌱"}.s-leto b::before{content:"☀️"}.s-podzim b::before{content:"🍂"}.s-zima b::before{content:"❄️"}
+.s-jaro{border-top-color:#5a9a3c}.s-zima{border-top-color:var(--sky)}
+.sights li::before{content:"📍 "}
+.route{border-left:0;padding-left:52px;position:relative}
+.route::before{content:"";position:absolute;left:14px;top:14px;width:24px;height:24px;border-radius:3px;background:linear-gradient(180deg,#fff 0 33%,var(--trail) 33% 67%,#fff 67%);box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.route.bike::before{background:var(--sun);border-radius:3px;box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.route.bike::after{content:"🚲";position:absolute;left:17px;top:15px;font-size:15px}
+.route.bike .maplink{color:var(--sky)}
+.mapshot{border-radius:8px}
+.gal figure{border-radius:6px;background:var(--paper);padding:8px 8px 0;box-shadow:0 4px 14px rgba(30,42,34,.12);transform:rotate(-.6deg)}
+.gal figure:nth-child(2n){transform:rotate(.7deg)}
+.gal figure img{border-radius:3px}
+.klara-cta{border-radius:8px;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 50%,calc(100% - 22px) 100%,0 100%);padding-right:40px;background:var(--sun);color:#2a1f05}
+.klara{border-style:dashed}
+@media (max-width:640px){.days{padding-left:26px}.days::before{left:8px}.day::before{left:-26px}.day .ph{border-radius:16px 16px 0 0}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
