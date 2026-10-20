@@ -69,11 +69,6 @@
   "lat": 46.80173,
   "lon": 10.53048
  },
- "Haider See": {
-  "f": "mapy/haider-see.jpg",
-  "lat": 47.2638,
-  "lon": 15.79603
- },
  "Waalweg Vinschgau": {
   "f": "mapy/waalweg-vinschgau.jpg",
   "lat": 46.72215,
@@ -166,8 +161,8 @@
  },
  "Bastei": {
   "f": "mapy/bastei.jpg",
-  "lat": 45.64545,
-  "lon": 17.3261
+  "lat": 50.96175,
+  "lon": 14.07196
  },
  "Kuhstall Lichtenhain": {
   "f": "mapy/kuhstall-lichtenhain.jpg",
@@ -211,8 +206,8 @@
  },
  "Tierfreigelände Neuschönau": {
   "f": "mapy/tierfreigelande-neuschonau.jpg",
-  "lat": 48.90568,
-  "lon": 13.46848
+  "lat": 48.90539,
+  "lon": 13.46853
  },
  "Lusen": {
   "f": "mapy/lusen.jpg",
@@ -336,8 +331,8 @@
  },
  "Badacsony": {
   "f": "mapy/badacsony.jpg",
-  "lat": 47.25595,
-  "lon": 22.85456
+  "lat": 46.80329,
+  "lon": 17.49617
  },
  "Zauberwald Ramsau": {
   "f": "mapy/zauberwald-ramsau.jpg",
@@ -351,8 +346,8 @@
  },
  "Feldsee": {
   "f": "mapy/feldsee.jpg",
-  "lat": 46.76924,
-  "lon": 13.75239
+  "lat": 47.87045,
+  "lon": 8.03254
  },
  "Triberger Wasserfälle": {
   "f": "mapy/triberger-wasserfalle.jpg",
@@ -361,8 +356,8 @@
  },
  "Ravennaschlucht": {
   "f": "mapy/ravennaschlucht.jpg",
-  "lat": 47.91868,
-  "lon": 8.08024
+  "lat": 47.91785,
+  "lon": 8.07481
  },
  "Ponte di Rialto": {
   "f": "mapy/ponte-di-rialto.jpg",
