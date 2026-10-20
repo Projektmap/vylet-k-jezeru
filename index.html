@@ -6,7 +6,7 @@
 <title>Na kole k jezeru</title>
 <meta name="description" content="Rodinné výlety s Mercedesem Marco Polo a koly do 900 km od Prahy: jezera, hory, moře a řeky s itineráři, trasami a fotkami.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: travel-journal feel — photo hero per variant, day cards as a vertical route line, practical panel on the side on wide screens */
 :root{
@@ -181,6 +181,67 @@ h1,h2,h3{letter-spacing:-.005em}
 .klara-cta{border-radius:8px;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 50%,calc(100% - 22px) 100%,0 100%);padding-right:40px;background:var(--sun);color:#2a1f05}
 .klara{border-style:dashed}
 @media (max-width:640px){.days{padding-left:26px}.days::before{left:8px}.day::before{left:-26px}.day .ph{border-radius:16px 16px 0 0}}
+
+/* ===== Moderní outdoor vzhled (v2) ===== */
+:root{--bg:#f4f6f2;--paper:#ffffff;--ink:#13221b;--muted:#5b6b62;--line:#dfe6df;
+  --lake:#1d5c45;--lake-soft:#e3efe8;--sun:#f26b3a;--sun-soft:#fde9e0;--green:#2a7bbd;--sky:#2a7bbd;--trail:#d23a2e;--pine2:#0f3b2c;
+  --f-display:"Figtree",system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1512;--paper:#18211c;--ink:#ecf2ee;--muted:#a3b2a9;--line:#2a3830;
+  --lake:#6fd0a4;--lake-soft:#1b3328;--sun:#ff8a5c;--sun-soft:#3a241b;--green:#7db8ea;--sky:#7db8ea;--trail:#ff6b5e;--pine2:#0b2a1f}}
+body{font-family:var(--f-body)}
+h1,h2,h3{font-family:var(--f-display);font-weight:800;letter-spacing:-.02em}
+.top h1{color:var(--ink)}
+.top h1::before{border-radius:4px}
+.who span{background:var(--paper);color:var(--lake);border:1.5px solid var(--lake-soft);border-radius:999px;box-shadow:none;font-weight:700}
+.top{background-size:100% 60px}
+/* vyjížděcí panel výletů */
+.tripbar{position:sticky;top:0;z-index:20;padding:8px 0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.tb-btn{width:100%;display:flex;align-items:center;gap:12px;font:inherit;text-align:left;cursor:pointer;padding:12px 16px;border-radius:14px;border:1px solid var(--line);background:var(--paper);color:var(--ink);box-shadow:0 6px 20px rgba(19,34,27,.08)}
+.tb-lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);flex:none}
+.tb-btn b{font-size:17px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tb-all{flex:none;background:var(--lake);color:#fff;font-weight:700;font-size:14px;padding:7px 12px;border-radius:999px;display:flex;gap:6px;align-items:center}
+.tb-all i{font-style:normal;transition:transform .2s}
+.tripbar.open .tb-all i{transform:rotate(180deg)}
+.tripbar .tabs{position:static;display:none;margin-top:8px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--paper);box-shadow:0 14px 40px rgba(19,34,27,.16);max-height:min(70vh,640px);overflow-y:auto;flex-wrap:wrap!important;backdrop-filter:none;border-bottom:1px solid var(--line)}
+.tripbar.open .tabs{display:flex}
+.tripbar .tabs button{clip-path:none;border-radius:999px;padding:8px 14px;font-size:14.5px;white-space:normal!important;flex:0 1 auto!important;border:1px solid var(--line);background:var(--bg)}
+.tripbar .tabs button:hover{border-color:var(--lake)}
+.tripbar .tabs button[aria-selected="true"]{background:var(--lake);border-color:var(--lake);color:#fff}
+.tripbar .tabs button[aria-selected="true"] small{color:#d7efe3}
+.tripbar .tabs .grp{flex-basis:100%!important;color:var(--lake);margin-top:8px}
+.tripbar .tabs .grp:first-child{margin-top:0}
+.tabs button[data-v="klara"]{background:var(--sun-soft)!important;border-color:var(--sun)!important}
+.tabs button[data-v="klara"][aria-selected="true"]{background:var(--sun)!important;color:#fff!important}
+@media (max-width:640px){.tb-lbl{display:none}.tb-all{font-size:13px;padding:6px 10px}.tb-btn{padding:10px 12px}}
+.hero{border-radius:24px;background:linear-gradient(135deg,var(--lake),var(--pine2))}
+.hero::after{background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(5,20,14,.78))}
+.hero .eyebrow{background:rgba(255,255,255,.18);backdrop-filter:blur(6px);color:#fff;border-radius:999px;padding:4px 12px}
+.fact{border:1px solid var(--line);border-radius:16px;box-shadow:0 2px 10px rgba(19,34,27,.04)}
+.fact b{color:var(--lake);font-weight:800}
+.days::before{border-left:3px dotted var(--lake);opacity:.45}
+.day{border-radius:18px;border-color:var(--line);box-shadow:0 4px 18px rgba(19,34,27,.06)}
+.day .ph{border-radius:18px 0 0 18px}
+.day::before{background:var(--sun);border-color:var(--bg);box-shadow:0 0 0 2px var(--sun)}
+.day .no{color:var(--sun)}
+.chip{border-radius:999px}
+.chip.car{background:var(--sun-soft);color:#b8461c}
+@media (prefers-color-scheme: dark){.chip.car{color:var(--sun)}}
+.tip{background:var(--lake-soft);border-left-color:var(--lake);border-radius:12px}
+.card{border-radius:18px}
+.card h3::before{color:var(--sun)}
+.btn{border-radius:999px;background:var(--lake)}
+.season{border:1px solid var(--line);border-top:5px solid;border-radius:16px}
+.s-jaro{border-top-color:#58a65c}.s-leto{border-top-color:#f2b134}.s-podzim{border-top-color:var(--sun)}.s-zima{border-top-color:var(--sky)}
+.sights li{border-radius:14px}
+.route{border-radius:16px;box-shadow:0 2px 10px rgba(19,34,27,.04)}
+.route.bike::before{background:#f2c230}
+.gal figure{border-radius:10px;transform:none!important;padding:0;box-shadow:0 4px 16px rgba(19,34,27,.1)}
+.gal figure img{border-radius:0}
+.klara-cta{clip-path:none;border-radius:16px;padding-right:18px;background:linear-gradient(120deg,var(--sun),#f59e3b);color:#fff;box-shadow:0 10px 26px rgba(242,107,58,.28)}
+.klara{border:2px solid var(--sun);border-style:solid;border-radius:22px}
+.klara .eyebrow{color:var(--sun)}
+.kform input,.kform textarea{background:var(--bg)}
+.krow .btn{background:var(--sun)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
@@ -194,7 +255,10 @@ h1,h2,h3{letter-spacing:-.005em}
     <div class="who"><span>2 dospělí</span><span>dítě 7 let</span><span>3 kola na nosiči</span><span>Mercedes Marco Polo</span></div>
   </header>
   <a class="klara-cta" href="#klara"><b>✍ Klára: zadání pro vyhledávání výletů</b><span>Napište, co chcete najít nebo změnit, a plán se podle toho přepracuje.</span></a>
-  <nav class="tabs" role="tablist" aria-label="Varianty výletu" id="tabs"></nav>
+  <div class="tripbar" id="tripbar">
+    <button type="button" class="tb-btn" id="tbBtn" aria-expanded="false" aria-controls="tabs"><span class="tb-lbl">Vybraný výlet</span><b id="tbCur">…</b><span class="tb-all">Všechny výlety <i aria-hidden="true">▾</i></span></button>
+    <nav class="tabs" role="tablist" aria-label="Varianty výletu" id="tabs"></nav>
+  </div>
   <main id="app"></main>
 
   <section class="common" aria-label="Pro obě varianty">
@@ -1039,14 +1103,20 @@ async function loadKlara(){
 }
 
 const tabs=document.querySelectorAll(".tabs button");
+const tbar=document.getElementById("tripbar"),tbBtn=document.getElementById("tbBtn");
+function setOpen(o){tbar.classList.toggle("open",o);tbBtn.setAttribute("aria-expanded",String(o))}
+tbBtn.addEventListener("click",()=>setOpen(!tbar.classList.contains("open")));
+document.addEventListener("keydown",e=>{if(e.key==="Escape")setOpen(false)});
+document.addEventListener("click",e=>{if(!tbar.contains(e.target))setOpen(false)});
 function show(k){
   tabs.forEach(b=>b.setAttribute("aria-selected",String(b.dataset.v===k)));
+  document.getElementById("tbCur").textContent=V[k].tab; setOpen(false);
   render(k);
   try{history.replaceState(null,"","#"+k)}catch(e){}
 }
-tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.v);window.scrollTo({top:0})}));
+tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.v);window.scrollTo({top:tbar.offsetTop-4})}));
 show(ORDER.includes(location.hash.slice(1))?location.hash.slice(1):"garda");
-addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(ORDER.includes(h)){show(h);window.scrollTo({top:document.getElementById("tabs").offsetTop-10})}});
+addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(ORDER.includes(h)){show(h);window.scrollTo({top:tbar.offsetTop-4})}});
 document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.v===(ORDER.includes(location.hash.slice(1))?location.hash.slice(1):"garda"))));
 
 document.querySelectorAll(".check").forEach(box=>{
