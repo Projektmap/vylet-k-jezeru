@@ -3,6 +3,8 @@ import fs from "node:fs";
 import { chromium } from "playwright";
 const html = fs.readFileSync("index.html", "utf8");
 const H = JSON.parse(html.match(/const HIKEQ=(\{.*?\});/)[1]);
+const CC = {garda:"it",wolf:"at",faak:"at",valsugana:"it",reschen:"it",bodensee:"de,at,ch",bled:"si",dolomity:"it",istrie:"hr",wachau:"at",sasko:"de,cz",plitvice:"hr",achensee:"at",pongau:"at",bavorsky:"de",allgau:"de",kras:"si",tatry:"sk",pillersee:"at",alsasko:"fr",salcburk:"at",zillertal:"at",krimml:"at",luzern:"ch",krakov:"pl",balaton:"hu",berchtesgaden:"de",schwarzwald:"de",benatky:"it",harz:"de",legoland:"de"};
+const QC = {}; for (const [k, l] of Object.entries(H)) for (const q of l) QC[q] = CC[k] || "";
 const qs = [...new Set(Object.values(H).flat())];
 const slug = q => q.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -10,7 +12,7 @@ const old = fs.existsSync("mapy.json") ? JSON.parse(fs.readFileSync("mapy.json",
 const force = process.env.FORCE === "1";
 fs.mkdirSync("mapy", { recursive: true });
 async function geo(q) {
-  const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1`, { headers: { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" } });
+  const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1${QC[q] ? "&countrycodes=" + QC[q] : ""}`, { headers: { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" } });
   const j = r.ok ? await r.json() : []; await sleep(1100);
   return j[0] ? { lat: +(+j[0].lat).toFixed(5), lon: +(+j[0].lon).toFixed(5) } : null;
 }
@@ -22,7 +24,7 @@ for (const q of qs) {
   const f = `mapy/${slug(q)}.jpg`;
   const o = old[q] && typeof old[q] === "object" ? old[q] : null;
   if (!force && o && fs.existsSync(f)) { out[q] = o; continue; }
-  const c = (o && o.lat) ? o : await geo(q);
+  const c = (!force && o && o.lat) ? o : await geo(q);
   if (!c) { console.log(`Bez souřadnic: ${q}`); continue; }
   try {
     await pg.goto(`https://mapy.com/cs/turisticka?x=${c.lon}&y=${c.lat}&z=14`, { waitUntil: "domcontentloaded", timeout: 45000 });
