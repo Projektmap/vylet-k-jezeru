@@ -56,6 +56,8 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 .day{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:grid;grid-template-columns:240px minmax(0,1fr)}
 .day .ph{position:relative;background:var(--lake-soft);min-height:200px}
 .day .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph.noimg,.gal .noimg{background:linear-gradient(135deg,var(--lake),#164a5c)}
+.ph.noimg::after{content:attr(data-name);position:absolute;inset:auto 16px 14px 16px;color:#fff;font-weight:700;font-size:20px;opacity:.9}
 .day .ph .credit{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
 .day .body{padding:18px 20px;display:grid;gap:8px;align-content:start}
 .day .no{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--sun)}
@@ -641,7 +643,170 @@ salcburk:T({tab:"Salcburk s dětmi",sub:"cca 380 km",eyebrow:"Rakousko · Salcbu
  hikes:[["Mönchsberg a pevnost","cca 5 km","Okruh nad městem s vyhlídkami."],["Kapuzinerberg","cca 4 km","Lesem nad starým městem."]],
  bikes:[["Podél Salzachu do Hellbrunnu","cca 10 km","Po rovině z centra k vodním hrám."],["Salzach na sever","cca 25 km tam a zpět","Po cyklostezce podél řeky."]]})
 });
-const GROUPS=[["Top 10 tipů rodin",["plitvice","achensee","pongau","bavorsky","allgau","kras","tatry","pillersee","alsasko","salcburk"]],["Jezera",["garda","wolf","faak","valsugana","reschen","bodensee","bled"]],["Hory, moře, řeky",["dolomity","istrie","wachau","sasko"]]];
+// Dalších 10 rodinných tipů do 900 km
+Object.assign(V,{
+zillertal:T({tab:"Zillertal",sub:"cca 530 km",eyebrow:"Rakousko · Tyrolsko",title:"Zillertal: hory pro malé objevitele",
+ lead:"Údolí s rodinnými horami: zážitkové stezky na Spieljochu a Penkenu, horská bobová dráha Arena Coaster, přehrada Schlegeis a rovinatá cyklostezka po celém údolí.",
+ hero:{wiki:"en:Zillertal"},
+ facts:[["cca 530 km","přes Mnichov a Kufstein"],["5,5 h","jízda"],["32 km","rovinatá cyklostezka údolím"],["Zillertal Activcard","lanovky a koupaliště v ceně (léto)"]],
+ days:[D("Den 1","Praha → Zillertal","en:Zillertal",[["car","cca 530 km · 5,5 h"]],["Přes Mnichov a Kufstein, odpoledne procházka v Zell am Ziller."],"Kemp vyberte v Zell am Ziller nebo Mayrhofenu, oba mají dobré napojení na vláček Zillertalbahn."),
+  D("Den 2","Spieljoch nad Fügenem","en:Fügen",[["","lanovka + hravá stezka"]],["Lanovkou na Spieljoch, dětský svět s vodními hrami a výhledy.","Odpoledne bobová dráha nebo koupaliště."]),
+  D("Den 3","Na kole údolím","en:Mayrhofen",[["bike","cca 30 km"]],["Po rovinaté Zillertal-Radweg z Mayrhofenu do Fügenu, zpět vlakem s koly."]),
+  D("Den 4","Přehrada Schlegeis","en:Schlegeis_Reservoir",[["car","cca 25 km, mýtná silnice"]],["Tyrkysová přehrada pod ledovci, procházka po hrázi a k chatě Olpererhütte jen pro zdatné."],"Silnice k přehradě je zpoplatněná a otevřená zhruba od května do října.")],
+ costs:["Rakousko: dálniční známka 10 dní 12,80 €","Německo: bez poplatků","Mýtná silnice k přehradě Schlegeis"],
+ route:"https://www.google.com/maps/dir/Praha/Mayrhofen",
+ links:[["Zillertal pro rodiny (oficiálně)","https://www.zillertal.at/en/"]],
+ gallery:["Zillertal","Mayrhofen","Schlegeis"],
+ seasons:{jaro:"Kvetoucí louky v údolí, první lanovky v květnu.",leto:"Hravé stezky na horách, koupaliště, kolo údolím.",podzim:"Sehnání dobytka, barevné modříny, klidnější lanovky.",zima:"Rodinné lyžování Hochzillertal a Spieljoch, sáňkařské dráhy."},
+ sights:["Spieljoch a dětský svět","Arena Coaster ve Zell am Ziller","Přehrada Schlegeis","Ledovec Hintertux (celoročně)","Parní vláček Zillertalbahn","Erlebnistherme Zillertal ve Fügenu"],
+ hikes:[["Okruh kolem Penkenu","cca 6 km","Z lanovky po horských cestách s výhledy."],["Kolem přehrady Schlegeis","cca 8 km","Po břehu a zpět."],["Zell am Ziller – Gerlosstein","cca 10 km","Od lanovky k chatám s hřišti."]],
+ bikes:[["Zillertal-Radweg","cca 30 km","Mayrhofen – Fügen po rovině, zpět vlakem."],["Zell am Ziller – Mayrhofen a zpět","cca 20 km","Krátká rodinná trasa s koupalištěm."]]}),
+krimml:T({tab:"Krimml · Vysoké Taury",sub:"cca 500 km",eyebrow:"Rakousko · Salcbursko",title:"Krimmlské vodopády a Vysoké Taury",
+ lead:"Nejvyšší vodopády Rakouska, vodní svět pro děti, národní park Vysoké Taury a koupání v Zell am See. Rodinná klasika se spoustou vody.",
+ hero:{wiki:"en:Krimml_Waterfalls"},
+ facts:[["cca 500 km","přes Linec, Salcburk a Zell am See"],["5,5 h","jízda"],["380 m","výška vodopádů"],["Nationalparkzentrum","interaktivní muzeum v Mittersillu"]],
+ days:[D("Den 1","Praha → Zell am See","en:Zell_am_See",[["car","cca 430 km · 4,5 h"]],["Přes Linec a Salcburk, večer procházka u jezera."],"Kemp vyberte u Zell am See nebo v Mittersillu."),
+  D("Den 2","Krimmlské vodopády","en:Krimml_Waterfalls",[["car","cca 55 km"]],["Pěšina podél vodopádů s vyhlídkami, nahoru asi 1,5 h.","Vodní svět WasserWunderWelt s pokusy pro děti."]),
+  D("Den 3","Národní park Vysoké Taury","en:Hohe_Tauern_National_Park",[["","muzeum + údolí"]],["Nationalparkzentrum v Mittersillu, pak výlet do údolí Hollersbachtal."]),
+  D("Den 4","Zell am See a domů","en:Zell_am_See",[["bike","cca 12 km"]],["Na kole kolem jezera, koupání, pak domů."])],
+ costs:["Rakousko: dálniční známka 10 dní 12,80 €","Vstupné k vodopádům a do vodního světa"],
+ route:"https://www.google.com/maps/dir/Praha/Krimml",
+ links:[["Krimmlské vodopády (oficiálně)","https://www.wasserfaelle-krimml.at/"],["Národní park Vysoké Taury","https://hohetauern.at/"]],
+ gallery:["Krimml Waterfalls","Zell am See","Hohe Tauern"],
+ seasons:{jaro:"Vodopády v plné síle při tání sněhu.",leto:"Koupání v Zell am See, túry k vodopádům a do údolí parku.",podzim:"Barevná údolí, klidnější stezky.",zima:"Lyžování Kitzsteinhorn a Schmittenhöhe, zamrzlé vodopády."},
+ sights:["Krimmlské vodopády","WasserWunderWelt","Nationalparkzentrum Mittersill","Zell am See","Kaprun a Kitzsteinhorn","Vysokohorská silnice Grossglockner"],
+ hikes:[["Pěšina podél vodopádů","cca 8 km","Nahoru k horní kaskádě a zpět."],["Hollersbachtal","cca 10 km","Údolím k pastvinám a zpět."],["Kolem jezera Zell am See","cca 11 km","Po rovině po břehu."]],
+ bikes:[["Kolem Zellersee","cca 12 km","Rovinatý okruh s koupáním."],["Tauernradweg Mittersill – Krimml","cca 30 km","Mírně do kopce, zpět vlakem Pinzgauer Lokalbahn."]]}),
+luzern:T({tab:"Lucern · Švýcarsko",sub:"cca 720 km",eyebrow:"Švýcarsko · Vierwaldstättersee",title:"Lucern, Pilatus a muzeum dopravy",
+ lead:"Nejstrmější ozubnicová dráha světa, parníky po jezeře a obří muzeum dopravy, kde si děti zkusí řídit vlak i letadlo.",
+ hero:{wiki:"en:Lucerne"},
+ facts:[["cca 720 km","přes Norimberk a Curych"],["7,5 h","jízda"],["48 %","sklon zubačky na Pilatus"],["Swiss Travel","děti do 16 let s rodičem levněji"]],
+ days:[D("Den 1","Praha → Lucern","en:Lucerne",[["car","cca 720 km · 7,5 h"]],["Večer Kapličkový most a nábřeží."],"Kemp Lido Luzern je u jezera a kousek od muzea dopravy."),
+  D("Den 2","Muzeum dopravy","en:Swiss_Museum_of_Transport",[["","celý den"]],["Vlaky, auta, letadla, simulátory a planetárium.","Večer koupání u kempu."]),
+  D("Den 3","Pilatus","en:Pilatus_Railway",[["","zubačka + lanovka"]],["Lodí do Alpnachstadu, zubačkou nahoru, dolů lanovkou do Kriens.","Nahoře bobová dráha a lanový park Fräkmüntegg."]),
+  D("Den 4","Rigi a domů","en:Rigi",[["","zubačka"]],["Lodí do Vitznau a zubačkou na Rigi, pak cesta domů."])],
+ costs:["Švýcarsko: dálniční známka na rok 40 CHF","Německo: bez poplatků","Zubačky a lodě jsou drahé, vyplatí se rodinné jízdenky"],
+ route:"https://www.google.com/maps/dir/Praha/Luzern",
+ links:[["Muzeum dopravy (oficiálně)","https://www.verkehrshaus.ch/en/"],["Pilatus (oficiálně)","https://www.pilatus.ch/en/"]],
+ gallery:["Lucerne Chapel Bridge","Pilatus","Lake Lucerne"],
+ seasons:{jaro:"Kvetoucí nábřeží, zubačky jezdí od května.",leto:"Parníky, koupání v jezeře, bobové dráhy na horách.",podzim:"Čisté výhledy z Rigi a Pilatu nad mlhou.",zima:"Sáňkování na Rigi a Pilatu, vánoční trhy v Lucernu."},
+ sights:["Kapličkový most","Švýcarské muzeum dopravy","Zubačka na Pilatus","Rigi","Parníky po jezeře","Lví pomník"],
+ hikes:[["Rigi Kulm – Rigi Kaltbad","cca 5 km","Z vrcholu dolů s výhledy, zpět zubačkou."],["Fräkmüntegg – Krienseregg","cca 6 km","Lesem pod Pilatem."],["Nábřeží Lucernu a hradby Musegg","cca 6 km","Okruh městem."]],
+ bikes:[["Podél jezera Lucern – Meggen","cca 20 km","Po nábřeží a klidných cestách."],["Kolem jezera Sempach","cca 20 km","Rovinatý okruh s koupáním."]]}),
+krakov:T({tab:"Krakov a Wieliczka",sub:"cca 540 km",eyebrow:"Polsko · Malopolsko",title:"Krakov, solný důl a Ojców",
+ lead:"Podzemní kaple ze soli, drak pod Wawelem, krasové údolí s hrady a v neděli trh na náměstí. Levný a pestrý výlet blízko domova.",
+ hero:{wiki:"en:Wieliczka_Salt_Mine"},
+ facts:[["cca 540 km","přes Ostravu a Katovice"],["5,5 h","jízda"],["135 m","pod zemí ve Wieliczce"],["Ojców","nejmenší polský národní park"]],
+ days:[D("Den 1","Praha → Krakov","en:Kraków",[["car","cca 540 km · 5,5 h"]],["Večer Rynek a Sukiennice."],"Kemp vyberte na okraji Krakova s napojením na tramvaj."),
+  D("Den 2","Solný důl Wieliczka","en:Wieliczka_Salt_Mine",[["car","cca 15 km"]],["Turistická trasa s kaplí sv. Kingy, dětská Hornická trasa s helmou a lampou."],"Prohlídky jsou s průvodcem, vstupenky kupte online."),
+  D("Den 3","Wawel a drak","en:Wawel_Castle",[["bike","cca 15 km podél Visly"]],["Hrad Wawel, dračí jeskyně a drak chrlící oheň u řeky.","Na kole po nábřeží Visly."]),
+  D("Den 4","Ojców a Pieskowa Skała","en:Ojców_National_Park",[["car","cca 25 km"]],["Krasové údolí, skála Hercules a zámek Pieskowa Skała, pak domů."])],
+ costs:["Polsko: mýtná dálnice A4 Katovice – Krakov","Česko: dálniční známka"],
+ route:"https://www.google.com/maps/dir/Praha/Krak%C3%B3w",
+ links:[["Solný důl Wieliczka (oficiálně)","https://www.wieliczka-saltmine.com/"]],
+ gallery:["Wieliczka Salt Mine","Wawel","Ojców National Park"],
+ seasons:{jaro:"Kvetoucí Planty, klidné prohlídky dolu.",leto:"Kolo podél Visly, koupání v Zakrzówku.",podzim:"Barevné údolí v Ojcówě.",zima:"Důl má stálou teplotu, v prosinci vánoční trh a betlémy na Rynku."},
+ sights:["Solný důl Wieliczka","Hrad Wawel a dračí sluj","Rynek a Sukiennice","Ojcówský národní park","Zámek Pieskowa Skała","Podzemní muzeum pod Rynkem"],
+ hikes:[["Údolí Prądnik v Ojcówě","cca 10 km","Okruh mezi skalami a hrady."],["Kopiec Kościuszki a Las Wolski","cca 9 km","Lesem nad Krakovem s výhledem."]],
+ bikes:[["Podél Visly do Tyniece","cca 25 km tam a zpět","Po cyklostezce k benediktinskému klášteru."],["Nábřeží Visly","cca 15 km","Okruh centrem po rovině."]]}),
+balaton:T({tab:"Balaton",sub:"cca 560 km",eyebrow:"Maďarsko · jezero",title:"Balaton: maďarské moře",
+ lead:"Mělká teplá voda, kde dítě dojde daleko do jezera, okruh na kole kolem celého Balatonu, levandule v Tihany a termální jezero v Hévízu.",
+ hero:{wiki:"en:Lake_Balaton"},
+ facts:[["cca 560 km","přes Brno, Bratislavu a Győr"],["6 h","jízda"],["200 km","cyklookruh kolem jezera"],["mělčiny","jižní břeh pro malé děti"]],
+ days:[D("Den 1","Praha → Balaton","en:Lake_Balaton",[["car","cca 560 km · 6 h"]],["Přes Bratislavu a Győr, večer koupání."],"Kemp vyberte na jižním břehu (mělká voda) nebo u Keszthely."),
+  D("Den 2","Tihany a levandule","en:Tihany",[["","poloostrov"]],["Opatství s výhledem, levandulová pole (v červnu až červenci), přívoz do Balatonfüredu."]),
+  D("Den 3","Na kole po břehu","en:Keszthely",[["bike","cca 25 km"]],["Balatoni bringakör z Keszthely k Vonyarcvashegy a zpět, zámek Festetics."]),
+  D("Den 4","Hévíz a domů","en:Lake_Hévíz",[["car","cca 10 km"]],["Termální jezero s teplou vodou i mimo léto, pak domů."])],
+ costs:["Maďarsko: elektronická dálniční známka (e-matrica)","Slovensko: elektronická dálniční známka","Česko: dálniční známka"],
+ route:"https://www.google.com/maps/dir/Praha/Keszthely",
+ links:[["Balaton (oficiálně)","https://visitbalaton.net/"]],
+ gallery:["Lake Balaton","Tihany","Festetics Palace"],
+ seasons:{jaro:"Kvetoucí sady, levné kempy, cyklookruh bez horka.",leto:"Koupání v teplé mělké vodě, levandule, festivaly.",podzim:"Vinobraní v Badacsony, teplé září.",zima:"Termální jezero Hévíz, zamrzlý Balaton za silných mrazů."},
+ sights:["Poloostrov Tihany","Zámek Festetics v Keszthely","Termální jezero Hévíz","Vinice Badacsony","Přívoz Szántód – Tihany","Hrad Szigliget"],
+ hikes:[["Okruh po Tihany","cca 10 km","Kolem vnitřního jezera a levandulí."],["Badacsony","cca 8 km","Na čedičovou horu s výhledem na jezero."]],
+ bikes:[["Keszthely – Szigliget","cca 25 km","Po balatonském cyklookruhu."],["Balatonfüred – Tihany a zpět","cca 25 km","Po severním břehu."]]}),
+berchtesgaden:T({tab:"Berchtesgaden",sub:"cca 420 km",eyebrow:"Německo · Bavorské Alpy",title:"Berchtesgaden a Königssee",
+ lead:"Tichou elektrickou lodí po smaragdovém jezeře, skluzavkami do solného dolu a na Hintersee, kde vede pohádkový Zauberwald.",
+ hero:{wiki:"en:Königssee"},
+ facts:[["cca 420 km","přes Linec a Salcburk"],["4,5 h","jízda"],["skluzavky","v solném dole"],["elektrické lodě","po Königssee s ozvěnou trubky"]],
+ days:[D("Den 1","Praha → Berchtesgaden","en:Berchtesgaden",[["car","cca 420 km · 4,5 h"]],["Přes Linec a Salcburk."],"Kemp vyberte u Königssee nebo v Ramsau."),
+  D("Den 2","Königssee a St. Bartholomä","en:Königssee",[["","loď"]],["Lodí ke kostelu St. Bartholomä, ozvěna trubky pod skalní stěnou.","Krátká túra k jezeru Obersee."]),
+  D("Den 3","Solný důl","en:Berchtesgaden_Salt_Mine",[["","prohlídka v hornickém úboru"]],["Vláček do dolu, dřevěné skluzavky a solné jezero."]),
+  D("Den 4","Hintersee a Zauberwald","en:Ramsau_bei_Berchtesgaden",[["","lesní stezka"]],["Kouzelný les s balvany a potokem, pak domů."])],
+ costs:["Německo: bez poplatků","Rakousko: přes Salcburk dálniční známka 10 dní 12,80 €"],
+ route:"https://www.google.com/maps/dir/Praha/Sch%C3%B6nau+am+K%C3%B6nigssee",
+ links:[["Berchtesgaden (oficiálně)","https://www.berchtesgaden.de/en/"],["Solný důl (oficiálně)","https://www.salzbergwerk.de/en"]],
+ gallery:["Königssee","St. Bartholomä","Hintersee Ramsau"],
+ seasons:{jaro:"Vodopády a klidné jezero, lodě jezdí celoročně.",leto:"Túry k Obersee, koupání v Hintersee, lanovka Jenner.",podzim:"Nejhezčí barvy kolem Ramsau, sehnání dobytka.",zima:"Sáňkování, advent v Berchtesgadenu, solný důl jako výlet za deště."},
+ sights:["Königssee a St. Bartholomä","Solný důl Berchtesgaden","Zauberwald a Hintersee","Lanovka Jenner","Wimbachklamm","Orlí hnízdo Kehlsteinhaus"],
+ hikes:[["Salet – Obersee – Fischunkelalm","cca 6 km","Z lodě k druhému jezeru a vodopádu."],["Hintersee a Zauberwald","cca 5 km","Okruh kouzelným lesem."],["Wimbachklamm a údolí Wimbach","cca 10 km","Soutěskou do údolí a zpět."]],
+ bikes:[["Berchtesgaden – Königssee – Ramsau","cca 25 km","Po klidných cestách, místy do kopce."],["Podél Salzachu do Salcburku","cca 25 km","Po rovině, zpět vlakem."]]}),
+schwarzwald:T({tab:"Schwarzwald",sub:"cca 700 km",eyebrow:"Německo · Bádensko",title:"Schwarzwald: kukačky, vodopády a skanzen",
+ lead:"Jezero Titisee, nejvyšší vodopády Německa v Tribergu, živý skanzen se zvířaty a hodiny s kukačkou, které děti nadchnou.",
+ hero:{wiki:"en:Titisee"},
+ facts:[["cca 700 km","přes Norimberk a Stuttgart"],["7 h","jízda"],["163 m","vodopády Triberg"],["Konus karta","MHD zdarma pro hosty"]],
+ days:[D("Den 1","Praha → Titisee","en:Titisee",[["car","cca 700 km · 7 h"]],["Večer procházka kolem jezera."],"Kemp vyberte u Titisee nebo Schluchsee, karta Konus dává MHD zdarma."),
+  D("Den 2","Triberg a skanzen","en:Triberg_Waterfalls",[["car","cca 60 km"]],["Vodopády s veverkami, největší kukačkové hodiny.","Skanzen Vogtsbauernhof s řemesly a zvířaty."]),
+  D("Den 3","Feldberg","en:Feldberg_(Black_Forest)",[["","lanovka + túra"]],["Lanovka na nejvyšší horu Schwarzwaldu, muzeum Haus der Natur, okruh kolem Feldsee."]),
+  D("Den 4","Na kole a domů","en:Schluchsee",[["bike","cca 18 km"]],["Okruh kolem jezera Schluchsee, pak domů."])],
+ costs:["Německo: bez poplatků"],
+ route:"https://www.google.com/maps/dir/Praha/Titisee",
+ links:[["Schwarzwald (oficiálně)","https://www.schwarzwald-tourismus.info/"],["Skanzen Vogtsbauernhof","https://www.vogtsbauernhof.de/"]],
+ gallery:["Titisee","Triberg waterfalls","Vogtsbauernhof"],
+ seasons:{jaro:"Kvetoucí louky, vodopády v plné síle.",leto:"Koupání v Titisee a Schluchsee, kolo, skanzen.",podzim:"Barevné lesy, čisté výhledy z Feldbergu.",zima:"Rodinné lyžování na Feldbergu, osvětlené vodopády v Tribergu."},
+ sights:["Titisee","Vodopády Triberg","Skanzen Vogtsbauernhof","Feldberg a Feldsee","Kukačkové hodiny v Schonachu","Freiburg"],
+ hikes:[["Feldberg – Feldsee","cca 10 km","Okruh přes vrchol k ledovcovému jezeru."],["Vodopády Triberg","cca 5 km","Okruh nad vodopády."],["Ravennaschlucht","cca 8 km","Soutěska s lávkami a viaduktem."]],
+ bikes:[["Kolem Schluchsee","cca 18 km","Okruh kolem jezera, mírně zvlněný."],["Kolem Titisee","cca 15 km","Lehká rodinná trasa."]]}),
+benatky:T({tab:"Benátky a Cavallino",sub:"cca 800 km",eyebrow:"Itálie · Veneto",title:"Benátky a kempy v Cavallinu",
+ lead:"Velké rodinné kempy u písečné pláže s mělkým mořem, odkud jezdí loď přímo do Benátek. Plus barevné ostrůvky Burano a Murano.",
+ hero:{wiki:"en:Venice"},
+ facts:[["cca 800 km","přes Linec, Salcburk a Villach"],["8,5 h","jízda"],["loď","z Punta Sabbioni do Benátek"],["mělké moře","pláže Cavallina pro děti"]],
+ days:[D("Den 1","Praha → Cavallino","en:Cavallino-Treporti",[["car","cca 800 km · 8,5 h"]],["Přes Taury a Villach, večer pláž."],"Rodinné kempy v Cavallinu mají bazény a dětské programy, v létě rezervujte předem."),
+  D("Den 2","Benátky","en:Venice",[["","loď z Punta Sabbioni"]],["Náměstí sv. Marka, Rialto a uličky, gondoly jen ze břehu.","Odpoledne zpět na pláž."],"V Benátkách se v určené dny platí vstupní poplatek pro jednodenní návštěvníky, ověřte si to předem."),
+  D("Den 3","Burano a Murano","en:Burano",[["","vaporetto"]],["Barevné domky na Buranu, sklárny na Muranu."]),
+  D("Den 4","Pláž a na kole","en:Jesolo",[["bike","cca 20 km"]],["Po cyklostezkách Cavallina k majáku a do Jesola."])],
+ costs:["Rakousko: dálniční známka 10 dní 12,80 € a mýto Tauerntunnel","Itálie: dálniční mýtné na branách","Benátky: vstupní poplatek v určené dny"],
+ route:"https://www.google.com/maps/dir/Praha/Cavallino-Treporti",
+ links:[["Benátky – vstupní poplatek (oficiálně)","https://cda.ve.it/en/"]],
+ gallery:["Venice Grand Canal","Burano","Cavallino-Treporti"],
+ seasons:{jaro:"Benátky bez davů, kempy otevírají v dubnu.",leto:"Pláž, bazény a dětské programy, Benátky ráno nebo večer.",podzim:"Teplé moře v září, klidnější Benátky.",zima:"Karneval v únoru, kempy většinou zavřené."},
+ sights:["Náměstí sv. Marka a Dóžecí palác","Most Rialto","Burano","Murano a sklárny","Maják v Cavallinu","Lido"],
+ hikes:[["Benátky pěšky","cca 8 km","Okruh od Fondamente Nove přes Rialto na Marka."],["Burano a Torcello","cca 5 km","Ostrůvky propojené mostem."]],
+ bikes:[["Cyklostezky Cavallina","cca 20 km","Po rovině mezi lagunou a mořem."],["Lido na kole","cca 25 km","Celý ostrov od Malamocca po Alberoni."]]}),
+harz:T({tab:"Harz",sub:"cca 400 km",eyebrow:"Německo · Sasko-Anhaltsko",title:"Harz: parní vlak na Brocken",
+ lead:"Úzkorozchodný parní vlak až na nejvyšší horu severního Německa, visutý most přes přehradu, čarodějnice v pohádkových městečkách a jeskyně.",
+ hero:{wiki:"en:Brocken_Railway"},
+ facts:[["cca 400 km","přes Drážďany a Halle"],["4,5 h","jízda"],["1 141 m","vrchol Brocken"],["483 m","visutý most Titan-RT"]],
+ days:[D("Den 1","Praha → Wernigerode","en:Wernigerode",[["car","cca 400 km · 4,5 h"]],["Večer barevné hrázděné městečko a zámek."],"Kemp vyberte u Wernigerode nebo v údolí Bode."),
+  D("Den 2","Parním vlakem na Brocken","en:Brocken",[["","vlak + pěšky dolů"]],["Ze Schierke parním vlakem nahoru, dolů pěšky do Schierke."]),
+  D("Den 3","Údolí Bode a Hexentanzplatz","en:Bode_Gorge",[["","lanovka + soutěska"]],["Lanovkou na Hexentanzplatz, pak soutěskou Bode do Thale."]),
+  D("Den 4","Visutý most a domů","en:Rappbode_Dam",[["car","cca 30 km"]],["Visutý most Titan-RT nad přehradou Rappbode, pak domů."])],
+ costs:["Německo: bez poplatků","Jízdenky na Brockenbahn rezervujte předem"],
+ route:"https://www.google.com/maps/dir/Praha/Wernigerode",
+ links:[["Harzer Schmalspurbahnen (oficiálně)","https://www.hsb-wr.de/en/"]],
+ gallery:["Brocken","Wernigerode","Bodetal"],
+ seasons:{jaro:"Rozkvetlé údolí Bode, Valpuržina noc 30. dubna.",leto:"Parní vlak, visutý most, koupání v přehradách.",podzim:"Barevné bučiny, mlhy na Brockenu.",zima:"Zasněžený Brocken, sáňkování, advent ve Wernigerode."},
+ sights:["Brockenbahn","Wernigerode a zámek","Údolí Bode a Hexentanzplatz","Visutý most Titan-RT","Quedlinburg (UNESCO)","Baumannova jeskyně"],
+ hikes:[["Schierke – Brocken – Schierke","cca 14 km","Nahoru vlakem, dolů pěšky, nebo celý okruh pěšky."],["Údolím Bode Thale – Treseburg","cca 10 km","Nejhezčí soutěska Harzu, zpět autobusem."]],
+ bikes:[["Kolem přehrady Rappbode","cca 25 km","Zvlněné cesty kolem vody."],["Wernigerode – Ilsenburg","cca 20 km","Podél potoků a polí."]]}),
+legoland:T({tab:"Legoland a Ulm",sub:"cca 500 km",eyebrow:"Německo · Bavorsko",title:"Legoland, Ulm a modrý pramen",
+ lead:"Legoland Deutschland s Miniland a vodními atrakcemi, nejvyšší kostelní věž světa v Ulmu a tyrkysový pramen Blautopf. Ideální věk na Lego je právě sedm let.",
+ hero:{wiki:"en:Legoland_Deutschland_Resort"},
+ facts:[["cca 500 km","přes Norimberk a Augsburg"],["5 h","jízda"],["Miniland","Evropa z kostek"],["161 m","věž Ulmského dómu"]],
+ days:[D("Den 1","Praha → Günzburg","en:Günzburg",[["car","cca 500 km · 5 h"]],["Přes Norimberk a Augsburg."],"U Legolandu je kemp i chatky, rezervujte předem."),
+  D("Den 2","Legoland","en:Legoland_Deutschland_Resort",[["","celý den"]],["Miniland, dračí horská dráha, vodní atrakce a stavění z kostek."],"Vstupenky online jsou levnější, v hlavní sezóně přijeďte k otevření."),
+  D("Den 3","Ulm","en:Ulm_Minster",[["bike","cca 30 km podél Dunaje"]],["Na kole po Dunajské cyklostezce do Ulmu, výstup na věž dómu, Rybářská čtvrť."]),
+  D("Den 4","Blautopf a domů","en:Blautopf",[["car","cca 20 km"]],["Tyrkysový pramen v Blaubeurenu, pak domů."])],
+ costs:["Německo: bez poplatků"],
+ route:"https://www.google.com/maps/dir/Praha/G%C3%BCnzburg",
+ links:[["Legoland Deutschland (oficiálně)","https://www.legoland.de/en/"]],
+ gallery:["Legoland Deutschland","Ulm Minster","Blautopf"],
+ seasons:{jaro:"Legoland otevírá na konci března, méně front.",leto:"Vodní atrakce, kolo podél Dunaje, koupání v jezerech.",podzim:"Halloween v Legolandu, barevný Dunaj.",zima:"Legoland bývá zavřený, vánoční trh v Ulmu."},
+ sights:["Legoland Deutschland","Ulmský dóm","Rybářská čtvrť v Ulmu","Blautopf v Blaubeurenu","Muzeum chleba v Ulmu","Wildpark Günzburg"],
+ hikes:[["Blautopf a skály nad Blaubeurenem","cca 8 km","Okruh přes vyhlídky a zříceninu."],["Ulm: hradby a nábřeží Dunaje","cca 6 km","Okruh starým městem."]],
+ bikes:[["Günzburg – Ulm","cca 30 km","Po Dunajské cyklostezce, zpět vlakem."],["Kolem jezer u Günzburgu","cca 15 km","Rovinatý okruh s koupáním."]]})
+});
+const GROUPS=[["Top 10 tipů rodin",["plitvice","achensee","pongau","bavorsky","allgau","kras","tatry","pillersee","alsasko","salcburk"]],["Jezera",["garda","wolf","faak","valsugana","reschen","bodensee","bled"]],["Hory, moře, řeky",["dolomity","istrie","wachau","sasko"]],["Dalších 10 rodinných tipů",["zillertal","krimml","luzern","krakov","balaton","berchtesgaden","schwarzwald","benatky","harz","legoland"]]];
 const ORDER=GROUPS.flatMap(g=>g[1]);
 document.getElementById("tabs").innerHTML=GROUPS.map(([n,ks])=>`<span class="grp">${n}</span>`+ks.map(k=>`<button role="tab" id="t-${k}" data-v="${k}" aria-selected="${k===ORDER[0]}">${V[k].tab} <small>${V[k].sub}</small></button>`).join("")).join("");
 
@@ -656,7 +821,7 @@ function render(k){
   <div class="grid">
     <div class="days">${v.days.map((d,i)=>`
       <article class="day">
-        <div class="ph" data-wiki="${esc(d.img.wiki)}"></div>
+        <div class="ph" data-wiki="${esc(d.img.wiki)}" data-name="${esc(d.t)}"></div>
         <div class="body"><span class="no">${esc(d.no)}</span><h3>${esc(d.t)}</h3>
           <div class="chips">${d.chips.map(c=>`<span class="chip ${c[0]}">${esc(c[1])}</span>`).join("")}</div>
           <ul>${d.items.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
@@ -682,48 +847,64 @@ function render(k){
   </section>
   <section class="gallery"><h2>Fotky z místa</h2><div class="gal" id="gal"><p class="loading">Načítám fotky…</p></div></section>`;
   loadHero(v.hero.wiki);
-  app.querySelectorAll(".ph[data-wiki]").forEach(el=>loadWiki(el.dataset.wiki).then(p=>p||loadWiki(v.hero.wiki)).then(p=>{if(p)el.innerHTML=imgHtml(p)}));
+  app.querySelectorAll(".ph[data-wiki]").forEach(async el=>{
+    const p=await loadWiki(el.dataset.wiki)||await loadWiki(v.hero.wiki)||(await galleryItems(v.gallery.slice(0,1),1))[0];
+    if(p) el.innerHTML=imgHtml(p); else el.classList.add("noimg");
+  });
   loadGallery(v.gallery);
 }
 
 const cache={};
+// Ověřené fotky z fotky.json (generuje GitHub Action), pak živé API jako záloha
+const MANP=fetch("fotky.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).catch(()=>null);
+const getJ=async u=>{try{const r=await fetch(u);return r.ok?await r.json():null}catch(e){return null}};
 async function loadWiki(spec){
-  if(cache[spec]) return cache[spec];
-  const [lang,title]=spec.split(":");
-  try{
-    const r=await fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
-    if(!r.ok) return null; const j=await r.json();
-    const src=(j.originalimage&&j.originalimage.width<=2400?j.originalimage.source:null)||(j.thumbnail&&j.thumbnail.source.replace(/\/\d+px-/,"/1200px-"))||null;
-    if(!src) return null;
-    return cache[spec]={src,alt:j.title,page:(j.content_urls&&j.content_urls.desktop.page)||"#",credit:"Wikipedie"};
-  }catch(e){return null}
+  if(!spec) return null;
+  if(spec in cache) return cache[spec];
+  return cache[spec]=(async()=>{
+    const man=await MANP; if(man&&man.places&&man.places[spec]) return man.places[spec];
+    const [lang,title]=spec.split(":");
+    const j=await getJ(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
+    let src=j&&((j.originalimage&&j.originalimage.width<=2400&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source.replace(/\/\d+px-/,"/1200px-")));
+    if(src) return {src,alt:j.title,page:(j.content_urls&&j.content_urls.desktop.page)||"#",credit:"Wikipedie"};
+    const a=await getJ(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&redirects=1&prop=pageimages|info&inprop=url&piprop=thumbnail&pithumbsize=1200&format=json&origin=*`);
+    const pg=a&&a.query&&Object.values(a.query.pages||{})[0];
+    if(pg&&pg.thumbnail) return {src:pg.thumbnail.source,alt:pg.title,page:pg.fullurl||"#",credit:"Wikipedie"};
+    const c=await commons(title.replace(/_/g," ").replace(/\(.*?\)/g,""),1);
+    return c[0]||null;
+  })();
 }
-const imgHtml=p=>`<img src="${esc(p.src)}" alt="${esc(p.alt)}" loading="lazy" onerror="this.remove()"><span class="credit"><a href="${esc(p.page)}" target="_blank" rel="noopener">Foto: ${esc(p.credit)}</a></span>`;
+const imgHtml=p=>`<img src="${esc(p.src)}" alt="${esc(p.alt)}" loading="lazy" onerror="this.parentNode.classList.add('noimg');this.nextElementSibling&&this.nextElementSibling.remove();this.remove()"><span class="credit"><a href="${esc(p.page)}" target="_blank" rel="noopener">Foto: ${esc(p.credit)}</a></span>`;
 async function loadHero(spec){
   const p=await loadWiki(spec); const h=document.getElementById("hero");
-  if(p&&h) h.insertAdjacentHTML("afterbegin",imgHtml(p).replace('loading="lazy"','fetchpriority="high"'));
+  if(p&&h) h.insertAdjacentHTML("afterbegin",imgHtml(p).replace('loading="lazy"','fetchpriority="high"').replace(/onerror="[^"]*"/,'onerror="this.nextElementSibling.remove();this.remove()"'));
 }
-const BAD=/map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|panorama_360|sign|schild/i;
+const BAD=/map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|panorama_360|sign|schild|locator|location/i;
+async function commons(q,n){
+  const j=await getJ(`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1200&format=json&origin=*`);
+  const out=[];
+  for(const p of Object.values((j&&j.query&&j.query.pages)||{}).sort((a,b)=>a.index-b.index)){
+    const ii=p.imageinfo&&p.imageinfo[0]; if(!ii||ii.mime!=="image/jpeg"||BAD.test(p.title)||ii.width<ii.height||ii.width<900) continue;
+    const m=ii.extmetadata||{}; const artist=(m.Artist&&m.Artist.value||"").replace(/<[^>]+>/g,"").trim().slice(0,60); const lic=m.LicenseShortName&&m.LicenseShortName.value||"";
+    out.push({src:ii.thumburl,page:ii.descriptionurl,alt:q,credit:`${artist||"Wikimedia Commons"}${lic?" · "+lic:""}`});
+    if(out.length>=n) break;
+  }
+  return out;
+}
+const galCache={};
+async function galleryItems(queries,n=3){
+  const man=await MANP;
+  const lists=await Promise.all(queries.map(q=>galCache[q]||(galCache[q]=(man&&man.galleries&&man.galleries[q]&&man.galleries[q].length)?Promise.resolve(man.galleries[q]):commons(q,3))));
+  const seen=new Set(),out=[];
+  lists.forEach((l,i)=>l.slice(0,n).forEach(o=>{if(!seen.has(o.src)){seen.add(o.src);out.push({...o,q:queries[i]})}}));
+  return out;
+}
 async function loadGallery(queries){
-  const g=document.getElementById("gal"); const seen=new Set(); const out=[];
-  await Promise.all(queries.map(async q=>{
-    try{
-      const u=`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=700&format=json&origin=*`;
-      const j=await (await fetch(u)).json();
-      const pages=Object.values((j.query&&j.query.pages)||{}).sort((a,b)=>a.index-b.index);
-      let n=0;
-      for(const p of pages){
-        const ii=p.imageinfo&&p.imageinfo[0]; if(!ii||ii.mime!=="image/jpeg"||BAD.test(p.title)||ii.width<ii.height||ii.width<900) continue;
-        if(seen.has(p.title)) continue; seen.add(p.title);
-        const m=ii.extmetadata||{}; const artist=(m.Artist&&m.Artist.value||"").replace(/<[^>]+>/g,"").trim().slice(0,60); const lic=m.LicenseShortName&&m.LicenseShortName.value||"";
-        out.push({q,src:ii.thumburl,page:ii.descriptionurl,cap:`${q} · ${artist||"Wikimedia Commons"}${lic?" · "+lic:""}`});
-        if(++n>=3) break;
-      }
-    }catch(e){}
-  }));
+  const g=document.getElementById("gal");
+  const out=await galleryItems(queries);
+  if(!g) return;
   if(!out.length){g.innerHTML='<p class="loading">Fotky se teď nepodařilo načíst. Zkuste stránku obnovit.</p>';return}
-  out.sort((a,b)=>queries.indexOf(a.q)-queries.indexOf(b.q));
-  g.innerHTML=out.map(o=>`<figure><img src="${esc(o.src)}" alt="${esc(o.q)}" loading="lazy" onerror="this.closest('figure').remove()"><figcaption><a href="${esc(o.page)}" target="_blank" rel="noopener">${esc(o.cap)}</a></figcaption></figure>`).join("");
+  g.innerHTML=out.map(o=>`<figure><img src="${esc(o.src)}" alt="${esc(o.q)}" loading="lazy" onerror="this.closest('figure').remove()"><figcaption><a href="${esc(o.page)}" target="_blank" rel="noopener">${esc(o.q)} · ${esc(o.credit)}</a></figcaption></figure>`).join("");
 }
 
 const tabs=document.querySelectorAll(".tabs button");
