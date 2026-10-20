@@ -49,10 +49,20 @@
   "lat": 46.60366,
   "lon": 13.67039
  },
+ "Pyramidenkogel": {
+  "f": "mapy/pyramidenkogel.jpg",
+  "lat": 46.611,
+  "lon": 14.144
+ },
  "Lago di Levico": {
   "f": "mapy/lago-di-levico.jpg",
   "lat": 46.01807,
   "lon": 11.27337
+ },
+ "Arte Sella Malga Costa": {
+  "f": "mapy/arte-sella-malga-costa.jpg",
+  "lat": 46.031,
+  "lon": 11.476
  },
  "Castel Pergine": {
   "f": "mapy/castel-pergine.jpg",
@@ -63,6 +73,11 @@
   "f": "mapy/reschensee.jpg",
   "lat": 46.80173,
   "lon": 10.53048
+ },
+ "Haider See": {
+  "f": "mapy/haider-see.jpg",
+  "lat": 46.77,
+  "lon": 10.54
  },
  "Waalweg Vinschgau": {
   "f": "mapy/waalweg-vinschgau.jpg",
@@ -174,6 +189,11 @@
   "lat": 50.88371,
   "lon": 14.28125
  },
+ "Veliki slap Plitvice": {
+  "f": "mapy/veliki-slap-plitvice.jpg",
+  "lat": 44.899,
+  "lon": 15.61
+ },
  "Jezero Kozjak": {
   "f": "mapy/jezero-kozjak.jpg",
   "lat": 44.88471,
@@ -188,6 +208,16 @@
   "f": "mapy/pertisau-achensee.jpg",
   "lat": 47.46298,
   "lon": 11.70909
+ },
+ "Gernalm": {
+  "f": "mapy/gernalm.jpg",
+  "lat": 47.468,
+  "lon": 11.651
+ },
+ "Geisterberg St. Johann im Pongau": {
+  "f": "mapy/geisterberg-st-johann-im-pongau.jpg",
+  "lat": 47.331,
+  "lon": 13.215
  },
  "Liechtensteinklamm": {
   "f": "mapy/liechtensteinklamm.jpg",
@@ -229,6 +259,11 @@
   "lat": 49.11919,
   "lon": 20.06395
  },
+ "Studenovodské vodopády": {
+  "f": "mapy/studenovodske-vodopady.jpg",
+  "lat": 49.17,
+  "lon": 20.218
+ },
  "Suchá Belá": {
   "f": "mapy/sucha-bela.jpg",
   "lat": 48.94847,
@@ -263,6 +298,11 @@
   "f": "mapy/kapuzinerberg-salzburg.jpg",
   "lat": 47.80411,
   "lon": 13.05759
+ },
+ "Penken Mayrhofen": {
+  "f": "mapy/penken-mayrhofen.jpg",
+  "lat": 47.18,
+  "lon": 11.836
  },
  "Schlegeisspeicher": {
   "f": "mapy/schlegeisspeicher.jpg",
@@ -323,6 +363,11 @@
   "f": "mapy/badacsony.jpg",
   "lat": 46.80329,
   "lon": 17.49617
+ },
+ "Obersee Berchtesgaden": {
+  "f": "mapy/obersee-berchtesgaden.jpg",
+  "lat": 47.508,
+  "lon": 12.99
  },
  "Zauberwald Ramsau": {
   "f": "mapy/zauberwald-ramsau.jpg",
