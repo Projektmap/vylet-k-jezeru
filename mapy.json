@@ -1,87 +1,397 @@
 {
- "Monte Brione": "mapy/monte-brione.jpg",
- "Lago di Tenno": "mapy/lago-di-tenno.jpg",
- "Sentiero del Ponale": "mapy/sentiero-del-ponale.jpg",
- "Busatte Torbole": "mapy/busatte-torbole.jpg",
- "Fuschlsee": "mapy/fuschlsee.jpg",
- "Falkenstein St. Gilgen": "mapy/falkenstein-st-gilgen.jpg",
- "Schwarzensee Salzkammergut": "mapy/schwarzensee-salzkammergut.jpg",
- "Schafbergalm": "mapy/schafbergalm.jpg",
- "Tscheppaschlucht": "mapy/tscheppaschlucht.jpg",
- "Dobratsch": "mapy/dobratsch.jpg",
- "Pyramidenkogel": "mapy/pyramidenkogel.jpg",
- "Lago di Levico": "mapy/lago-di-levico.jpg",
- "Arte Sella Malga Costa": "mapy/arte-sella-malga-costa.jpg",
- "Castel Pergine": "mapy/castel-pergine.jpg",
- "Reschensee": "mapy/reschensee.jpg",
- "Haider See": "mapy/haider-see.jpg",
- "Waalweg Vinschgau": "mapy/waalweg-vinschgau.jpg",
- "Eistobel": "mapy/eistobel.jpg",
- "Pfänder": "mapy/pfander.jpg",
- "Klingenbachschlucht": "mapy/klingenbachschlucht.jpg",
- "Blejsko jezero": "mapy/blejsko-jezero.jpg",
- "Mala Osojnica": "mapy/mala-osojnica.jpg",
- "Bohinjsko jezero": "mapy/bohinjsko-jezero.jpg",
- "Vintgar": "mapy/vintgar.jpg",
- "Tre Cime di Lavaredo": "mapy/tre-cime-di-lavaredo.jpg",
- "Lago di Braies": "mapy/lago-di-braies.jpg",
- "Val Fiscalina": "mapy/val-fiscalina.jpg",
- "Lago di Dobbiaco": "mapy/lago-di-dobbiaco.jpg",
- "Zlatni rt Rovinj": "mapy/zlatni-rt-rovinj.jpg",
- "Motovun": "mapy/motovun.jpg",
- "Lanterna Poreč": "mapy/lanterna-porec.jpg",
- "Burgruine Dürnstein": "mapy/burgruine-durnstein.jpg",
- "Weißenkirchen in der Wachau": "mapy/wei-enkirchen-in-der-wachau.jpg",
- "Spitz an der Donau": "mapy/spitz-an-der-donau.jpg",
- "Bastei": "mapy/bastei.jpg",
- "Kuhstall Lichtenhain": "mapy/kuhstall-lichtenhain.jpg",
- "Schrammsteine": "mapy/schrammsteine.jpg",
- "Pravčická brána": "mapy/pravcicka-brana.jpg",
- "Veliki slap Plitvice": "mapy/veliki-slap-plitvice.jpg",
- "Jezero Kozjak": "mapy/jezero-kozjak.jpg",
- "Plitvička jezera": "mapy/plitvicka-jezera.jpg",
- "Pertisau Achensee": "mapy/pertisau-achensee.jpg",
- "Gernalm": "mapy/gernalm.jpg",
- "Geisterberg St. Johann im Pongau": "mapy/geisterberg-st-johann-im-pongau.jpg",
- "Liechtensteinklamm": "mapy/liechtensteinklamm.jpg",
- "Tierfreigelände Neuschönau": "mapy/tierfreigelande-neuschonau.jpg",
- "Lusen": "mapy/lusen.jpg",
- "Alpsee Schwangau": "mapy/alpsee-schwangau.jpg",
- "Lechfall Füssen": "mapy/lechfall-fussen.jpg",
- "Škocjanske jame": "mapy/skocjanske-jame.jpg",
- "Fiesa": "mapy/fiesa.jpg",
- "Štrbské pleso": "mapy/strbske-pleso.jpg",
- "Studenovodské vodopády": "mapy/studenovodske-vodopady.jpg",
- "Suchá Belá": "mapy/sucha-bela.jpg",
- "Pillersee": "mapy/pillersee.jpg",
- "Teufelsklamm St. Ulrich am Pillersee": "mapy/teufelsklamm-st-ulrich-am-pillersee.jpg",
- "Hunawihr": "mapy/hunawihr.jpg",
- "Haut-Koenigsbourg": "mapy/haut-koenigsbourg.jpg",
- "Mönchsberg": "mapy/monchsberg.jpg",
- "Kapuzinerberg Salzburg": "mapy/kapuzinerberg-salzburg.jpg",
- "Penken Mayrhofen": "mapy/penken-mayrhofen.jpg",
- "Schlegeisspeicher": "mapy/schlegeisspeicher.jpg",
- "Gerlossteinwand": "mapy/gerlossteinwand.jpg",
- "Krimmler Wasserfälle": "mapy/krimmler-wasserfalle.jpg",
- "Hollersbachtal": "mapy/hollersbachtal.jpg",
- "Zeller See": "mapy/zeller-see.jpg",
- "Rigi Kaltbad": "mapy/rigi-kaltbad.jpg",
- "Fräkmüntegg": "mapy/frakmuntegg.jpg",
- "Museggmauer Luzern": "mapy/museggmauer-luzern.jpg",
- "Ojcowski Park Narodowy": "mapy/ojcowski-park-narodowy.jpg",
- "Kopiec Kościuszki": "mapy/kopiec-kosciuszki.jpg",
- "Tihany Belső-tó": "mapy/tihany-belso-to.jpg",
- "Badacsony": "mapy/badacsony.jpg",
- "Obersee Berchtesgaden": "mapy/obersee-berchtesgaden.jpg",
- "Zauberwald Ramsau": "mapy/zauberwald-ramsau.jpg",
- "Wimbachklamm": "mapy/wimbachklamm.jpg",
- "Feldsee": "mapy/feldsee.jpg",
- "Triberger Wasserfälle": "mapy/triberger-wasserfalle.jpg",
- "Ravennaschlucht": "mapy/ravennaschlucht.jpg",
- "Ponte di Rialto": "mapy/ponte-di-rialto.jpg",
- "Burano": "mapy/burano.jpg",
- "Brocken": "mapy/brocken.jpg",
- "Bodetal Thale": "mapy/bodetal-thale.jpg",
- "Blautopf": "mapy/blautopf.jpg",
- "Ulmer Münster": "mapy/ulmer-munster.jpg"
+ "Monte Brione": {
+  "f": "mapy/monte-brione.jpg",
+  "lat": 45.88498,
+  "lon": 10.87459
+ },
+ "Lago di Tenno": {
+  "f": "mapy/lago-di-tenno.jpg",
+  "lat": 45.93846,
+  "lon": 10.81582
+ },
+ "Sentiero del Ponale": {
+  "f": "mapy/sentiero-del-ponale.jpg",
+  "lat": 45.87257,
+  "lon": 10.8371
+ },
+ "Busatte Torbole": {
+  "f": "mapy/busatte-torbole.jpg",
+  "lat": 45.86493,
+  "lon": 10.88107
+ },
+ "Fuschlsee": {
+  "f": "mapy/fuschlsee.jpg",
+  "lat": 47.80292,
+  "lon": 13.28068
+ },
+ "Falkenstein St. Gilgen": {
+  "f": "mapy/falkenstein-st-gilgen.jpg",
+  "lat": 47.76029,
+  "lon": 13.39891
+ },
+ "Schwarzensee Salzkammergut": {
+  "f": "mapy/schwarzensee-salzkammergut.jpg",
+  "lat": 47.75223,
+  "lon": 13.49768
+ },
+ "Schafbergalm": {
+  "f": "mapy/schafbergalm.jpg",
+  "lat": 47.74355,
+  "lon": 13.30206
+ },
+ "Tscheppaschlucht": {
+  "f": "mapy/tscheppaschlucht.jpg",
+  "lat": 46.48534,
+  "lon": 14.26899
+ },
+ "Dobratsch": {
+  "f": "mapy/dobratsch.jpg",
+  "lat": 46.60366,
+  "lon": 13.67039
+ },
+ "Pyramidenkogel": {
+  "f": "mapy/pyramidenkogel.jpg",
+  "lat": 47.8732,
+  "lon": 13.8398
+ },
+ "Lago di Levico": {
+  "f": "mapy/lago-di-levico.jpg",
+  "lat": 46.01807,
+  "lon": 11.27337
+ },
+ "Castel Pergine": {
+  "f": "mapy/castel-pergine.jpg",
+  "lat": 46.05916,
+  "lon": 11.24979
+ },
+ "Reschensee": {
+  "f": "mapy/reschensee.jpg",
+  "lat": 46.80173,
+  "lon": 10.53048
+ },
+ "Haider See": {
+  "f": "mapy/haider-see.jpg",
+  "lat": 47.2638,
+  "lon": 15.79603
+ },
+ "Waalweg Vinschgau": {
+  "f": "mapy/waalweg-vinschgau.jpg",
+  "lat": 46.72215,
+  "lon": 10.67373
+ },
+ "Eistobel": {
+  "f": "mapy/eistobel.jpg",
+  "lat": 47.63247,
+  "lon": 10.03403
+ },
+ "Pfänder": {
+  "f": "mapy/pfander.jpg",
+  "lat": 47.50737,
+  "lon": 9.7802
+ },
+ "Klingenbachschlucht": {
+  "f": "mapy/klingenbachschlucht.jpg",
+  "lat": 47.66336,
+  "lon": 8.89485
+ },
+ "Blejsko jezero": {
+  "f": "mapy/blejsko-jezero.jpg",
+  "lat": 46.36391,
+  "lon": 14.09381
+ },
+ "Mala Osojnica": {
+  "f": "mapy/mala-osojnica.jpg",
+  "lat": 46.35756,
+  "lon": 14.08101
+ },
+ "Bohinjsko jezero": {
+  "f": "mapy/bohinjsko-jezero.jpg",
+  "lat": 46.28227,
+  "lon": 13.86453
+ },
+ "Vintgar": {
+  "f": "mapy/vintgar.jpg",
+  "lat": 46.41024,
+  "lon": 14.09878
+ },
+ "Tre Cime di Lavaredo": {
+  "f": "mapy/tre-cime-di-lavaredo.jpg",
+  "lat": 46.61775,
+  "lon": 12.29539
+ },
+ "Lago di Braies": {
+  "f": "mapy/lago-di-braies.jpg",
+  "lat": 46.69472,
+  "lon": 12.08584
+ },
+ "Val Fiscalina": {
+  "f": "mapy/val-fiscalina.jpg",
+  "lat": 46.66707,
+  "lon": 12.35411
+ },
+ "Lago di Dobbiaco": {
+  "f": "mapy/lago-di-dobbiaco.jpg",
+  "lat": 46.70371,
+  "lon": 12.21901
+ },
+ "Zlatni rt Rovinj": {
+  "f": "mapy/zlatni-rt-rovinj.jpg",
+  "lat": 45.06763,
+  "lon": 13.63201
+ },
+ "Motovun": {
+  "f": "mapy/motovun.jpg",
+  "lat": 45.33671,
+  "lon": 13.82828
+ },
+ "Lanterna Poreč": {
+  "f": "mapy/lanterna-porec.jpg",
+  "lat": 45.29562,
+  "lon": 13.5788
+ },
+ "Burgruine Dürnstein": {
+  "f": "mapy/burgruine-durnstein.jpg",
+  "lat": 48.39782,
+  "lon": 15.52192
+ },
+ "Weißenkirchen in der Wachau": {
+  "f": "mapy/wei-enkirchen-in-der-wachau.jpg",
+  "lat": 48.39725,
+  "lon": 15.46957
+ },
+ "Spitz an der Donau": {
+  "f": "mapy/spitz-an-der-donau.jpg",
+  "lat": 48.36503,
+  "lon": 15.41746
+ },
+ "Bastei": {
+  "f": "mapy/bastei.jpg",
+  "lat": 45.64545,
+  "lon": 17.3261
+ },
+ "Kuhstall Lichtenhain": {
+  "f": "mapy/kuhstall-lichtenhain.jpg",
+  "lat": 50.93636,
+  "lon": 14.26423
+ },
+ "Schrammsteine": {
+  "f": "mapy/schrammsteine.jpg",
+  "lat": 50.91244,
+  "lon": 14.20431
+ },
+ "Pravčická brána": {
+  "f": "mapy/pravcicka-brana.jpg",
+  "lat": 50.88371,
+  "lon": 14.28125
+ },
+ "Jezero Kozjak": {
+  "f": "mapy/jezero-kozjak.jpg",
+  "lat": 44.88471,
+  "lon": 15.6136
+ },
+ "Plitvička jezera": {
+  "f": "mapy/plitvicka-jezera.jpg",
+  "lat": 44.8523,
+  "lon": 15.59035
+ },
+ "Pertisau Achensee": {
+  "f": "mapy/pertisau-achensee.jpg",
+  "lat": 47.46298,
+  "lon": 11.70909
+ },
+ "Gernalm": {
+  "f": "mapy/gernalm.jpg",
+  "lat": 47.38509,
+  "lon": 11.99018
+ },
+ "Liechtensteinklamm": {
+  "f": "mapy/liechtensteinklamm.jpg",
+  "lat": 47.31336,
+  "lon": 13.18981
+ },
+ "Tierfreigelände Neuschönau": {
+  "f": "mapy/tierfreigelande-neuschonau.jpg",
+  "lat": 48.90568,
+  "lon": 13.46848
+ },
+ "Lusen": {
+  "f": "mapy/lusen.jpg",
+  "lat": 48.9392,
+  "lon": 13.50678
+ },
+ "Alpsee Schwangau": {
+  "f": "mapy/alpsee-schwangau.jpg",
+  "lat": 47.54896,
+  "lon": 10.72132
+ },
+ "Lechfall Füssen": {
+  "f": "mapy/lechfall-fussen.jpg",
+  "lat": 47.56177,
+  "lon": 10.69485
+ },
+ "Škocjanske jame": {
+  "f": "mapy/skocjanske-jame.jpg",
+  "lat": 45.66586,
+  "lon": 13.98937
+ },
+ "Fiesa": {
+  "f": "mapy/fiesa.jpg",
+  "lat": 45.52468,
+  "lon": 13.58036
+ },
+ "Štrbské pleso": {
+  "f": "mapy/strbske-pleso.jpg",
+  "lat": 49.11919,
+  "lon": 20.06395
+ },
+ "Suchá Belá": {
+  "f": "mapy/sucha-bela.jpg",
+  "lat": 48.94847,
+  "lon": 20.38457
+ },
+ "Pillersee": {
+  "f": "mapy/pillersee.jpg",
+  "lat": 47.53929,
+  "lon": 12.5688
+ },
+ "Teufelsklamm St. Ulrich am Pillersee": {
+  "f": "mapy/teufelsklamm-st-ulrich-am-pillersee.jpg",
+  "lat": 47.55544,
+  "lon": 12.5735
+ },
+ "Hunawihr": {
+  "f": "mapy/hunawihr.jpg",
+  "lat": 48.18142,
+  "lon": 7.31358
+ },
+ "Haut-Koenigsbourg": {
+  "f": "mapy/haut-koenigsbourg.jpg",
+  "lat": 48.24938,
+  "lon": 7.34394
+ },
+ "Mönchsberg": {
+  "f": "mapy/monchsberg.jpg",
+  "lat": 47.79899,
+  "lon": 13.03693
+ },
+ "Kapuzinerberg Salzburg": {
+  "f": "mapy/kapuzinerberg-salzburg.jpg",
+  "lat": 47.80411,
+  "lon": 13.05759
+ },
+ "Schlegeisspeicher": {
+  "f": "mapy/schlegeisspeicher.jpg",
+  "lat": 47.02422,
+  "lon": 11.70949
+ },
+ "Gerlossteinwand": {
+  "f": "mapy/gerlossteinwand.jpg",
+  "lat": 47.1942,
+  "lon": 11.92091
+ },
+ "Krimmler Wasserfälle": {
+  "f": "mapy/krimmler-wasserfalle.jpg",
+  "lat": 47.20838,
+  "lon": 12.17022
+ },
+ "Hollersbachtal": {
+  "f": "mapy/hollersbachtal.jpg",
+  "lat": 47.21132,
+  "lon": 12.41654
+ },
+ "Zeller See": {
+  "f": "mapy/zeller-see.jpg",
+  "lat": 47.32236,
+  "lon": 12.80777
+ },
+ "Rigi Kaltbad": {
+  "f": "mapy/rigi-kaltbad.jpg",
+  "lat": 47.04471,
+  "lon": 8.46618
+ },
+ "Fräkmüntegg": {
+  "f": "mapy/frakmuntegg.jpg",
+  "lat": 46.98922,
+  "lon": 8.24971
+ },
+ "Museggmauer Luzern": {
+  "f": "mapy/museggmauer-luzern.jpg",
+  "lat": 47.05514,
+  "lon": 8.30719
+ },
+ "Ojcowski Park Narodowy": {
+  "f": "mapy/ojcowski-park-narodowy.jpg",
+  "lat": 50.21071,
+  "lon": 19.80857
+ },
+ "Kopiec Kościuszki": {
+  "f": "mapy/kopiec-kosciuszki.jpg",
+  "lat": 50.05492,
+  "lon": 19.89335
+ },
+ "Tihany Belső-tó": {
+  "f": "mapy/tihany-belso-to.jpg",
+  "lat": 46.90812,
+  "lon": 17.88192
+ },
+ "Badacsony": {
+  "f": "mapy/badacsony.jpg",
+  "lat": 47.25595,
+  "lon": 22.85456
+ },
+ "Zauberwald Ramsau": {
+  "f": "mapy/zauberwald-ramsau.jpg",
+  "lat": 47.60766,
+  "lon": 12.86025
+ },
+ "Wimbachklamm": {
+  "f": "mapy/wimbachklamm.jpg",
+  "lat": 47.59722,
+  "lon": 12.92135
+ },
+ "Feldsee": {
+  "f": "mapy/feldsee.jpg",
+  "lat": 46.76924,
+  "lon": 13.75239
+ },
+ "Triberger Wasserfälle": {
+  "f": "mapy/triberger-wasserfalle.jpg",
+  "lat": 48.12636,
+  "lon": 8.22765
+ },
+ "Ravennaschlucht": {
+  "f": "mapy/ravennaschlucht.jpg",
+  "lat": 47.91868,
+  "lon": 8.08024
+ },
+ "Ponte di Rialto": {
+  "f": "mapy/ponte-di-rialto.jpg",
+  "lat": 45.43807,
+  "lon": 12.33565
+ },
+ "Burano": {
+  "f": "mapy/burano.jpg",
+  "lat": 45.48536,
+  "lon": 12.41754
+ },
+ "Brocken": {
+  "f": "mapy/brocken.jpg",
+  "lat": 51.79913,
+  "lon": 10.61564
+ },
+ "Bodetal Thale": {
+  "f": "mapy/bodetal-thale.jpg",
+  "lat": 51.7291,
+  "lon": 10.98627
+ },
+ "Blautopf": {
+  "f": "mapy/blautopf.jpg",
+  "lat": 48.41629,
+  "lon": 9.78381
+ },
+ "Ulmer Münster": {
+  "f": "mapy/ulmer-munster.jpg",
+  "lat": 48.39851,
+  "lon": 9.9925
+ }
 }
