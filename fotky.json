@@ -156,11 +156,11 @@
    "credit": "Llorenzi · CC BY-SA 4.0",
    "alt": "Arte Sella"
   },
-  "en:MUSE_(museum)": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Attributed_to_Pierre-Paul_Prud%27hon_-_Apollo_and_the_Nine_Muses_on_Mount_Parnassus.jpg/1280px-Attributed_to_Pierre-Paul_Prud%27hon_-_Apollo_and_the_Nine_Muses_on_Mount_Parnassus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "page": "https://commons.wikimedia.org/wiki/File:Attributed_to_Pierre-Paul_Prud%27hon_-_Apollo_and_the_Nine_Muses_on_Mount_Parnassus.jpg",
-   "credit": "Attributed to Pierre-Paul Prud'hon · Public domain",
-   "alt": "MUSE "
+  "c:MUSE Trento Renzo Piano": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Renzo_Piano_and_Michele_Lanzinger_-_MUSE_2.jpg/1280px-Renzo_Piano_and_Michele_Lanzinger_-_MUSE_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Renzo_Piano_and_Michele_Lanzinger_-_MUSE_2.jpg",
+   "credit": "Giacomo Vadalà/MUSE\n\n\n\n\nThis file was uploaded by MUSE - Sci · CC BY-SA 3.0",
+   "alt": "MUSE Trento Renzo Piano"
   },
   "en:Lake_Reschen": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Reschensee_with_Graun_Church_tower_and_boat.jpg/1200px-Reschensee_with_Graun_Church_tower_and_boat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -263,12 +263,6 @@
    "page": "https://en.wikipedia.org/wiki/Vintgar_Gorge",
    "credit": "Wikipedie",
    "alt": "Vintgar Gorge"
-  },
-  "en:Radovna": {
-   "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Radovna_pri_vasi_Krnica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "page": "https://commons.wikimedia.org/wiki/File:Radovna_pri_vasi_Krnica.jpg",
-   "credit": "Vid Pogacnik · CC BY-SA 4.0",
-   "alt": "Radovna"
   },
   "en:Lake_Bohinj": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg/1200px-Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -606,11 +600,11 @@
    "credit": "Wikipedie",
    "alt": "Forggensee"
   },
-  "en:Scheidegg": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Grosse_Scheidegg%2C_polygonum.JPG/1280px-Grosse_Scheidegg%2C_polygonum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "page": "https://commons.wikimedia.org/wiki/File:Grosse_Scheidegg,_polygonum.JPG",
-   "credit": "[mailto: compostar@outlook.com.com Tinelot Wittermans] · CC BY-SA 3.0",
-   "alt": "Scheidegg"
+  "c:Skywalk Allgäu Scheidegg": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Skywalk_Scheidegg_11.jpg/1280px-Skywalk_Scheidegg_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Skywalk_Scheidegg_11.jpg",
+   "credit": "Killarnee · CC BY-SA 4.0",
+   "alt": "Skywalk Allgäu Scheidegg"
   },
   "en:Predjama_Castle": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/H%C3%B6hlenburg_Predjama_in_Slovenien.jpg/1200px-H%C3%B6hlenburg_Predjama_in_Slovenien.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -672,11 +666,11 @@
    "credit": "Wikipedie",
    "alt": "Riquewihr"
   },
-  "en:Haut-Kœnigsbourg_Castle": {
+  "c:Château du Haut-Koenigsbourg": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Station_de_pompage_du_Haut-Koenigsbourg.jpg/1280px-Station_de_pompage_du_Haut-Koenigsbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "page": "https://commons.wikimedia.org/wiki/File:Station_de_pompage_du_Haut-Koenigsbourg.jpg",
    "credit": "Gzen92 · CC0",
-   "alt": "Haut-Kœnigsbourg Castle"
+   "alt": "Château du Haut-Koenigsbourg"
   },
   "en:Europa-Park": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Haupteingang_Europa-Park_Rust.jpg/1200px-Haupteingang_Europa-Park_Rust.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1546,8 +1540,8 @@
     "alt": "Lake Bohinj"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dng_bohinj_jezero_1_01.jpg/1280px-Dng_bohinj_jezero_1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_1_01.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dng_bohinj_jezero_2_2.jpg/1280px-Dng_bohinj_jezero_2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_2_2.jpg",
     "credit": "This Photo was taken by Miha Peče.  Feel free to use my phot · CC BY-SA 4.0",
     "alt": "Lake Bohinj"
    }
@@ -1674,14 +1668,14 @@
   ],
   "Poreč": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Square_in_Pore%C4%8D%2C_Croatia.jpg/1280px-Square_in_Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Square_in_Pore%C4%8D,_Croatia.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pore%C4%8D%2C_Croatia.jpg/1280px-Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pore%C4%8D,_Croatia.jpg",
     "credit": "Viktar Palstsiuk · CC BY-SA 4.0",
     "alt": "Poreč"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pore%C4%8D%2C_Croatia.jpg/1280px-Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pore%C4%8D,_Croatia.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Square_in_Pore%C4%8D%2C_Croatia.jpg/1280px-Square_in_Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Square_in_Pore%C4%8D,_Croatia.jpg",
     "credit": "Viktar Palstsiuk · CC BY-SA 4.0",
     "alt": "Poreč"
    },
@@ -1706,9 +1700,9 @@
     "alt": "Motovun"
    },
    {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Motovun_castle_wall_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Motovun_castle_wall_view.jpg",
-    "credit": "The original uploader was WASD at Russian Wikipedia. · CC BY-SA 3.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Motovun_clouds.jpg/1280px-Motovun_clouds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Motovun_clouds.jpg",
+    "credit": "Dmitry Sokolov · Public domain",
     "alt": "Motovun"
    }
   ],
@@ -1960,15 +1954,15 @@
     "alt": "Pravčická brána"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg/1280px-Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg",
-    "credit": "Zrzek007 · CC BY-SA 4.0",
-    "alt": "Pravčická brána"
-   },
-   {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/20240317_xl_1116-Path_to_the_Prav%C4%8Dick%C3%A1_br%C3%A1na_2024_%28Monoculture%2C_man-made_climate_change%2C_bark_beetle_infestation%2C_fire%29_76.jpg/1280px-20240317_xl_1116-Path_to_the_Prav%C4%8Dick%C3%A1_br%C3%A1na_2024_%28Monoculture%2C_man-made_climate_change%2C_bark_beetle_infestation%2C_fire%29_76.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:20240317_xl_1116-Path_to_the_Prav%C4%8Dick%C3%A1_br%C3%A1na_2024_(Monoculture,_man-made_climate_change,_bark_beetle_infestation,_fire)_76.jpg",
     "credit": "Molgreen · CC BY-SA 4.0",
+    "alt": "Pravčická brána"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg/1280px-Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg",
+    "credit": "Zrzek007 · CC BY-SA 4.0",
     "alt": "Pravčická brána"
    }
   ],
@@ -1992,26 +1986,7 @@
     "alt": "Plitvice Lakes"
    }
   ],
-  "Veliki slap Plitvice": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/K00_042_Sastavici%2C_Veliki_Slap.jpg/1280px-K00_042_Sastavici%2C_Veliki_Slap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:K00_042_Sastavici,_Veliki_Slap.jpg",
-    "credit": "Falk2 · CC BY-SA 4.0",
-    "alt": "Veliki slap Plitvice"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/K00_046_Veliki_Slap.jpg/1280px-K00_046_Veliki_Slap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:K00_046_Veliki_Slap.jpg",
-    "credit": "Falk2 · CC BY-SA 4.0",
-    "alt": "Veliki slap Plitvice"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg/1280px-Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg",
-    "credit": "MarioMagdic · CC0",
-    "alt": "Veliki slap Plitvice"
-   }
-  ],
+  "Veliki slap Plitvice": [],
   "Rastoke": [
    {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bridge_at_Rastoke%2C_Croatia.jpg/1280px-Bridge_at_Rastoke%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2186,9 +2161,9 @@
     "alt": "Baumwipfelpfad Neuschönau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG/1280px-Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG",
-    "credit": "Takmocsekretovanej! · CC0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG/1280px-Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG",
+    "credit": "High Contrast · CC BY 3.0 de",
     "alt": "Baumwipfelpfad Neuschönau"
    }
   ],
@@ -2286,9 +2261,9 @@
     "alt": "Postojna Cave"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg/1280px-Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Jaskinia_Postojna,_S%C5%82owenia,_20240503_1019_8066.jpg",
-    "credit": "Jakub Hałun · CC BY 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Postojna_Cave._2012-07-26_13-41-13.jpg/1280px-Postojna_Cave._2012-07-26_13-41-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Postojna_Cave._2012-07-26_13-41-13.jpg",
+    "credit": "Shesmax · CC BY-SA 4.0",
     "alt": "Postojna Cave"
    }
   ],
@@ -2586,8 +2561,8 @@
     "alt": "Zillertal"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg/1280px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg/1280px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg",
     "credit": "D-Kuru · CC BY-SA 4.0",
     "alt": "Zillertal"
    }
@@ -2640,14 +2615,14 @@
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    }
@@ -2846,8 +2821,8 @@
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Tihany_%282%29.jpg/1280px-Tihany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(2).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tihany_%2860%29.jpg/1280px-Tihany_%2860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(60).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    }
@@ -2960,14 +2935,14 @@
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/1280px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/1280px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/1280px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/1280px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    }
@@ -3034,14 +3009,14 @@
   ],
   "Cavallino-Treporti": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
     "credit": "Didier Descouens · CC BY-SA 4.0",
     "alt": "Cavallino-Treporti"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
     "credit": "Didier Descouens · CC BY-SA 4.0",
     "alt": "Cavallino-Treporti"
    },
@@ -3176,15 +3151,13 @@
  "report": [
   "en:Torbole: bez fotky na Wikipedii, náhrada z Commons",
   "en:Arte_Sella: bez fotky na Wikipedii, náhrada z Commons",
-  "en:MUSE_(museum): bez fotky na Wikipedii, náhrada z Commons",
   "en:Ravensburger_Spieleland: bez fotky na Wikipedii, náhrada z Commons",
   "en:Karawanks_Tunnel: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Radovna: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Scheidegg: bez fotky na Wikipedii, náhrada z Commons",
+  "en:Radovna: ŽÁDNÁ FOTKA",
   "en:Fieberbrunn: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Haut-Kœnigsbourg_Castle: bez fotky na Wikipedii, náhrada z Commons",
   "en:Haus_der_Natur: bez fotky na Wikipedii, náhrada z Commons",
   "en:Schlegeis_Reservoir: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Berchtesgaden_Salt_Mine: bez fotky na Wikipedii, náhrada z Commons"
+  "en:Berchtesgaden_Salt_Mine: bez fotky na Wikipedii, náhrada z Commons",
+  "galerie \"Veliki slap Plitvice\": prázdná"
  ]
 }
