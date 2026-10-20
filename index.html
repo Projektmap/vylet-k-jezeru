@@ -1064,7 +1064,7 @@ function renderKlara(){
   app.innerHTML=`<section class="klara">
     <span class="eyebrow">Zadání pro AI</span>
     <h2>Klára: zadání pro vyhledávání výletů</h2>
-    <p>Napište sem cokoliv, co se má v plánu výletů změnit: nová místa, jiný termín, delší nebo kratší trasy, víc koupání, jiný design, rozpočet… Po odeslání si zadání Claude načte a v pozadí podle něj upraví obsah, výlety i vzhled stránky. Obvykle do několika hodin, stav uvidíte níže.</p>
+    <p>Napište sem cokoliv, co se má v plánu výletů změnit: nová místa, jiný termín, delší nebo kratší trasy, víc koupání, jiný design, rozpočet… Po odeslání si zadání Claude načte a v pozadí podle něj upraví obsah, výlety i vzhled stránky. Kontrola probíhá každou hodinu, výsledek bývá do hodiny. Stav uvidíte níže.</p>
     <form id="kform" class="kform">
       <label>Jméno<input name="jmeno" value="Klára" maxlength="60"></label>
       <label>Zadání<textarea name="text" rows="9" maxlength="5000" required placeholder="Např.: Najdi 3 výlety k moři v Chorvatsku na červenec, max. 8 h jízdy, s kempem u pláže a cyklostezkou. Na úvod dej přehledné srovnání podle vzdálenosti.">${esc(draft)}</textarea></label>
