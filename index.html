@@ -30,6 +30,8 @@ h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balanc
 .who{display:flex;gap:8px;flex-wrap:wrap}
 .who span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
 .tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:10px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs .grp{flex-basis:100%;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+@media (max-width:640px){.tabs .grp{flex-basis:auto;align-self:center}}
 @media (max-width:640px){.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.tabs button{white-space:nowrap;flex:none}}
 .tabs button{font:600 15px var(--f-body);padding:11px 18px;border-radius:12px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:flex;gap:10px;align-items:center}
 .tabs button small{font-weight:500;color:var(--muted)}
@@ -111,7 +113,7 @@ footer{margin-block:40px 30px;color:var(--muted);font-size:13px}
   <header class="top">
     <div>
       <h1>Na kole k jezeru</h1>
-      <p>Týden s Marco Polem: sedm jezer do 900 km od Prahy, vyberte si.</p>
+      <p>S Marco Polem a koly: jezera, hory, moře a řeky do 900 km od Prahy.</p>
     </div>
     <div class="who"><span>2 dospělí</span><span>dítě 7 let</span><span>3 kola na nosiči</span><span>Mercedes Marco Polo</span></div>
   </header>
@@ -392,10 +394,92 @@ bled:{seasons:{jaro:"Vodopády v plné síle (Savica, Vintgar), rozkvetlé louky
  bikes:[["Bled – Bohinj","cca 28 km","Nová cyklostezka podél Sávy, většinou mimo provoz."],["Údolí Radovna","cca 26 km tam a zpět","Z Krnice údolím po rovinách a lesních cestách."],["Okruh kolem Bledu","cca 6 km","Pohodová vyjížďka pro první den."]]}
 };
 for(const k in X) Object.assign(V[k],X[k]);
+// Výlety mimo jezera
+Object.assign(V,{
+dolomity:{tab:"Itálie · Dolomity",sub:"cca 700 km",eyebrow:"Itálie · Jižní Tyrolsko",title:"Dolomity z Toblachu",
+ lead:"Hory jako z pohádky: okruh kolem Tre Cime, smaragdové Lago di Braies a cyklostezka údolím Pustertal z kopce až do Lienzu, zpět vlakem s koly.",
+ hero:{wiki:"en:Tre_Cime_di_Lavaredo"},
+ facts:[["cca 700 km","z Prahy přes Mnichov a Brenner"],["7,5 h","jízda, s přestávkami"],["44 km","Innichen → Lienz z kopce, zpět vlakem"],["Camping Olympia","Toblach, dětský bazén se skluzavkou"]],
+ days:[
+  {no:"Den 1",t:"Praha → Toblach",img:{wiki:"en:Toblach"},chips:[["car","cca 700 km · 7,5 h"]],items:["Přes Mnichov, Innsbruck a Brenner, pak údolím Pustertal.","Alternativa přes Salcburk a Felbertauern (mýtná silnice)."],tip:"Ubytování: Camping Olympia v Toblachu, vyhřívaný dětský bazén se skluzavkou, kryté koupaliště, hřiště a malá zoo."},
+  {no:"Den 2",t:"Lago di Braies",img:{wiki:"en:Lago_di_Braies"},chips:[["","okruh kolem jezera"]],items:["Smaragdové horské jezero, pohodlný okruh kolem břehu.","Půjčení dřevěné loďky na jezeře."],tip:"V sezóně je příjezd autem omezený a regulovaný, ověřte si pravidla a jeďte brzy ráno nebo autobusem."},
+  {no:"Den 3",t:"Kolem Tre Cime",img:{wiki:"en:Tre_Cime_di_Lavaredo"},chips:[["","cca 10 km pěšky"],["car","mýtná silnice"]],items:["Mýtnou silnicí k chatě Auronzo (2 320 m), odtud okruh kolem Tří Zinnen.","Lehká až středně těžká túra na 3–4 hodiny, chaty po cestě."],tip:"Mýtné 2026 pro auto 40 €, pro obytné auto 60 €, nutná online rezervace časového okna."},
+  {no:"Den 4",t:"Na kole Innichen → Lienz",img:{wiki:"en:Lienz"},chips:[["bike","44 km převážně z kopce"],["","vlak zpět"]],items:["Lehká cyklostezka údolím Drávy do Rakouska, asfalt, studánky a odpočívadla.","Zpět vlakem, který má vůz na kola. Kola lze půjčit v Innichenu a vrátit u nádraží v Lienzu."],tip:"Pro sedmiletého je 44 km hodně: jeďte jen do Sillianu (cca 10 km) a zpět vlakem."},
+  {no:"Den 5",t:"Údolí Fischleintal",img:{wiki:"en:Sexten"},chips:[["","pohodová procházka"]],items:["Rovinatým údolím pod Sextenskými Dolomity k chatě na konci údolí.","Odpoledne bazén v kempu."]},
+  {no:"Den 6",t:"Innichen a lanovka",img:{wiki:"en:Innichen"},chips:[["","lanovka a hřiště"]],items:["Městečko s románským kostelem, lanovka na Haunold s dětským parkem.","Večer procházka kolem Toblašského jezera."]},
+  {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Brenner_Pass"},chips:[["car","cca 700 km · 7,5 h"]],items:["Zpět přes Brenner nebo Felbertauern."]}],
+ costs:["Rakousko: dálniční známka 10 dní 12,80 €","Brenner A13: 12,50 € nebo Felbertauernstraße 11 € (každý směr)","Itálie A22: mýtné na branách","Mýtná silnice k Tre Cime: auto 40 €, obytné auto 60 €"],
+ route:"https://www.google.com/maps/dir/Praha/Toblach",
+ links:[["Camping Olympia","https://www.suedtirol.com/unterkunft/42627/camping-olympia"],["Cyklostezka Innichen – Lienz","https://www.dolomiti.it/de/touren/radurlaub/innichen-lienz-radweg"],["Tre Cime: okruh a mýtná silnice","https://www.dolomiti.it/de/natur/gebirge/die-drei-zinnen/"]],
+ gallery:["Tre Cime di Lavaredo","Lago di Braies","Toblach","Innichen","Val Fiscalina"],
+ seasons:{jaro:"Kvetoucí louky v údolích, klidné cyklostezky, lanovky se otevírají od konce května.",leto:"Túry kolem Tre Cime, lanovky, horské chaty, koupání v bazénu kempu.",podzim:"Zlatavé modříny, čistý vzduch a výhledy, méně lidí na stezkách.",zima:"Lyžování v areálu 3 Zinnen Dolomites, běžky kolem Toblachu, adventní trh v Innichenu."},
+ sights:["Lago di Braies (Pragser Wildsee)","Tre Cime di Lavaredo","Toblašské jezero","Innichen s románskou kolegiátou","Lienz a zámek Bruck","Cortina d'Ampezzo (asi 30 km)"],
+ hikes:[["Okruh kolem Tre Cime","cca 10 km","Z chaty Auronzo kolem Tří Zinnen, 3–4 hodiny."],["Okruh kolem Lago di Braies","cca 4 km","Po rovině kolem jezera, vhodné pro děti."],["Fischleintal k chatě","cca 8 km tam a zpět","Rovinatým údolím pod Sextenskými Dolomity."],["Okruh kolem Toblašského jezera","cca 3 km","Krátká večerní procházka."]],
+ bikes:[["Innichen – Sillian","cca 10 km z kopce","Začátek Drávské cyklostezky, zpět vlakem."],["Toblach – Innichen – Toblach","cca 12 km","Po cyklostezce údolím Pustertal."],["Innichen – Lienz","44 km","Pro zdatné, převážně z kopce, zpět vlakem s koly."]]},
+istrie:{tab:"Chorvatsko · Istrie",sub:"cca 880 km",eyebrow:"Chorvatsko · Istrie",title:"Istrie: moře, Poreč a Parenzana",
+ lead:"Moře bez dlouhé cesty na jih: velký rodinný kemp s bazény, stará železnice Parenzana tunely a viadukty, kopcová městečka Motovun a Grožnjan.",
+ hero:{wiki:"en:Poreč"},
+ facts:[["cca 880 km","přes Vídeň, Graz, Lublaň a Koper"],["9 h","jízda, ideálně s přespáním"],["Parenzana","bývalá železnice, šotolina a tunely"],["Camping Lanterna","4*, 16 bazénů, 3 km pobřeží"]],
+ days:[
+  {no:"Den 1",t:"Praha → Lublaň",img:{wiki:"en:Ljubljana"},chips:[["car","cca 650 km · 6,5 h"]],items:["Přes Brno, Vídeň, Graz a Maribor.","Večer procházka Lublaní, přespání v okolí."]},
+  {no:"Den 2",t:"Do Istrie k moři",img:{wiki:"en:Poreč"},chips:[["car","cca 230 km · 2,5 h"]],items:["Přes Koper do Chorvatska a k Poreči.","Odpoledne první koupání."],tip:"Ubytování: Valamar Camping Lanterna mezi Novigradem a Porečí, aquapark s 8 bazény, dětská animace, pláže ve stínu borovic."},
+  {no:"Den 3",t:"Den u moře a kolo po pobřeží",img:{wiki:"en:Novigrad,_Istria"},chips:[["bike","rodinná stezka podél pobřeží"]],items:["Ráno vyjížďka po pobřežní stezce, zbytek dne pláž a aquapark v kempu."]},
+  {no:"Den 4",t:"Parenzana: Grožnjan → Motovun",img:{wiki:"en:Motovun"},chips:[["bike","cca 12 km mírně z kopce"],["","šotolina, tunely"]],items:["Z kopcového Grožnjanu (nejvyšší bod trasy) mírně dolů tunely a přes viadukty k Motovunu.","Jeden z rodičů jede autem a vyzvedne vás dole."],tip:"Do tunelů vezměte čelovky. Na Parenzanu je lepší kolo se širšími pláštěmi."},
+  {no:"Den 5",t:"Poreč a Eufraziova bazilika",img:{wiki:"en:Euphrasian_Basilica"},chips:[["","město"]],items:["Staré město a bazilika s mozaikami (UNESCO).","Odpoledne jeskyně Baredine nebo aquapark."]},
+  {no:"Den 6",t:"Rovinj a Limský kanál",img:{wiki:"en:Rovinj"},chips:[["car","cca 40 km"]],items:["Výlet lodí do Limského kanálu, oběd s výhledem na moře.","Uličky Rovinje a lesopark Zlatni rt na koupání."]},
+  {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Koper"},chips:[["car","cca 880 km · 9 h"]],items:["Brzký odjezd, nebo dvě kratší etapy s přespáním ve Slovinsku."]}],
+ costs:["Rakousko: dálniční známka 10 dní 12,80 € (přes Vídeň a Graz bez tunelového mýtného)","Slovinsko: Marco Polo je vyšší než 1,3 m nad přední nápravou, týdenní e-známka 32 €","Chorvatsko: mýtné na branách v Istrii (Bina Istra), Marco Polo do 1,9 m spadá do kategorie I"],
+ route:"https://www.google.com/maps/dir/Praha/Ljubljana/Pore%C4%8D",
+ links:[["Valamar Camping Lanterna","https://www.promobil.de/uebernachtungstipps/valamar-camping-lanterna-in-pore/"],["Parenzana","https://veloplanner.com/routes/parenzana"],["Mýtné Chorvatsko","https://www.tolls.eu/cs/chorvatsko"],["Známka Slovinsko","https://www.tolls.eu/cs/slovinsko"]],
+ gallery:["Poreč","Motovun","Rovinj","Grožnjan","Parenzana"],
+ seasons:{jaro:"Kvetoucí Istrie, divoký chřest, příjemné teploty na Parenzanu a výlety do vnitrozemí.",leto:"Koupání v moři, aquaparky, večerní trhy v Poreči a Rovinji.",podzim:"Teplé moře v září, vinobraní a lanýžová sezóna v Motovunu.",zima:"Klidná pobřežní městečka, bílé lanýže a istrijská kuchyně, mírné teploty na procházky."},
+ sights:["Eufraziova bazilika v Poreči (UNESCO)","Motovun a Grožnjan na kopcích","Rovinj a Limský kanál","Jeskyně Baredine u Poreče","Amfiteátr v Pule","Aquapark Aquacolors v Poreči"],
+ hikes:[["Lesopark Zlatni rt v Rovinji","cca 6 km","Okruh po pobřeží a borovým lesem, koupání."],["Motovun a údolí Mirny","cca 8 km","Okruh pod hradbami a dolů k řece."],["Pobřežní stezka z Lanterny","cca 10 km tam a zpět","Po pobřeží s koupáním po cestě."]],
+ bikes:[["Grožnjan – Motovun","cca 12 km","Po Parenzaně mírně z kopce, tunely a viadukty."],["Pobřežní stezka Lanterna – Novigrad","cca 15–20 km tam a zpět","Po rovině podél moře."],["Poreč – Vrsar","cca 25 km tam a zpět","Po pobřeží a klidných silnicích."]]},
+wachau:{tab:"Rakousko · Dunaj Wachau",sub:"cca 300 km",eyebrow:"Rakousko · Dolní Rakousy",title:"Wachau na kole podél Dunaje",
+ lead:"Jen 3,5 hodiny od Prahy: rovinatá Dunajská cyklostezka mezi vinicemi a meruňkovými sady, přívozy, zříceniny hradů a klášter Melk.",
+ hero:{wiki:"en:Wachau"},
+ facts:[["cca 300 km","z Prahy přes Znojmo"],["3,5 h","jízda"],["36 km","Melk – Krems po rovině, dá se dělit"],["Wachau-Camping Rossatz","u Dunaje, přívoz do Dürnsteinu"]],
+ days:[
+  {no:"Den 1",t:"Praha → Rossatz",img:{wiki:"en:Dürnstein"},chips:[["car","cca 300 km · 3,5 h"]],items:["Přes Znojmo a Krems.","Večer procházka k Dunaji s výhledem na Dürnstein."],tip:"Ubytování: Wachau-Camping Rossatz přímo u Dunaje a cyklostezky, přívoz pro pěší a cyklisty do Dürnsteinu."},
+  {no:"Den 2",t:"Přívozem do Dürnsteinu a Kremže",img:{wiki:"en:Krems_an_der_Donau"},chips:[["bike","cca 20 km"]],items:["Přívozem do Dürnsteinu, po cyklostezce do Kremže a zpět.","Zmrzlina a uličky starého města."]},
+  {no:"Den 3",t:"Zřícenina hradu Dürnstein",img:{wiki:"en:Dürnstein"},chips:[["","pěšky cca 5 km"]],items:["Výstup na zříceninu, kde byl vězněn Richard Lví srdce, výhled na Dunaj.","Odpoledne koupání u Dunaje nebo bazén."]},
+  {no:"Den 4",t:"Melk → Spitz, zpět lodí",img:{wiki:"en:Melk_Abbey"},chips:[["bike","cca 18 km"],["","loď zpět"]],items:["Klášter Melk a odtud po rovině kolem zříceniny Aggstein do Spitzu.","Zpět lodí po Dunaji."]},
+  {no:"Den 5",t:"Hrad Aggstein",img:{wiki:"en:Aggstein_Castle"},chips:[["car","cca 25 km"]],items:["Rozsáhlá zřícenina nad Dunajem, rytířské prohlídky pro děti."]},
+  {no:"Den 6",t:"Mezi vinicemi a meruňkami",img:{wiki:"en:Spitz,_Austria"},chips:[["bike","cca 15 km"]],items:["Rossatz – Weißenkirchen – Spitz po obou březích s přívozy.","Ochutnávka meruňkového džusu a knedlíků."]},
+  {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Znojmo"},chips:[["car","cca 300 km · 3,5 h"]],items:["Zastávka ve Znojmě na vyhlídku nad Dyjí."]}],
+ costs:["Rakousko: dálniční známka jen při jízdě po dálnici nebo rychlostní silnici (10 dní 12,80 €)","Lodě a přívozy podle místních ceníků","Bez dalšího mýtného"],
+ route:"https://www.google.com/maps/dir/Praha/Rossatz",
+ links:[["Wachau-Camping Rossatz","https://www.pincamp.de/campingplaetze/camping-rossatzbach"],["Dunajská cyklostezka","https://press.austria.info/fileadmin/user_upload/Imported/de/Factsheets_Genussradwege_2019/Factsheet_Donauradweg.pdf"]],
+ gallery:["Wachau","Dürnstein","Melk Abbey","Aggstein","Spitz an der Donau"],
+ seasons:{jaro:"Kvetoucí meruňkové sady (březen až duben), první vyjížďky podél Dunaje.",leto:"Meruňky přímo ze sadů, lodě po Dunaji, koupání na plážičkách u řeky.",podzim:"Vinobraní, vinné sklípky (Heuriger), barevné vinice a ideální teploty na kolo.",zima:"Adventní trhy v Kremži a v klášteře Melk, klidné procházky po zamrzlých vinicích."},
+ sights:["Klášter Melk","Zřícenina Dürnstein","Hrad Aggstein","Staré město Kremže","Zámek Schönbühel","Přívozy přes Dunaj"],
+ hikes:[["Zřícenina Dürnstein","cca 5 km","Okruh přes hrad s výhledem na Dunaj."],["Weißenkirchen – Dürnstein","cca 10 km","Úsek dálkové stezky Welterbesteig mezi vinicemi."],["Okruh nad Spitzem","cca 8 km","Vinice a vyhlídky na meandr Dunaje."]],
+ bikes:[["Rossatz – Dürnstein – Krems","cca 20 km","Po rovině s přívozem."],["Melk – Spitz","cca 18 km","Kolem Aggsteinu, zpět lodí."],["Melk – Krems","cca 36 km","Celá Wachau pro zdatnější, zpět lodí."]]},
+sasko:{tab:"Německo · Saské Švýcarsko",sub:"cca 140 km",eyebrow:"Německo · Labské pískovce",title:"Saské Švýcarsko a Labe",
+ lead:"Na prodloužený víkend dvě hodiny od Prahy: skalní mosty, pevnost Königstein, historická tramvaj k vodopádu a cyklostezka podél Labe.",
+ hero:{wiki:"en:Bastei"},
+ facts:[["cca 140 km","z Prahy přes Děčín"],["2 h","jízda"],["20 km","Labská cyklostezka Bad Schandau – Pirna"],["Camping Ostrauer Mühle","Kirnitzschtal, zastávka tramvaje u kempu"]],
+ days:[
+  {no:"Den 1",t:"Praha → Bad Schandau",img:{wiki:"en:Bad_Schandau"},chips:[["car","cca 140 km · 2 h"]],items:["Po D8 a přes Děčín podél Labe.","Odpoledne procházka Bad Schandau, výtah na vyhlídku."],tip:"Ubytování: Campingplatz Ostrauer Mühle v údolí Kirnitzsch, hřiště, restaurace, zastávka tramvaje u kempu."},
+  {no:"Den 2",t:"Tramvají k vodopádu a do skal",img:{wiki:"en:Kirnitzschtal_tramway"},chips:[["","tramvaj + pěšky cca 6 km"]],items:["Historická Kirnitzschtalbahn k vodopádu Lichtenhainer Wasserfall.","Pěšky ke skalní bráně Kuhstall a po Nebeském žebříku."]},
+  {no:"Den 3",t:"Na kole Bad Schandau → Pirna",img:{wiki:"en:Königstein_Fortress"},chips:[["bike","cca 20 km"],["","vlak nebo loď zpět"]],items:["Po rovině podél Labe, zastávka pod pevností Königstein.","Zpět S-Bahnem s koly nebo parníkem."]},
+  {no:"Den 4",t:"Bastei a skalní hrad",img:{wiki:"en:Bastei"},chips:[["","pěšky cca 6 km"]],items:["Basteibrücke a skalní hrad Neurathen, sestup Švédskými dírami.","Odpoledne lázně Toskana Therme v Bad Schandau."]},
+  {no:"Den 5",t:"Pravčická brána a Hřensko",img:{wiki:"en:Pravčická_brána"},chips:[["car","cca 15 km"]],items:["Největší skalní brána v Evropě a plavba loďkou Edmundovou soutěskou.","Odpoledne cesta domů."]}],
+ costs:["Česko: dálniční známka na D8","Německo: osobní auta bez poplatků","Parkování u Bastei a v Hřensku placené"],
+ route:"https://www.google.com/maps/dir/Praha/Bad+Schandau",
+ links:[["Camping Ostrauer Mühle","https://www.pincamp.de/campingplaetze/camping-ostrauer-muehle"]],
+ gallery:["Bastei bridge","Festung Königstein","Kirnitzschtalbahn","Schrammsteine","Pravčická brána"],
+ seasons:{jaro:"Rozkvetlé údolí, plné vodopády, ideální teploty na túry bez davů.",leto:"Parníky po Labi, lázně, večery u řeky, brzké túry do stínu skal.",podzim:"Nejhezčí barevné lesy a výhledy, ranní mlhy nad Labem.",zima:"Vánoční trh Striezelmarkt v Drážďanech, advent na pevnosti Königstein, zasněžené skály."},
+ sights:["Basteibrücke a skalní hrad Neurathen","Pevnost Königstein","Tramvaj Kirnitzschtalbahn a vodopád Lichtenhain","Pravčická brána a Edmundova soutěska","Drážďany: Dopravní muzeum a zoo","Lázně Toskana Therme v Bad Schandau"],
+ hikes:[["Bastei – Švédské díry – Amselgrund","cca 6 km","Okruh přes most Bastei a roklí s lávkami."],["Kuhstall a Nebeský žebřík","cca 6 km","Od vodopádu Lichtenhain ke skalní bráně a zpět."],["Schrammsteine","cca 8 km","Vyhlídka po žebřících, pro zkušenější děti."],["Pravčická brána z Hřenska","cca 7 km","Okruh přes Gabrielinu stezku."]],
+ bikes:[["Bad Schandau – Pirna","cca 20 km","Labská cyklostezka po rovině, zpět vlakem."],["Bad Schandau – Schmilka – Hřensko","cca 20 km tam a zpět","Podél Labe k české hranici."],["Pirna – Drážďany","cca 25 km","Po rovině do Drážďan, zpět vlakem."]]}
+});
 V.garda.tab="Itálie · Lago di Garda"; V.garda.sub="cca 790 km";
 V.wolf.tab="Rakousko · Wolfgangsee"; V.wolf.sub="cca 400 km";
-const ORDER=["garda","wolf","faak","valsugana","reschen","bodensee","bled"];
-document.getElementById("tabs").innerHTML=ORDER.map((k,i)=>`<button role="tab" id="t-${k}" data-v="${k}" aria-selected="${i===0}">${V[k].tab} <small>${V[k].sub}</small></button>`).join("");
+const GROUPS=[["Jezera",["garda","wolf","faak","valsugana","reschen","bodensee","bled"]],["Hory, moře, řeky",["dolomity","istrie","wachau","sasko"]]];
+const ORDER=GROUPS.flatMap(g=>g[1]);
+document.getElementById("tabs").innerHTML=GROUPS.map(([n,ks])=>`<span class="grp">${n}</span>`+ks.map(k=>`<button role="tab" id="t-${k}" data-v="${k}" aria-selected="${k===ORDER[0]}">${V[k].tab} <small>${V[k].sub}</small></button>`).join("")).join("");
 
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const app=document.getElementById("app");
