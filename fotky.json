@@ -1,11 +1,5 @@
 {
  "places": {
-  "en:Riva_del_Garda": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Vista_da_nord_su_Riva_del_Garda_%281%29.jpg/1200px-Vista_da_nord_su_Riva_del_Garda_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Riva_del_Garda",
-   "credit": "Wikipedie",
-   "alt": "Riva del Garda"
-  },
   "en:Achensee": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Achensee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Achen_Lake",
@@ -17,12 +11,6 @@
    "page": "https://commons.wikimedia.org/wiki/File:Torbole_Panorama.jpg",
    "credit": "4 single pictures by Thgoiter, picture editing (panorama) by · CC BY-SA 3.0",
    "alt": "Torbole"
-  },
-  "en:Arco,_Trentino": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Arco%2C_Italy.jpg/1200px-Arco%2C_Italy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Arco%2C_Trentino",
-   "credit": "Wikipedie",
-   "alt": "Arco, Trentino"
   },
   "en:Limone_sul_Garda": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Limone_sul_garda_visto_dal_battello.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -36,35 +24,11 @@
    "credit": "Wikipedie",
    "alt": "Lago di Ledro"
   },
-  "it:Riva_del_Garda": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Riva_del_Garda_aus_Nord-West.jpg/1200px-Riva_del_Garda_aus_Nord-West.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://it.wikipedia.org/wiki/Riva_del_Garda",
-   "credit": "Wikipedie",
-   "alt": "Riva del Garda"
-  },
   "en:Brenner_Pass": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Brennerpass_nordrampe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Brenner_Pass",
    "credit": "Wikipedie",
    "alt": "Brenner Pass"
-  },
-  "en:Wolfgangsee": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg/1200px-Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Wolfgang",
-   "credit": "Wikipedie",
-   "alt": "Lake Wolfgang"
-  },
-  "en:St._Gilgen": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sankt_gilgen_2018_1.jpg/1200px-Sankt_gilgen_2018_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/St._Gilgen",
-   "credit": "Wikipedie",
-   "alt": "St. Gilgen"
-  },
-  "en:St._Wolfgang_im_Salzkammergut": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/St._Wolfgang_im_Salzkammergut_-_Ortsansicht.JPG/1200px-St._Wolfgang_im_Salzkammergut_-_Ortsansicht.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/St._Wolfgang_im_Salzkammergut",
-   "credit": "Wikipedie",
-   "alt": "St. Wolfgang im Salzkammergut"
   },
   "en:Schafbergbahn": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Schafberg_Bahn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -72,35 +36,11 @@
    "credit": "Wikipedie",
    "alt": "Schafberg Railway"
   },
-  "en:Hallstatt": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hallstatt_-_Zentrum_.JPG/1200px-Hallstatt_-_Zentrum_.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Hallstatt",
-   "credit": "Wikipedie",
-   "alt": "Hallstatt"
-  },
   "en:Hellbrunn_Palace": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Hellbrunn2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Hellbrunn_Palace",
    "credit": "Wikipedie",
    "alt": "Hellbrunn Palace"
-  },
-  "en:Mondsee_(lake)": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aerial_image_of_the_Mondsee_%28view_from_the_southeast%29.jpg/1200px-Aerial_image_of_the_Mondsee_%28view_from_the_southeast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Mondsee_(lake)",
-   "credit": "Wikipedie",
-   "alt": "Mondsee (lake)"
-  },
-  "en:Linz": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Linz_Blick_von_Freinbergstrasse_32-2_%28cropped%29.jpg/1200px-Linz_Blick_von_Freinbergstrasse_32-2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Linz",
-   "credit": "Wikipedie",
-   "alt": "Linz"
-  },
-  "en:Faaker_See": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Aerial_image_of_the_Faaker_See_%28view_from_the_northwest%29.jpg/1200px-Aerial_image_of_the_Faaker_See_%28view_from_the_northwest%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Faak",
-   "credit": "Wikipedie",
-   "alt": "Lake Faak"
   },
   "en:Pyhrn_Autobahn": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Karte_A9_AT.svg/3840px-Karte_A9_AT.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -108,47 +48,11 @@
    "credit": "Wikipedie",
    "alt": "Pyhrn Autobahn"
   },
-  "en:Villach": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Villach_panorama.jpg/1200px-Villach_panorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Villach",
-   "credit": "Wikipedie",
-   "alt": "Villach"
-  },
   "en:Pyramidenkogel": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Maria_Woerth_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Pyramidenkogel",
    "credit": "Wikipedie",
    "alt": "Pyramidenkogel"
-  },
-  "en:Minimundus": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Overview_Minmundus.jpg/1200px-Overview_Minmundus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Minimundus",
-   "credit": "Wikipedie",
-   "alt": "Minimundus"
-  },
-  "en:Lake_Caldonazzo": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lago_di_Caldonazzo_%28TN%29_-_panoramio.jpg/1200px-Lago_di_Caldonazzo_%28TN%29_-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Caldonazzo",
-   "credit": "Wikipedie",
-   "alt": "Lake Caldonazzo"
-  },
-  "en:Innsbruck": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/B%C3%BCrgerstra%C3%9Fe_26%2B24_%28BT0A2830%29.jpg/1200px-B%C3%BCrgerstra%C3%9Fe_26%2B24_%28BT0A2830%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Innsbruck",
-   "credit": "Wikipedie",
-   "alt": "Innsbruck"
-  },
-  "en:Levico_Terme": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Levico_Terme_from_near_Tenna_by_Slaunger_2013-07-16_cropped.jpg/1200px-Levico_Terme_from_near_Tenna_by_Slaunger_2013-07-16_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Levico_Terme",
-   "credit": "Wikipedie",
-   "alt": "Levico Terme"
-  },
-  "en:Borgo_Valsugana": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Borgo-Brenta.jpg/1200px-Borgo-Brenta.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Borgo_Valsugana",
-   "credit": "Wikipedie",
-   "alt": "Borgo Valsugana"
   },
   "en:Arte_Sella": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Artesella_11.jpg/1280px-Artesella_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -162,35 +66,17 @@
    "credit": "Giacomo Vadalà/MUSE\n\n\n\n\nThis file was uploaded by MUSE - Sci · CC BY-SA 3.0",
    "alt": "MUSE Trento Renzo Piano"
   },
-  "en:Lake_Reschen": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Reschensee_with_Graun_Church_tower_and_boat.jpg/1200px-Reschensee_with_Graun_Church_tower_and_boat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Reschensee",
-   "credit": "Wikipedie",
-   "alt": "Reschensee"
-  },
   "en:Fern_Pass": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Fernpass_Passhoehe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Fern_Pass",
    "credit": "Wikipedie",
    "alt": "Fern Pass"
   },
-  "en:Glurns": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Glurns_Glorenza_20220903_0006.jpg/1200px-Glurns_Glorenza_20220903_0006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Glurns",
-   "credit": "Wikipedie",
-   "alt": "Glurns"
-  },
   "en:Val_Venosta": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Karte_Vinschgau.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Vinschgau",
    "credit": "Wikipedie",
    "alt": "Vinschgau"
-  },
-  "en:Merano": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Meran%2C_Panorama_%28Blick_vom_Pulverturm%29.jpg/1200px-Meran%2C_Panorama_%28Blick_vom_Pulverturm%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Merano",
-   "credit": "Wikipedie",
-   "alt": "Merano"
   },
   "en:Landeck": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Landeck.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -222,29 +108,11 @@
    "credit": "Wikipedie",
    "alt": "Meersburg"
   },
-  "en:Mainau": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Aus_dem_Zeppelin_fotografiert%2C_Insel_Mainau%2C_Bodensee._10.jpg/1200px-Aus_dem_Zeppelin_fotografiert%2C_Insel_Mainau%2C_Bodensee._10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Mainau",
-   "credit": "Wikipedie",
-   "alt": "Mainau"
-  },
   "en:Pfänder": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pfaenderpanorama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Pf%C3%A4nder",
    "credit": "Wikipedie",
    "alt": "Pfänder"
-  },
-  "en:Munich": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/1200px-Stadtbild_M%C3%BCnchen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Munich",
-   "credit": "Wikipedie",
-   "alt": "Munich"
-  },
-  "en:Lake_Bled": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_Bled_from_the_Mountain.jpg/1200px-Lake_Bled_from_the_Mountain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Bled",
-   "credit": "Wikipedie",
-   "alt": "Lake Bled"
   },
   "en:Karawanks_Tunnel": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Karawanks_tunnel%2C_entrance_from_Slovenia.jpg/1280px-Karawanks_tunnel%2C_entrance_from_Slovenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -252,35 +120,17 @@
    "credit": "Szilas · CC BY-SA 4.0",
    "alt": "Karawanks Tunnel"
   },
-  "en:Bled_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_Great_Bled_Castle.jpg/1200px-The_Great_Bled_Castle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Bled_Castle",
-   "credit": "Wikipedie",
-   "alt": "Bled Castle"
-  },
   "en:Vintgar_Gorge": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Slovenia_-_Waterfall_Sum_-_Vintgar_Klamm_%2843686688490%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Vintgar_Gorge",
    "credit": "Wikipedie",
    "alt": "Vintgar Gorge"
   },
-  "en:Lake_Bohinj": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg/1200px-Aerial_image_of_Lake_Bohinj_%28view_from_the_south%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Bohinj",
-   "credit": "Wikipedie",
-   "alt": "Lake Bohinj"
-  },
-  "en:Savica_Falls": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ukanc_-_slap_Savica.jpg/1200px-Ukanc_-_slap_Savica.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Savica_(waterfall)",
-   "credit": "Wikipedie",
-   "alt": "Savica (waterfall)"
-  },
-  "en:Tre_Cime_di_Lavaredo": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/1200px-2019_Tre_Cime.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Tre_Cime_di_Lavaredo",
-   "credit": "Wikipedie",
-   "alt": "Tre Cime di Lavaredo"
+  "en:Radovna": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Radovna_pri_vasi_Krnica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Radovna_pri_vasi_Krnica.jpg",
+   "credit": "Vid Pogacnik · CC BY-SA 4.0",
+   "alt": "Radovna"
   },
   "en:Toblach": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Dobbiaco.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -294,47 +144,11 @@
    "credit": "Wikipedie",
    "alt": "Pragser Wildsee"
   },
-  "en:Lienz": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/20190626.Lienz.-011.jpg/1200px-20190626.Lienz.-011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lienz",
-   "credit": "Wikipedie",
-   "alt": "Lienz"
-  },
-  "en:Sexten": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Sexten_2021-10-28.jpg/1200px-Sexten_2021-10-28.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Sexten",
-   "credit": "Wikipedie",
-   "alt": "Sexten"
-  },
   "en:Innichen": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dolomites_-_San_Candido_area_-_%2811059285755%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Innichen",
    "credit": "Wikipedie",
    "alt": "Innichen"
-  },
-  "en:Poreč": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Euphrasius-Basilika_Pore%C4%8D_02.jpg/1200px-Euphrasius-Basilika_Pore%C4%8D_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Pore%C4%8D",
-   "credit": "Wikipedie",
-   "alt": "Poreč"
-  },
-  "en:Ljubljana": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ljubljana_Old_Town%2C_Slovenia_%28Old_Camera%29_%2833286165680%29.jpg/1200px-Ljubljana_Old_Town%2C_Slovenia_%28Old_Camera%29_%2833286165680%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Ljubljana",
-   "credit": "Wikipedie",
-   "alt": "Ljubljana"
-  },
-  "en:Novigrad,_Istria": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Novigrad_%28Istria%29.jpg/1200px-Novigrad_%28Istria%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Novigrad%2C_Istria_County",
-   "credit": "Wikipedie",
-   "alt": "Novigrad, Istria County"
-  },
-  "en:Motovun": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aerial_view_to_Motovun.jpg/1200px-Aerial_view_to_Motovun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Motovun",
-   "credit": "Wikipedie",
-   "alt": "Motovun"
   },
   "en:Euphrasian_Basilica": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/2025_Atrium_Euphrasius-Basilika.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -348,60 +162,6 @@
    "credit": "Wikipedie",
    "alt": "Rovinj"
   },
-  "en:Koper": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Koper%2C_mesto.jpg/1200px-Koper%2C_mesto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Koper",
-   "credit": "Wikipedie",
-   "alt": "Koper"
-  },
-  "en:Wachau": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Wachau_%282%29.JPG/1200px-Wachau_%282%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Wachau",
-   "credit": "Wikipedie",
-   "alt": "Wachau"
-  },
-  "en:Dürnstein": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/D%C3%BCrnstein_-_Luftaufnahme.JPG/1200px-D%C3%BCrnstein_-_Luftaufnahme.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/D%C3%BCrnstein",
-   "credit": "Wikipedie",
-   "alt": "Dürnstein"
-  },
-  "en:Krems_an_der_Donau": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Krems_an_der_Donau_-_Ortsansicht.jpg/1200px-Krems_an_der_Donau_-_Ortsansicht.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Krems_an_der_Donau",
-   "credit": "Wikipedie",
-   "alt": "Krems an der Donau"
-  },
-  "en:Melk_Abbey": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Stift_Melk%2C_Westansicht.jpg/1200px-Stift_Melk%2C_Westansicht.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Melk_Abbey",
-   "credit": "Wikipedie",
-   "alt": "Melk Abbey"
-  },
-  "en:Aggstein_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Ruine_Aggstein_02.JPG/1200px-Ruine_Aggstein_02.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Aggstein_Castle",
-   "credit": "Wikipedie",
-   "alt": "Aggstein Castle"
-  },
-  "en:Spitz,_Austria": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Spitz_an_der_Donau_2018-7317.jpg/1200px-Spitz_an_der_Donau_2018-7317.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Spitz%2C_Austria",
-   "credit": "Wikipedie",
-   "alt": "Spitz, Austria"
-  },
-  "en:Znojmo": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Znojmo_-_panorama_od_jihu_obr1.jpg/1200px-Znojmo_-_panorama_od_jihu_obr1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Znojmo",
-   "credit": "Wikipedie",
-   "alt": "Znojmo"
-  },
-  "en:Bastei": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg/1200px-Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Bastei",
-   "credit": "Wikipedie",
-   "alt": "Bastei"
-  },
   "en:Bad_Schandau": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bad_schandau.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Bad_Schandau",
@@ -414,47 +174,11 @@
    "credit": "Wikipedie",
    "alt": "Kirnitzschtal tramway"
   },
-  "en:Königstein_Fortress": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Aerial_photo_of_Festung_K%C3%B6nigstein%2C_October_2008.jpg/1200px-Aerial_photo_of_Festung_K%C3%B6nigstein%2C_October_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/K%C3%B6nigstein_Fortress",
-   "credit": "Wikipedie",
-   "alt": "Königstein Fortress"
-  },
-  "en:Pravčická_brána": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Prav%C4%8Dick%C3%A1_br%C3%A1na_%28Prebischtor%29_-_by_Pudelek.jpg/1200px-Prav%C4%8Dick%C3%A1_br%C3%A1na_%28Prebischtor%29_-_by_Pudelek.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Prav%C4%8Dick%C3%A1_br%C3%A1na",
-   "credit": "Wikipedie",
-   "alt": "Pravčická brána"
-  },
-  "en:Plitvice_Lakes_National_Park": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/View_in_Plitvice_Lakes_National_Park.jpg/1200px-View_in_Plitvice_Lakes_National_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
-   "credit": "Wikipedie",
-   "alt": "Plitvice Lakes National Park"
-  },
-  "en:Liechtensteinklamm": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Liechtensteinklamm_14.JPG/1200px-Liechtensteinklamm_14.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Liechtensteinklamm",
-   "credit": "Wikipedie",
-   "alt": "Liechtensteinklamm"
-  },
   "en:Bavarian_Forest_National_Park": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bayerischer_wald_intakt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Bavarian_Forest_National_Park",
    "credit": "Wikipedie",
    "alt": "Bavarian Forest National Park"
-  },
-  "en:Neuschwanstein_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Schloss_Neuschwanstein_2013.jpg/1200px-Schloss_Neuschwanstein_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
-   "credit": "Wikipedie",
-   "alt": "Neuschwanstein Castle"
-  },
-  "en:Postojna_Cave": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Postojna_%2822206343750%29.jpg/1200px-Postojna_%2822206343750%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Postojna_Cave",
-   "credit": "Wikipedie",
-   "alt": "Postojna Cave"
   },
   "en:Štrbské_Pleso": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Strbske_pleso_from_Krivan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -467,18 +191,6 @@
    "page": "https://en.wikipedia.org/wiki/Pillersee",
    "credit": "Wikipedie",
    "alt": "Pillersee"
-  },
-  "en:Colmar": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/View_of_%C3%89glise_Saint-Martin_%2843833049001%29.jpg/1200px-View_of_%C3%89glise_Saint-Martin_%2843833049001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Colmar",
-   "credit": "Wikipedie",
-   "alt": "Colmar"
-  },
-  "en:Salzburg": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Salzburg_%2848489551981%29.jpg/1200px-Salzburg_%2848489551981%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Salzburg",
-   "credit": "Wikipedie",
-   "alt": "Salzburg"
   },
   "en:Zillertal": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Blick_auf_Uderns.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -498,35 +210,11 @@
    "credit": "Wikipedie",
    "alt": "Lucerne"
   },
-  "en:Wieliczka_Salt_Mine": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg/1200px-%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
-   "credit": "Wikipedie",
-   "alt": "Wieliczka Salt Mine"
-  },
-  "en:Lake_Balaton": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Balaton_Hungary_Landscape.jpg/1200px-Balaton_Hungary_Landscape.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lake_Balaton",
-   "credit": "Wikipedie",
-   "alt": "Lake Balaton"
-  },
-  "en:Königssee": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/K%C3%B6nigsee_in_Bayern.jpg/1200px-K%C3%B6nigsee_in_Bayern.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/K%C3%B6nigssee",
-   "credit": "Wikipedie",
-   "alt": "Königssee"
-  },
   "en:Titisee": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Titisee-blick_von_hochfirst.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Titisee",
    "credit": "Wikipedie",
    "alt": "Titisee"
-  },
-  "en:Venice": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Venezia_aerial_view.jpg/1200px-Venezia_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Venice",
-   "credit": "Wikipedie",
-   "alt": "Venice"
   },
   "en:Brocken_Railway": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/BrockenBahnWinter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -534,29 +222,11 @@
    "credit": "Wikipedie",
    "alt": "Brocken Railway"
   },
-  "en:Legoland_Deutschland_Resort": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Legoland_de_Entrance.jpg/1200px-Legoland_de_Entrance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Legoland_Deutschland_Resort",
-   "credit": "Wikipedie",
-   "alt": "Legoland Deutschland Resort"
-  },
   "en:Maribor": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Mariborski_Glavni_trg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Maribor",
    "credit": "Wikipedie",
    "alt": "Maribor"
-  },
-  "en:Rastoke": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Rastoke_1510.JPG/1200px-Rastoke_1510.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Rastoke",
-   "credit": "Wikipedie",
-   "alt": "Rastoke"
-  },
-  "en:Pertisau": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Achensee_Pertisau.JPG/1200px-Achensee_Pertisau.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Pertisau",
-   "credit": "Wikipedie",
-   "alt": "Pertisau"
   },
   "en:Maurach": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Maurach_AnsichtW.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -570,12 +240,6 @@
    "credit": "Wikipedie",
    "alt": "St. Johann im Pongau"
   },
-  "en:Neuschönau": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Neusch%C3%B6nau_-_Ort_vom_Baumturm.jpg/1200px-Neusch%C3%B6nau_-_Ort_vom_Baumturm.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Neusch%C3%B6nau",
-   "credit": "Wikipedie",
-   "alt": "Neuschönau"
-  },
   "en:Lusen": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Lusen_village_valley.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/L%C3%BCsen",
@@ -588,41 +252,11 @@
    "credit": "Wikipedie",
    "alt": "Bayerisch Eisenstein"
   },
-  "en:Füssen": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/F%C3%BCssen_-.JPG/1200px-F%C3%BCssen_-.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/F%C3%BCssen",
-   "credit": "Wikipedie",
-   "alt": "Füssen"
-  },
-  "en:Forggensee": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Aerial_image_of_the_Forggensee_%28view_from_the_southwest%29.jpg/1200px-Aerial_image_of_the_Forggensee_%28view_from_the_southwest%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Forggensee",
-   "credit": "Wikipedie",
-   "alt": "Forggensee"
-  },
   "c:Skywalk Allgäu Scheidegg": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Skywalk_Scheidegg_11.jpg/1280px-Skywalk_Scheidegg_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "page": "https://commons.wikimedia.org/wiki/File:Skywalk_Scheidegg_11.jpg",
    "credit": "Killarnee · CC BY-SA 4.0",
    "alt": "Skywalk Allgäu Scheidegg"
-  },
-  "en:Predjama_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/H%C3%B6hlenburg_Predjama_in_Slovenien.jpg/1200px-H%C3%B6hlenburg_Predjama_in_Slovenien.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Predjama_Castle",
-   "credit": "Wikipedie",
-   "alt": "Predjama Castle"
-  },
-  "en:Škocjan_Caves": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/SkocjanskeJame_2013jpg.jpg/1200px-SkocjanskeJame_2013jpg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves",
-   "credit": "Wikipedie",
-   "alt": "Škocjan Caves"
-  },
-  "en:Piran": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Piran%2C_Slovenia%2C_Viewpoint.jpg/1200px-Piran%2C_Slovenia%2C_Viewpoint.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Piran",
-   "credit": "Wikipedie",
-   "alt": "Piran"
   },
   "en:High_Tatras": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tatry_Panorama01xxx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -660,35 +294,17 @@
    "credit": "Wikipedie",
    "alt": "Kitzbühel"
   },
-  "en:Riquewihr": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/0_Riquewihr_%281%29.jpg/1200px-0_Riquewihr_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Riquewihr",
-   "credit": "Wikipedie",
-   "alt": "Riquewihr"
-  },
-  "c:Château du Haut-Koenigsbourg": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Station_de_pompage_du_Haut-Koenigsbourg.jpg/1280px-Station_de_pompage_du_Haut-Koenigsbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "page": "https://commons.wikimedia.org/wiki/File:Station_de_pompage_du_Haut-Koenigsbourg.jpg",
-   "credit": "Gzen92 · CC0",
-   "alt": "Château du Haut-Koenigsbourg"
-  },
-  "en:Europa-Park": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Haupteingang_Europa-Park_Rust.jpg/1200px-Haupteingang_Europa-Park_Rust.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Europa-Park",
-   "credit": "Wikipedie",
-   "alt": "Europa-Park"
+  "c:Haut-Koenigsbourg castle Orschwiller": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg/1280px-Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_du_Haut-Koenigsbourg_(755_m)_(Orschwiller)_(17).jpg",
+   "credit": "Gzen92 · CC BY-SA 4.0",
+   "alt": "Haut-Koenigsbourg castle Orschwiller"
   },
   "en:Haus_der_Natur": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Haus_der_Natur_Salzburg_2009.jpg/1280px-Haus_der_Natur_Salzburg_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "page": "https://commons.wikimedia.org/wiki/File:Haus_der_Natur_Salzburg_2009.jpg",
    "credit": "MatthiasKabel · CC BY-SA 3.0",
    "alt": "Haus der Natur"
-  },
-  "en:Fügen": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Fuegen_08.JPG/1200px-Fuegen_08.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/F%C3%BCgen",
-   "credit": "Wikipedie",
-   "alt": "Fügen"
   },
   "en:Mayrhofen": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Mayrhofen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -702,47 +318,17 @@
    "credit": "User:Mattes · CC BY 2.0 de",
    "alt": "Schlegeis Reservoir"
   },
-  "en:Zell_am_See": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Zell_am_See.Wiki.jpeg/1200px-Zell_am_See.Wiki.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Zell_am_See",
-   "credit": "Wikipedie",
-   "alt": "Zell am See"
-  },
-  "en:Hohe_Tauern_National_Park": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Nationalpark_hohe_tauern.png/1200px-Nationalpark_hohe_tauern.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Hohe_Tauern_National_Park",
-   "credit": "Wikipedie",
-   "alt": "Hohe Tauern National Park"
-  },
   "en:Swiss_Museum_of_Transport": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_Verkehrshaus_pos_WEB_rgb.svg/960px-Logo_Verkehrshaus_pos_WEB_rgb.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
    "page": "https://en.wikipedia.org/wiki/Swiss_Museum_of_Transport",
    "credit": "Wikipedie",
    "alt": "Swiss Museum of Transport"
   },
-  "en:Pilatus_Railway": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Pilatus_railway_train.jpg/1200px-Pilatus_railway_train.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Pilatus_Railway",
-   "credit": "Wikipedie",
-   "alt": "Pilatus Railway"
-  },
   "en:Rigi": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lauerzersee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Rigi",
    "credit": "Wikipedie",
    "alt": "Rigi"
-  },
-  "en:Kraków": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Krakow_Rynek_Glowny_panorama_2.jpg/1200px-Krakow_Rynek_Glowny_panorama_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Krak%C3%B3w",
-   "credit": "Wikipedie",
-   "alt": "Kraków"
-  },
-  "en:Wawel_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wawel_%284%29.jpg/1200px-Wawel_%284%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Wawel_Castle",
-   "credit": "Wikipedie",
-   "alt": "Wawel Castle"
   },
   "en:Ojców_National_Park": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bia%C5%82a_R%C4%99ka_Ojcowski_PN.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -755,12 +341,6 @@
    "page": "https://en.wikipedia.org/wiki/Tihany",
    "credit": "Wikipedie",
    "alt": "Tihany"
-  },
-  "en:Keszthely": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Festetics-kast%C3%A9ly_Keszthelyen_-_4.jpg/1200px-Festetics-kast%C3%A9ly_Keszthelyen_-_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Keszthely",
-   "credit": "Wikipedie",
-   "alt": "Keszthely"
   },
   "en:Lake_Hévíz": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/H%C3%A9v%C3%ADz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -780,53 +360,11 @@
    "credit": "Nize   |  Nicolai Schäfer · CC BY-SA 3.0",
    "alt": "Berchtesgaden Salt Mine"
   },
-  "en:Ramsau_bei_Berchtesgaden": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ramsau_Kirche_mit_Wagendrischelhorn_2.jpg/1200px-Ramsau_Kirche_mit_Wagendrischelhorn_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Ramsau_bei_Berchtesgaden",
-   "credit": "Wikipedie",
-   "alt": "Ramsau bei Berchtesgaden"
-  },
-  "en:Triberg_Waterfalls": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Triberg_waterfall.jpg/1200px-Triberg_waterfall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Triberg_Waterfalls",
-   "credit": "Wikipedie",
-   "alt": "Triberg Waterfalls"
-  },
-  "en:Feldberg_(Black_Forest)": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/20041230-01144-Feldberggipfel.jpg/1200px-20041230-01144-Feldberggipfel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Feldberg_(Black_Forest)",
-   "credit": "Wikipedie",
-   "alt": "Feldberg (Black Forest)"
-  },
   "en:Schluchsee": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Schluchsee_bei_Aha_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Schluchsee",
    "credit": "Wikipedie",
    "alt": "Schluchsee"
-  },
-  "en:Cavallino-Treporti": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chiesa_della_Santissima_Trinit%C3%A0_%28Treporti%2C_Cavallino-Treporti%29_02.jpg/1200px-Chiesa_della_Santissima_Trinit%C3%A0_%28Treporti%2C_Cavallino-Treporti%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Cavallino-Treporti",
-   "credit": "Wikipedie",
-   "alt": "Cavallino-Treporti"
-  },
-  "en:Burano": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Burano_Venice_17.jpg/1200px-Burano_Venice_17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Burano",
-   "credit": "Wikipedie",
-   "alt": "Burano"
-  },
-  "en:Jesolo": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Aerial_image_of_Lido_di_Jesolo_%28view_from_the_southwest%29.jpg/1200px-Aerial_image_of_Lido_di_Jesolo_%28view_from_the_southwest%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Jesolo",
-   "credit": "Wikipedie",
-   "alt": "Jesolo"
-  },
-  "en:Wernigerode": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Schloss_Wernigerode_nach_Sonnenuntergang.jpg/1200px-Schloss_Wernigerode_nach_Sonnenuntergang.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Wernigerode",
-   "credit": "Wikipedie",
-   "alt": "Wernigerode"
   },
   "en:Brocken": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Brocken_vom_Torfhaus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -834,23 +372,11 @@
    "credit": "Wikipedie",
    "alt": "Brocken"
   },
-  "en:Bode_Gorge": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bodetal2.jpg/1200px-Bodetal2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Bode_Gorge",
-   "credit": "Wikipedie",
-   "alt": "Bode Gorge"
-  },
   "en:Rappbode_Dam": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rappbodetalsperre1.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "page": "https://en.wikipedia.org/wiki/Rappbode_Dam",
    "credit": "Wikipedie",
    "alt": "Rappbode Dam"
-  },
-  "en:Günzburg": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/GER_G%C3%BCnzburg%2C_Marktplatz_005.jpg/1200px-GER_G%C3%BCnzburg%2C_Marktplatz_005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/G%C3%BCnzburg",
-   "credit": "Wikipedie",
-   "alt": "Günzburg"
   },
   "en:Ulm_Minster": {
    "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Landappbw_526530_1820_Ulmer_M%C3%BCnster_Luftaufnahme_Ulmer_M%C3%BCnster_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -940,8 +466,8 @@
     "alt": "Lago di Ledro"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Lago-di-ledro-widt-18.jpg/1280px-Lago-di-ledro-widt-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lago-di-ledro-widt-18.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Lago-di-ledro-widt-19.jpg/1280px-Lago-di-ledro-widt-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago-di-ledro-widt-19.jpg",
     "credit": "NeoMeesje · CC BY-SA 4.0",
     "alt": "Lago di Ledro"
    }
@@ -980,8 +506,8 @@
     "alt": "Wolfgangsee"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Wolfgangsee_7.jpg/1280px-Wolfgangsee_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_7.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Wolfgangsee_3.jpg/1280px-Wolfgangsee_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_3.jpg",
     "credit": "Dimitry Anikin · CC0",
     "alt": "Wolfgangsee"
    }
@@ -1220,9 +746,9 @@
     "alt": "Valsugana"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg/1280px-Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pergine_Valsugana,_piazza_tre_chiese_02.jpg",
-    "credit": "Syrio · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Borgo_Valsugana_panorama.jpg/1280px-Borgo_Valsugana_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Borgo_Valsugana_panorama.jpg",
+    "credit": "Pottercomuneo · CC BY-SA 4.0",
     "alt": "Valsugana"
    }
   ],
@@ -1246,36 +772,17 @@
     "alt": "Arte Sella"
    }
   ],
-  "Levico Terme": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Levico_Terme_from_near_Tenna_by_Slaunger_2013-07-16_cropped.jpg/1280px-Levico_Terme_from_near_Tenna_by_Slaunger_2013-07-16_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Levico_Terme_from_near_Tenna_by_Slaunger_2013-07-16_cropped.jpg",
-    "credit": "Slaunger · CC BY-SA 3.0",
-    "alt": "Levico Terme"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/TN-Levico-Terme-1965-Saluti-da-Levico-Terme.jpg/1280px-TN-Levico-Terme-1965-Saluti-da-Levico-Terme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:TN-Levico-Terme-1965-Saluti-da-Levico-Terme.jpg",
-    "credit": "Albertomos · Public domain",
-    "alt": "Levico Terme"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Levico_Terme.jpg/1280px-Levico_Terme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Levico_Terme.jpg",
-    "credit": "Daath3 · CC0",
-    "alt": "Levico Terme"
-   }
-  ],
+  "Levico Terme": [],
   "Reschensee": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Reschensee_20170731_01.jpg/1280px-Reschensee_20170731_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Reschensee_20170731_01.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Reschensee_20170731_02.jpg/1280px-Reschensee_20170731_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Reschensee_20170731_02.jpg",
     "credit": "PantheraLeo1359531 · CC BY-SA 4.0",
     "alt": "Reschensee"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Reschensee_20170731_02.jpg/1280px-Reschensee_20170731_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Reschensee_20170731_02.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Reschensee_20170731_01.jpg/1280px-Reschensee_20170731_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Reschensee_20170731_01.jpg",
     "credit": "PantheraLeo1359531 · CC BY-SA 4.0",
     "alt": "Reschensee"
    },
@@ -1540,8 +1047,8 @@
     "alt": "Lake Bohinj"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dng_bohinj_jezero_2_2.jpg/1280px-Dng_bohinj_jezero_2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_2_2.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dng_bohinj_jezero_1_01.jpg/1280px-Dng_bohinj_jezero_1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_1_01.jpg",
     "credit": "This Photo was taken by Miha Peče.  Feel free to use my phot · CC BY-SA 4.0",
     "alt": "Lake Bohinj"
    }
@@ -1872,80 +1379,18 @@
     "page": "https://commons.wikimedia.org/wiki/File:Rathen_und_Elbsandsteingebirge_asv2022-08_img04.jpg",
     "credit": "A.Savin · FAL",
     "alt": "Bastei bridge"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nationalpark_S%C3%A4chsische_Schweiz_Bastei_lub_2025-04-27_img02_Br%C3%BCcke.jpg/1280px-Nationalpark_S%C3%A4chsische_Schweiz_Bastei_lub_2025-04-27_img02_Br%C3%BCcke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Nationalpark_S%C3%A4chsische_Schweiz_Bastei_lub_2025-04-27_img02_Br%C3%BCcke.jpg",
-    "credit": "Lukas Beck · CC BY 4.0",
-    "alt": "Bastei bridge"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bastei_Bridge_and_Wehlnadel_South_View_from_Viewpoint_Kleine_Gans.jpg/1280px-Bastei_Bridge_and_Wehlnadel_South_View_from_Viewpoint_Kleine_Gans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bastei_Bridge_and_Wehlnadel_South_View_from_Viewpoint_Kleine_Gans.jpg",
-    "credit": "Robert Ahner · CC BY-SA 4.0",
-    "alt": "Bastei bridge"
    }
   ],
-  "Festung Königstein": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Festung_K%C3%B6nigstein%2C_Georgenbastion_%28Juni_2026%29.jpg/1280px-Festung_K%C3%B6nigstein%2C_Georgenbastion_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Georgenbastion_(Juni_2026).jpg",
-    "credit": "Romzig · CC0",
-    "alt": "Festung Königstein"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg/1280px-Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Medusentor_(Juni_2026).jpg",
-    "credit": "Romzig · CC0",
-    "alt": "Festung Königstein"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg/1280px-Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Georgenburg_(Juni_2026).jpg",
-    "credit": "Romzig · CC0",
-    "alt": "Festung Königstein"
-   }
-  ],
+  "Festung Königstein": [],
   "Kirnitzschtalbahn": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/00_8092_Kirnitzschtalbahn_-_Haltestelle.jpg/1280px-00_8092_Kirnitzschtalbahn_-_Haltestelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:00_8092_Kirnitzschtalbahn_-_Haltestelle.jpg",
-    "credit": "W. Bulach · CC BY-SA 4.0",
-    "alt": "Kirnitzschtalbahn"
-   },
    {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kirnitzschtalbahn_Betriebshof_%2801-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Kirnitzschtalbahn_Betriebshof_(01-2).jpg",
     "credit": "Norbert Kaiser · CC BY-SA 3.0",
     "alt": "Kirnitzschtalbahn"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Bad_Schandau_Kirnitzschtalbahn_lub_2023-01-29_Kurpark.jpg/1280px-Bad_Schandau_Kirnitzschtalbahn_lub_2023-01-29_Kurpark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bad_Schandau_Kirnitzschtalbahn_lub_2023-01-29_Kurpark.jpg",
-    "credit": "Lukas Beck · CC BY-SA 4.0",
-    "alt": "Kirnitzschtalbahn"
    }
   ],
-  "Schrammsteine": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/20081018600DR_S%C3%A4chsische_Schweiz_Schrammsteine_mit_Torstein.jpg/1280px-20081018600DR_S%C3%A4chsische_Schweiz_Schrammsteine_mit_Torstein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:20081018600DR_S%C3%A4chsische_Schweiz_Schrammsteine_mit_Torstein.jpg",
-    "credit": "Jörg Blobelt · CC BY-SA 4.0",
-    "alt": "Schrammsteine"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bad_Schandau_Schrammsteine_und_Affensteine_asv2023-01_img16.jpg/1280px-Bad_Schandau_Schrammsteine_und_Affensteine_asv2023-01_img16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bad_Schandau_Schrammsteine_und_Affensteine_asv2023-01_img16.jpg",
-    "credit": "A.Savin · FAL",
-    "alt": "Schrammsteine"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Nationalpark_S%C3%A4chsische_Schweiz_Schrammsteine_lub_2025-02-01_img01.jpg/1280px-Nationalpark_S%C3%A4chsische_Schweiz_Schrammsteine_lub_2025-02-01_img01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Nationalpark_S%C3%A4chsische_Schweiz_Schrammsteine_lub_2025-02-01_img01.jpg",
-    "credit": "Lukas Beck · CC BY 4.0",
-    "alt": "Schrammsteine"
-   }
-  ],
+  "Schrammsteine": [],
   "Pravčická brána": [
    {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Prav%C4%8Dick%C3%A1_br%C3%A1na_%28Prebischtor%29_-_by_Pudelek.jpg/1280px-Prav%C4%8Dick%C3%A1_br%C3%A1na_%28Prebischtor%29_-_by_Pudelek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1986,7 +1431,26 @@
     "alt": "Plitvice Lakes"
    }
   ],
-  "Veliki slap Plitvice": [],
+  "Veliki slap Plitvice": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/K00_046_Veliki_Slap.jpg/1280px-K00_046_Veliki_Slap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:K00_046_Veliki_Slap.jpg",
+    "credit": "Falk2 · CC BY-SA 4.0",
+    "alt": "Veliki slap Plitvice"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/K00_042_Sastavici%2C_Veliki_Slap.jpg/1280px-K00_042_Sastavici%2C_Veliki_Slap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:K00_042_Sastavici,_Veliki_Slap.jpg",
+    "credit": "Falk2 · CC BY-SA 4.0",
+    "alt": "Veliki slap Plitvice"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg/1280px-Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg",
+    "credit": "MarioMagdic · CC0",
+    "alt": "Veliki slap Plitvice"
+   }
+  ],
   "Rastoke": [
    {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bridge_at_Rastoke%2C_Croatia.jpg/1280px-Bridge_at_Rastoke%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2035,14 +1499,14 @@
     "alt": "Pertisau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Pertisau_centre.jpg/1280px-Pertisau_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pertisau_centre.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Pertisau_centre_in_winter.jpg/1280px-Pertisau_centre_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pertisau_centre_in_winter.jpg",
     "credit": "ArticCynda · CC BY-SA 4.0",
     "alt": "Pertisau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Pertisau_centre_in_winter.jpg/1280px-Pertisau_centre_in_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pertisau_centre_in_winter.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Pertisau_and_Vitalberg.jpg/1280px-Pertisau_and_Vitalberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pertisau_and_Vitalberg.jpg",
     "credit": "ArticCynda · CC BY-SA 4.0",
     "alt": "Pertisau"
    }
@@ -2075,14 +1539,14 @@
     "alt": "Liechtensteinklamm"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Liechtensteinklamm_35.JPG/1280px-Liechtensteinklamm_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_35.JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liechtensteinklamm_46.JPG/1280px-Liechtensteinklamm_46.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_46.JPG",
     "credit": "Zairon · CC BY-SA 3.0",
     "alt": "Liechtensteinklamm"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liechtensteinklamm_46.JPG/1280px-Liechtensteinklamm_46.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_46.JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Liechtensteinklamm_35.JPG/1280px-Liechtensteinklamm_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_35.JPG",
     "credit": "Zairon · CC BY-SA 3.0",
     "alt": "Liechtensteinklamm"
    }
@@ -2155,8 +1619,8 @@
     "alt": "Baumwipfelpfad Neuschönau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG/1280px-Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG/1280px-Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG",
     "credit": "Takmocsekretovanej! · CC0",
     "alt": "Baumwipfelpfad Neuschönau"
    },
@@ -2261,9 +1725,9 @@
     "alt": "Postojna Cave"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Postojna_Cave._2012-07-26_13-41-13.jpg/1280px-Postojna_Cave._2012-07-26_13-41-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Postojna_Cave._2012-07-26_13-41-13.jpg",
-    "credit": "Shesmax · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg/1280px-Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaskinia_Postojna,_S%C5%82owenia,_20240503_1019_8066.jpg",
+    "credit": "Jakub Hałun · CC BY 4.0",
     "alt": "Postojna Cave"
    }
   ],
@@ -2469,12 +1933,6 @@
   ],
   "Haut-Koenigsbourg": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Station_de_pompage_du_Haut-Koenigsbourg.jpg/1280px-Station_de_pompage_du_Haut-Koenigsbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Station_de_pompage_du_Haut-Koenigsbourg.jpg",
-    "credit": "Gzen92 · CC0",
-    "alt": "Haut-Koenigsbourg"
-   },
-   {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Castle_of_Haut-Koenigsbourg_%282%29.jpg/1280px-Castle_of_Haut-Koenigsbourg_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Castle_of_Haut-Koenigsbourg_(2).jpg",
     "credit": "Krzysztof Golik · CC BY-SA 4.0",
@@ -2484,6 +1942,12 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg/1280px-Ch%C3%A2teau_du_Haut-Koenigsbourg_%28755_m%29_%28Orschwiller%29_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_du_Haut-Koenigsbourg_(755_m)_(Orschwiller)_(17).jpg",
     "credit": "Gzen92 · CC BY-SA 4.0",
+    "alt": "Haut-Koenigsbourg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/2017-10_Circumpolar_Haut-K%C5%93nigsbourg.jpg/1280px-2017-10_Circumpolar_Haut-K%C5%93nigsbourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2017-10_Circumpolar_Haut-K%C5%93nigsbourg.jpg",
+    "credit": "0x010C · CC BY-SA 4.0",
     "alt": "Haut-Koenigsbourg"
    }
   ],
@@ -2561,8 +2025,8 @@
     "alt": "Zillertal"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg/1280px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-small_VD_SE_PNr%C2%B00714b.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg/1280px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg",
     "credit": "D-Kuru · CC BY-SA 4.0",
     "alt": "Zillertal"
    }
@@ -2615,14 +2079,14 @@
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/1280px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    }
@@ -2659,47 +2123,10 @@
     "page": "https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_Mallnitz_01.jpg",
     "credit": "Uoaei1 · CC BY-SA 4.0",
     "alt": "Hohe Tauern"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Blick_vom_Gipfel_des_Tauernkogels.jpg/1280px-Blick_vom_Gipfel_des_Tauernkogels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Blick_vom_Gipfel_des_Tauernkogels.jpg",
-    "credit": "Jörg Braukmann · CC BY-SA 4.0",
-    "alt": "Hohe Tauern"
    }
   ],
-  "Lucerne Chapel Bridge": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/CH.LU.Luzern_Kapellbr%C3%BCcke_01_16x9-R_16384x9216.jpg/1280px-CH.LU.Luzern_Kapellbr%C3%BCcke_01_16x9-R_16384x9216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:CH.LU.Luzern_Kapellbr%C3%BCcke_01_16x9-R_16384x9216.jpg",
-    "credit": "NOTE: This image is a panorama  consisting of multiple frame · CC BY-SA 4.0",
-    "alt": "Lucerne Chapel Bridge"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Luzern_Kapellbruecke.jpg/1280px-Luzern_Kapellbruecke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg",
-    "credit": "Ikiwaner · CC BY-SA 3.0",
-    "alt": "Lucerne Chapel Bridge"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Chapel_Bridge_%28Kapellbr%C3%BCcke%29%2C_Lucerne%2C_Switzerland_02.jpg/1280px-Chapel_Bridge_%28Kapellbr%C3%BCcke%29%2C_Lucerne%2C_Switzerland_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Chapel_Bridge_(Kapellbr%C3%BCcke),_Lucerne,_Switzerland_02.jpg",
-    "credit": "Godot13 · CC BY-SA 4.0",
-    "alt": "Lucerne Chapel Bridge"
-   }
-  ],
+  "Lucerne Chapel Bridge": [],
   "Pilatus": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Pilatus_P3-03_P3-Flyers_HB-RBP_OTT_2013_02.jpg/1280px-Pilatus_P3-03_P3-Flyers_HB-RBP_OTT_2013_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pilatus_P3-03_P3-Flyers_HB-RBP_OTT_2013_02.jpg",
-    "credit": "Julian Herzog (Website) · CC BY 4.0",
-    "alt": "Pilatus"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Esel-Pilatus_Kulm.jpg/1280px-Esel-Pilatus_Kulm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Esel-Pilatus_Kulm.jpg",
-    "credit": "Tobi 87 · CC BY-SA 3.0",
-    "alt": "Pilatus"
-   },
    {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Luzern_-_Mount_Pilatus_-_March_2019_%2801%29.jpg/1280px-Luzern_-_Mount_Pilatus_-_March_2019_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Luzern_-_Mount_Pilatus_-_March_2019_(01).jpg",
@@ -2707,33 +2134,8 @@
     "alt": "Pilatus"
    }
   ],
-  "Lake Lucerne": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Lucerne_Pilatus_Lake_panoramic_1180662.jpg/1280px-Lucerne_Pilatus_Lake_panoramic_1180662.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lucerne_Pilatus_Lake_panoramic_1180662.jpg",
-    "credit": "Ermell · CC BY-SA 4.0",
-    "alt": "Lake Lucerne"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Esel-Pilatus_Kulm.jpg/1280px-Esel-Pilatus_Kulm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Esel-Pilatus_Kulm.jpg",
-    "credit": "Tobi 87 · CC BY-SA 3.0",
-    "alt": "Lake Lucerne"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lucerne_and_Pilatus_from_Rigi_20210905.jpg/1280px-Lucerne_and_Pilatus_from_Rigi_20210905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lucerne_and_Pilatus_from_Rigi_20210905.jpg",
-    "credit": "Daniel Kraft · CC BY-SA 3.0",
-    "alt": "Lake Lucerne"
-   }
-  ],
+  "Lake Lucerne": [],
   "Wieliczka Salt Mine": [
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg/1280px-Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wieliczka,_Jana_Matejki;_Kopalnia_soli-_kierat_konny_w%C4%99gierski;_A-580;_01.jpg",
-    "credit": "Kriskros · CC BY-SA 3.0 pl",
-    "alt": "Wieliczka Salt Mine"
-   },
    {
     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Wieliczka-daVinci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Wieliczka-daVinci.jpg",
@@ -2741,9 +2143,9 @@
     "alt": "Wieliczka Salt Mine"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wieliczka_Salt_Mine_2024-07-08_%2817%29.jpg/1280px-Wieliczka_Salt_Mine_2024-07-08_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wieliczka_Salt_Mine_2024-07-08_(17).jpg",
-    "credit": "Renata3 · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Wieliczka%2C_Kopalnia_Soli_Wieliczka_-_fotopolska.eu_%28338416%29.jpg/1280px-Wieliczka%2C_Kopalnia_Soli_Wieliczka_-_fotopolska.eu_%28338416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wieliczka,_Kopalnia_Soli_Wieliczka_-_fotopolska.eu_(338416).jpg",
+    "credit": "Andrzej G · CC BY-SA 3.0",
     "alt": "Wieliczka Salt Mine"
    }
   ],
@@ -2815,14 +2217,14 @@
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tihany_%2865%29.jpg/1280px-Tihany_%2865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(65).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Tihany_%282%29.jpg/1280px-Tihany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(2).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tihany_%2860%29.jpg/1280px-Tihany_%2860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(60).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tihany_%2859%29.jpg/1280px-Tihany_%2859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(59).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    }
@@ -2935,14 +2337,14 @@
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/1280px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/1280px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/1280px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/1280px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    }
@@ -3009,14 +2411,14 @@
   ],
   "Cavallino-Treporti": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
     "credit": "Didier Descouens · CC BY-SA 4.0",
     "alt": "Cavallino-Treporti"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Autunno_a_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg/1280px-%28Venice%29_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Spring_at_Treporti_by_Umberto_Moggioli_-_Museo_d%27arte_moderna.jpg",
     "credit": "Didier Descouens · CC BY-SA 4.0",
     "alt": "Cavallino-Treporti"
    },
@@ -3153,11 +2555,111 @@
   "en:Arte_Sella: bez fotky na Wikipedii, náhrada z Commons",
   "en:Ravensburger_Spieleland: bez fotky na Wikipedii, náhrada z Commons",
   "en:Karawanks_Tunnel: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Radovna: ŽÁDNÁ FOTKA",
+  "en:Radovna: bez fotky na Wikipedii, náhrada z Commons",
   "en:Fieberbrunn: bez fotky na Wikipedii, náhrada z Commons",
   "en:Haus_der_Natur: bez fotky na Wikipedii, náhrada z Commons",
   "en:Schlegeis_Reservoir: bez fotky na Wikipedii, náhrada z Commons",
   "en:Berchtesgaden_Salt_Mine: bez fotky na Wikipedii, náhrada z Commons",
-  "galerie \"Veliki slap Plitvice\": prázdná"
+  "galerie \"Levico Terme\": prázdná",
+  "en:Riva_del_Garda: fotka se nenačte, vyřazena",
+  "en:Arco,_Trentino: fotka se nenačte, vyřazena",
+  "it:Riva_del_Garda: fotka se nenačte, vyřazena",
+  "en:Wolfgangsee: fotka se nenačte, vyřazena",
+  "en:St._Gilgen: fotka se nenačte, vyřazena",
+  "en:St._Wolfgang_im_Salzkammergut: fotka se nenačte, vyřazena",
+  "en:Hallstatt: fotka se nenačte, vyřazena",
+  "en:Mondsee_(lake): fotka se nenačte, vyřazena",
+  "en:Linz: fotka se nenačte, vyřazena",
+  "en:Faaker_See: fotka se nenačte, vyřazena",
+  "en:Villach: fotka se nenačte, vyřazena",
+  "en:Minimundus: fotka se nenačte, vyřazena",
+  "en:Lake_Caldonazzo: fotka se nenačte, vyřazena",
+  "en:Innsbruck: fotka se nenačte, vyřazena",
+  "en:Levico_Terme: fotka se nenačte, vyřazena",
+  "en:Borgo_Valsugana: fotka se nenačte, vyřazena",
+  "en:Lake_Reschen: fotka se nenačte, vyřazena",
+  "en:Glurns: fotka se nenačte, vyřazena",
+  "en:Merano: fotka se nenačte, vyřazena",
+  "en:Mainau: fotka se nenačte, vyřazena",
+  "en:Munich: fotka se nenačte, vyřazena",
+  "en:Lake_Bled: fotka se nenačte, vyřazena",
+  "en:Bled_Castle: fotka se nenačte, vyřazena",
+  "en:Lake_Bohinj: fotka se nenačte, vyřazena",
+  "en:Savica_Falls: fotka se nenačte, vyřazena",
+  "en:Tre_Cime_di_Lavaredo: fotka se nenačte, vyřazena",
+  "en:Lienz: fotka se nenačte, vyřazena",
+  "en:Sexten: fotka se nenačte, vyřazena",
+  "en:Poreč: fotka se nenačte, vyřazena",
+  "en:Ljubljana: fotka se nenačte, vyřazena",
+  "en:Novigrad,_Istria: fotka se nenačte, vyřazena",
+  "en:Motovun: fotka se nenačte, vyřazena",
+  "en:Koper: fotka se nenačte, vyřazena",
+  "en:Wachau: fotka se nenačte, vyřazena",
+  "en:Dürnstein: fotka se nenačte, vyřazena",
+  "en:Krems_an_der_Donau: fotka se nenačte, vyřazena",
+  "en:Melk_Abbey: fotka se nenačte, vyřazena",
+  "en:Aggstein_Castle: fotka se nenačte, vyřazena",
+  "en:Spitz,_Austria: fotka se nenačte, vyřazena",
+  "en:Znojmo: fotka se nenačte, vyřazena",
+  "en:Bastei: fotka se nenačte, vyřazena",
+  "en:Königstein_Fortress: fotka se nenačte, vyřazena",
+  "en:Pravčická_brána: fotka se nenačte, vyřazena",
+  "en:Plitvice_Lakes_National_Park: fotka se nenačte, vyřazena",
+  "en:Liechtensteinklamm: fotka se nenačte, vyřazena",
+  "en:Neuschwanstein_Castle: fotka se nenačte, vyřazena",
+  "en:Postojna_Cave: fotka se nenačte, vyřazena",
+  "en:Colmar: fotka se nenačte, vyřazena",
+  "en:Salzburg: fotka se nenačte, vyřazena",
+  "en:Wieliczka_Salt_Mine: fotka se nenačte, vyřazena",
+  "en:Lake_Balaton: fotka se nenačte, vyřazena",
+  "en:Königssee: fotka se nenačte, vyřazena",
+  "en:Venice: fotka se nenačte, vyřazena",
+  "en:Legoland_Deutschland_Resort: fotka se nenačte, vyřazena",
+  "en:Rastoke: fotka se nenačte, vyřazena",
+  "en:Pertisau: fotka se nenačte, vyřazena",
+  "en:Neuschönau: fotka se nenačte, vyřazena",
+  "en:Füssen: fotka se nenačte, vyřazena",
+  "en:Forggensee: fotka se nenačte, vyřazena",
+  "en:Predjama_Castle: fotka se nenačte, vyřazena",
+  "en:Škocjan_Caves: fotka se nenačte, vyřazena",
+  "en:Piran: fotka se nenačte, vyřazena",
+  "en:Riquewihr: fotka se nenačte, vyřazena",
+  "en:Europa-Park: fotka se nenačte, vyřazena",
+  "en:Fügen: fotka se nenačte, vyřazena",
+  "en:Zell_am_See: fotka se nenačte, vyřazena",
+  "en:Hohe_Tauern_National_Park: fotka se nenačte, vyřazena",
+  "en:Pilatus_Railway: fotka se nenačte, vyřazena",
+  "en:Kraków: fotka se nenačte, vyřazena",
+  "en:Wawel_Castle: fotka se nenačte, vyřazena",
+  "en:Keszthely: fotka se nenačte, vyřazena",
+  "en:Ramsau_bei_Berchtesgaden: fotka se nenačte, vyřazena",
+  "en:Triberg_Waterfalls: fotka se nenačte, vyřazena",
+  "en:Feldberg_(Black_Forest): fotka se nenačte, vyřazena",
+  "en:Cavallino-Treporti: fotka se nenačte, vyřazena",
+  "en:Burano: fotka se nenačte, vyřazena",
+  "en:Jesolo: fotka se nenačte, vyřazena",
+  "en:Wernigerode: fotka se nenačte, vyřazena",
+  "en:Bode_Gorge: fotka se nenačte, vyřazena",
+  "en:Günzburg: fotka se nenačte, vyřazena",
+  "galerie \"Bastei bridge\": nefunkční fotka vyřazena",
+  "galerie \"Bastei bridge\": nefunkční fotka vyřazena",
+  "galerie \"Festung Königstein\": nefunkční fotka vyřazena",
+  "galerie \"Festung Königstein\": nefunkční fotka vyřazena",
+  "galerie \"Festung Königstein\": nefunkční fotka vyřazena",
+  "galerie \"Kirnitzschtalbahn\": nefunkční fotka vyřazena",
+  "galerie \"Kirnitzschtalbahn\": nefunkční fotka vyřazena",
+  "galerie \"Schrammsteine\": nefunkční fotka vyřazena",
+  "galerie \"Schrammsteine\": nefunkční fotka vyřazena",
+  "galerie \"Schrammsteine\": nefunkční fotka vyřazena",
+  "galerie \"Hohe Tauern\": nefunkční fotka vyřazena",
+  "galerie \"Lucerne Chapel Bridge\": nefunkční fotka vyřazena",
+  "galerie \"Lucerne Chapel Bridge\": nefunkční fotka vyřazena",
+  "galerie \"Lucerne Chapel Bridge\": nefunkční fotka vyřazena",
+  "galerie \"Pilatus\": nefunkční fotka vyřazena",
+  "galerie \"Pilatus\": nefunkční fotka vyřazena",
+  "galerie \"Lake Lucerne\": nefunkční fotka vyřazena",
+  "galerie \"Lake Lucerne\": nefunkční fotka vyřazena",
+  "galerie \"Lake Lucerne\": nefunkční fotka vyřazena",
+  "galerie \"Wieliczka Salt Mine\": nefunkční fotka vyřazena"
  ]
 }
