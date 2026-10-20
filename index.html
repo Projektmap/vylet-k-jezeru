@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Na kole k jezeru</title>
+<meta name="description" content="Dvě varianty rodinného výletu s Mercedesem Marco Polo: Lago di Garda (Itálie) a Wolfgangsee (Rakousko).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: travel-journal feel — photo hero per variant, day cards as a vertical route line, practical panel on the side on wide screens */
+:root{
+  --bg:#f4f1ea; --paper:#fffdf8; --ink:#1f2a2e; --muted:#5d6b6e; --line:#e2dccf;
+  --lake:#1f6f8b; --lake-soft:#dcecf1; --sun:#e8a33d; --sun-soft:#fbefd9; --green:#4f8a55;
+  --f-display:"Fraunces", Georgia, serif; --f-body:"Figtree", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#141a1c; --paper:#1c2427; --ink:#eef2f1; --muted:#a6b4b6; --line:#2e393c;
+  --lake:#6cc0dc; --lake-soft:#1d3b45; --sun:#f0b65c; --sun-soft:#3a2f1c; --green:#86c48c; color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 var(--f-body)}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);line-height:1.15;margin:0;text-wrap:balance}
+.top{padding-block:28px 12px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px}
+.top h1{font-size:clamp(30px,5vw,48px)}
+.top p{margin:6px 0 0;color:var(--muted)}
+.who{display:flex;gap:8px;flex-wrap:wrap}
+.who span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
+.tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:10px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs button{font:600 15px var(--f-body);padding:11px 18px;border-radius:12px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:flex;gap:10px;align-items:center}
+.tabs button small{font-weight:500;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--lake);border-color:var(--lake);color:#fff}
+.tabs button[aria-selected="true"] small{color:#e6f4f8}
+.tabs button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.hero{position:relative;margin-top:18px;border-radius:20px;overflow:hidden;min-height:340px;background:linear-gradient(135deg,var(--lake),#164a5c);color:#fff;display:flex;align-items:end}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.65))}
+.hero .txt{position:relative;z-index:1;padding:28px;max-width:760px}
+.hero .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--sun)}
+.hero h2{font-size:clamp(28px,4.4vw,44px);margin-top:6px}
+.hero p{margin:8px 0 0;font-size:17px;opacity:.95}
+.credit{position:absolute;right:10px;bottom:8px;z-index:1;font-size:11px;color:rgba(255,255,255,.75)}
+.credit a{color:inherit}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
+.fact{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:2px}
+.fact b{font-family:var(--f-display);font-size:24px;color:var(--lake)}
+.fact span{font-size:13.5px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:28px;margin-top:28px;align-items:start}
+.days{display:grid;gap:18px;position:relative}
+.day{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:grid;grid-template-columns:240px minmax(0,1fr)}
+.day .ph{position:relative;background:var(--lake-soft);min-height:200px}
+.day .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.day .ph .credit{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.day .body{padding:18px 20px;display:grid;gap:8px;align-content:start}
+.day .no{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--sun)}
+.day h3{font-size:22px}
+.day ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.chip{font-size:12.5px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--lake-soft);color:var(--lake)}
+.chip.bike{background:#e3f1e4;color:var(--green)}
+@media (prefers-color-scheme: dark){.chip.bike{background:#1f3322}}
+.chip.car{background:var(--sun-soft);color:#9a6312}
+@media (prefers-color-scheme: dark){.chip.car{color:var(--sun)}}
+.tip{font-size:14.5px;background:var(--sun-soft);border-radius:10px;padding:8px 12px}
+.side{display:grid;gap:16px;position:sticky;top:76px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:grid;gap:8px}
+.card h3{font-size:19px}
+.card ul{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
+.card a{color:var(--lake);font-weight:600}
+.btn{display:inline-block;text-decoration:none;background:var(--lake);color:#fff!important;padding:10px 14px;border-radius:10px;font-weight:600;text-align:center}
+.gallery{margin-top:34px}
+.gallery h2{font-size:28px;margin-bottom:12px}
+.gal{columns:3 260px;column-gap:12px}
+.gal figure{margin:0 0 12px;break-inside:avoid;border-radius:12px;overflow:hidden;background:var(--lake-soft);position:relative}
+.gal figcaption{font-size:11.5px;color:var(--muted);padding:6px 10px;background:var(--paper)}
+.gal figcaption a{color:inherit}
+.loading{color:var(--muted);font-size:14px}
+.common{margin-top:40px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.check label{display:flex;gap:10px;align-items:flex-start;font-size:15px;cursor:pointer}
+.check input{margin-top:4px;accent-color:var(--lake);width:17px;height:17px;flex:none}
+.check input:checked+span{color:var(--muted);text-decoration:line-through}
+footer{margin-block:40px 30px;color:var(--muted);font-size:13px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}.side{position:static}.common{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.day{grid-template-columns:minmax(0,1fr)}.day .ph{min-height:190px}.hero{min-height:300px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Na kole k jezeru</h1>
+      <p>Týden s Marco Polem: dvě varianty, vyberte si.</p>
+    </div>
+    <div class="who"><span>2 dospělí</span><span>dítě 7 let</span><span>3 kola na nosiči</span><span>Mercedes Marco Polo</span></div>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="Varianty výletu">
+    <button role="tab" id="t-garda" data-v="garda" aria-selected="true">Itálie · Lago di Garda <small>7 dní · cca 790 km</small></button>
+    <button role="tab" id="t-wolf" data-v="wolf" aria-selected="false">Rakousko · Wolfgangsee <small>7 dní · cca 400 km</small></button>
+  </nav>
+  <main id="app"></main>
+
+  <section class="common" aria-label="Pro obě varianty">
+    <div class="card check" data-key="balit">
+      <h3>Co zabalit do Marco Pola</h3>
+      <label><input type="checkbox" id="c1"><span>Nosič na 3 kola + zámek, náhradní duše, pumpa</span></label>
+      <label><input type="checkbox" id="c2"><span>Helmy pro všechny, reflexní vesta pro dítě</span></label>
+      <label><input type="checkbox" id="c3"><span>Kabel na přípojku 230 V (CEE adaptér), 25 m prodlužka</span></label>
+      <label><input type="checkbox" id="c4"><span>Plyn do vařiče, nádobí, chladicí box nabitý</span></label>
+      <label><input type="checkbox" id="c5"><span>Zábrana / síť do střešního lůžka pro dítě</span></label>
+      <label><input type="checkbox" id="c6"><span>Plavky, neopren boty do kamenitých pláží, ručníky</span></label>
+      <label><input type="checkbox" id="c7"><span>Opalovací krém, kšiltovky, láhve na kola</span></label>
+      <label><input type="checkbox" id="c8"><span>Hry a knížky na déšť, čelovky</span></label>
+    </div>
+    <div class="card">
+      <h3>Marco Polo a děti</h3>
+      <ul>
+        <li>Spaní pro 4: dospělí dole, sedmileté dítě nahoře ve střeše (se zábranou), nebo obráceně.</li>
+        <li>Výška auta je kolem 2 m: pozor na podzemní garáže a závory parkovišť.</li>
+        <li>S nosičem na tažném zařízení je auto delší: na trajektu a v úzkých uličkách počítejte s rezervou.</li>
+        <li>V kempu ideálně místo s elektřinou a blízko sociálek, rezervujte předem (červenec a srpen).</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Kolo se sedmiletým dítětem</h3>
+      <ul>
+        <li>Vlastní kolo 20–24", denní trasy 10–25 km po rovině.</li>
+        <li>Každých 30–40 minut zastávka: zmrzlina, koupání, hřiště.</li>
+        <li>Na silnice bez cyklostezky raději tažnou tyč nebo loď či autobus s koly.</li>
+        <li>Vyjíždějte ráno: v létě je po poledni horko, hlavně na Gardě.</li>
+      </ul>
+    </div>
+  </section>
+  <footer>Fotky: Wikimedia Commons a Wikipedie (autoři a licence jsou u každé fotky). Ceny a otevírací doby si před cestou ověřte, mohou se měnit.</footer>
+</div>
+
+<script>
+const V = {
+garda: {
+  eyebrow:"Itálie · Trentino", title:"Lago di Garda: Riva, Torbole a Arco",
+  lead:"Severní cíp Gardy pod horami: cyklostezky po rovině, koupání v jezeře i v řece Sarce, loď do Limone a zavěšená stezka nad vodou.",
+  hero:{wiki:"en:Riva_del_Garda"},
+  facts:[["cca 790 km","z Prahy přes Mnichov a Brenner"],["8–9 h","jízda, s přespáním po cestě"],["4 trasy","na kole, 10–20 km"],["Camping Maroadi","přímo u jezera mezi Torbole a Rivou"]],
+  days:[
+    {no:"Den 1",t:"Praha → Achensee",img:{wiki:"en:Achensee"},chips:[["car","cca 470 km · 5 h"]],
+     items:["Dálnice přes Rozvadov a Mnichov do Tyrolska (Německo bez poplatku, v Rakousku dálniční známka).","Večer přespání u jezera Achensee nebo v okolí Innsbrucku, krátká procházka k vodě."],
+     tip:"Kemp na první noc si zarezervujte předem, v létě bývá plno."},
+    {no:"Den 2",t:"Přes Brenner k Gardě",img:{wiki:"en:Torbole"},chips:[["car","cca 260 km · 3 h"]],
+     items:["Brenner (mýtný úsek A13), pak italská A22 až do Rovereta.","Odpoledne příjezd do kempu, první koupání a večerní procházka po promenádě v Torbole."],
+     tip:"Ubytování: Camping Maroadi (Arco Lido, Via Gardesana 13), přímo u jezera, s bazénem a hřištěm."},
+    {no:"Den 3",t:"Na kole do Arca",img:{wiki:"en:Arco,_Trentino"},chips:[["bike","cca 20 km tam a zpět"],["",'rovina']],
+     items:["Cyklostezka podél řeky Sarky mezi vinicemi a olivovníky až do Arca.","Kola zamknout ve městě a pěšky asi 20 minut nahoru na hrad Arco s výhledem.","Cestou zpět koupání v řece Sarce, mělké a klidné pláže."],
+     tip:"Vyjeďte ráno, trasa je celá na slunci."},
+    {no:"Den 4",t:"Lodí do Limone a stezka nad jezerem",img:{wiki:"en:Limone_sul_Garda"},chips:[["bike","cca 10 km"],["","loď s koly"]],
+     items:["Z Rivy lodí do Limone sul Garda, kola se berou s sebou.","Cyklostezka Ciclopista del Garda zavěšená na skále nad vodou (úsek k hranici Trentina).","Zmrzlina a citronové háje v Limone, zpět lodí."],
+     tip:"Po silnici Gardesana s dítětem nejezděte: jsou tam tunely a husté auta. Loď je bezpečnější."},
+    {no:"Den 5",t:"Lago di Ledro",img:{wiki:"en:Lake_Ledro"},chips:[["car","cca 15 km nahoru do hor"],["bike","okruh kolem jezera"]],
+     items:["Marco Polem nahoru k horskému jezeru Ledro, voda je tu klidnější a čistší.","Muzeum pravěkých kůlových staveb (Museo delle Palafitte), dětem se líbí.","Odpoledne koupání na pláži a krátký okruh na kole podél břehu."]},
+    {no:"Den 6",t:"Den u vody v Rivě",img:{wiki:"it:Rocca_di_Riva"},chips:[["bike","Torbole–Riva cca 4 km"]],
+     items:["Pohodový den: pláže v Rivě, hřiště v parcích u jezera.","Staré město Rivy, pevnost Rocca a večeře v pizzerii.","Alternativa za deště: zábavní park Gardaland (asi 1,5 h jízdy na jih)."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Brenner_Pass"},chips:[["car","cca 790 km · 8–9 h"]],
+     items:["Brzký odjezd, přestávky na odpočívadlech s hřištěm.","Pokud nechcete jet najednou, přespěte znovu v Tyrolsku."]}
+  ],
+  costs:["Rakousko: dálniční známka 10 dní 12,80 €","Brenner A13: mýtné 12,50 € (každý směr)","Itálie A22: mýtné na branách podle ujeté vzdálenosti","Německo: osobní auta bez poplatku"],
+  route:"https://www.google.com/maps/dir/Praha/Achenkirch/Torbole+sul+Garda",
+  links:[["Camping Maroadi","https://www.gardatrentino.it/en/where-to-stay/camping-maroadi_2895"],["Cyklostezka Arco–Riva s dětmi","https://www.viaggiapiccoli.com/pista-ciclabile-valle-dei-laghi-con-i-bambini-da-arco-a-riva-del-garda/"],["Ciclopista del Garda","https://it.wikivoyage.org/wiki/Pista_ciclabile_del_Garda"]],
+  gallery:["Riva del Garda","Torbole lake Garda","Limone sul Garda","Lago di Ledro","Arco Trentino castle"]
+},
+wolf: {
+  eyebrow:"Rakousko · Solnohradsko", title:"Wolfgangsee a Salzkammergut",
+  lead:"Tyrkysové jezero kousek od Česka: rovinatá stezka podél břehu, parní zubačka na Schafberg, výlety do Salcburku a Hallstattu.",
+  hero:{wiki:"en:Wolfgangsee"},
+  facts:[["cca 400 km","z Prahy přes Linec"],["4,5 h","jízda, zvládne se za jeden den"],["28 km","okruh (skoro) kolem jezera, lehký"],["Seecamping Wolfgangblick","přímo u jezera, hřiště, dětské ceny"]],
+  days:[
+    {no:"Den 1",t:"Praha → Wolfgangsee",img:{wiki:"en:St._Gilgen"},chips:[["car","cca 400 km · 4,5 h"]],
+     items:["Přes České Budějovice a Linec, pak po dálnici A1 k jezeru.","Odpoledne příjezd do kempu, koupání přímo z kempové pláže."],
+     tip:"Ubytování: Seecamping Wolfgangblick, Seestraße 115, Abersee (St. Gilgen), přímo na břehu, se hřištěm."},
+    {no:"Den 2",t:"Na kole kolem jezera",img:{wiki:"en:St._Wolfgang_im_Salzkammergut"},chips:[["bike","až 28 km, lze zkrátit"],["","lehká, 190 m stoupání"]],
+     items:["Stezka podél břehu s výhledem na jezero: St. Gilgen, Strobl, St. Wolfgang.","Pro sedmiletého lze půlku trasy nahradit lodí.","Přes skálu Falkenstein se na kole nedá, objíždí se nebo se jede lodí."],
+     tip:"Převoz kol na lodi si předem ověřte v infocentru nebo u přepravce Wolfgangsee Schifffahrt."},
+    {no:"Den 3",t:"Zubačkou na Schafberg",img:{wiki:"en:Schafbergbahn"},chips:[["","zubačka ze St. Wolfgangu"]],
+     items:["Historická zubačka ze St. Wolfgangu na vrchol Schafbergu.","Nahoře výhled na několik jezer najednou a krátká procházka.","Odpoledne koupání a zmrzlina na nábřeží v St. Wolfgangu."],
+     tip:"Lístky kupte online na konkrétní čas, v sezóně se vyprodávají."},
+    {no:"Den 4",t:"Hallstatt a solné doly",img:{wiki:"en:Hallstatt"},chips:[["car","cca 50 km · 1 h"]],
+     items:["Výlet do Hallstattu, ráno co nejdřív kvůli davům.","Solné doly Salzwelten: dřevěné skluzavky pod zemí, dětem se líbí.","Cestou zpět zastávka v lázeňském Bad Ischlu."]},
+    {no:"Den 5",t:"Salcburk a vodní hry Hellbrunn",img:{wiki:"en:Hellbrunn_Palace"},chips:[["car","cca 30 km · 45 min"]],
+     items:["Zámek Hellbrunn s vodními hrami (Wasserspiele): dětem stříká voda ze všech stran.","Procházka centrem Salcburku a pevnost Hohensalzburg lanovkou."],
+     tip:"Do Salcburku jeďte P+R, s Marco Polem do centra nejezděte."},
+    {no:"Den 6",t:"Mondsee a koupání",img:{wiki:"en:Mondsee_(lake)"},chips:[["bike","krátké vyjížďky podél břehu"],["car","cca 20 km"]],
+     items:["Výlet k jezeru Mondsee, městečko s bazilikou.","Odpoledne zpět u Wolfgangsee: koupání, půjčení šlapadla nebo SUP.","Alternativa: lanovka na Zwölferhorn ze St. Gilgen."]},
+    {no:"Den 7",t:"Cesta domů",img:{wiki:"en:Linz"},chips:[["car","cca 400 km · 4,5 h"]],
+     items:["Dopoledne poslední koupání, po obědě odjezd.","Doma jste večer bez nočního přejezdu."]}
+  ],
+  costs:["Rakousko: dálniční známka 10 dní 12,80 €","Bez dalšího mýtného na této trase","Kemp: dětská sazba od 6 € za den (podle kempu)"],
+  route:"https://www.google.com/maps/dir/Praha/Abersee,+St.+Gilgen",
+  links:[["Seecamping Wolfgangblick","https://wolfgangsee.salzkammergut.at/en/oesterreich-location/detail/430000325/seecamping-wolfgangblick.html"],["Okruh kolem Wolfgangsee (28 km)","https://www.salzkammergut.at/oesterreich-tour/detail/430007441/die-aussichtsreiche-tour-fast-rund-um-den-wolfgangsee.html"],["Salzkammergut Radweg","https://www.salzkammergut.at/oesterreich-tour/detail/430006020/salzkammergut-radweg.html"]],
+  gallery:["Wolfgangsee","St. Wolfgang im Salzkammergut","Schafbergbahn","Hallstatt","Mondsee lake"]
+}};
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const app=document.getElementById("app");
+
+function render(k){
+  const v=V[k];
+  app.innerHTML=`
+  <section class="hero" id="hero"><div class="txt"><span class="eyebrow">${esc(v.eyebrow)}</span><h2>${esc(v.title)}</h2><p>${esc(v.lead)}</p></div></section>
+  <div class="facts">${v.facts.map(f=>`<div class="fact"><b>${esc(f[0])}</b><span>${esc(f[1])}</span></div>`).join("")}</div>
+  <div class="grid">
+    <div class="days">${v.days.map((d,i)=>`
+      <article class="day">
+        <div class="ph" data-wiki="${esc(d.img.wiki)}"></div>
+        <div class="body"><span class="no">${esc(d.no)}</span><h3>${esc(d.t)}</h3>
+          <div class="chips">${d.chips.map(c=>`<span class="chip ${c[0]}">${esc(c[1])}</span>`).join("")}</div>
+          <ul>${d.items.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+          ${d.tip?`<div class="tip">${esc(d.tip)}</div>`:""}
+        </div>
+      </article>`).join("")}</div>
+    <aside class="side">
+      <div class="card"><h3>Trasa</h3><a class="btn" href="${v.route}" target="_blank" rel="noopener">Otevřít trasu v mapě</a></div>
+      <div class="card"><h3>Poplatky</h3><ul>${v.costs.map(c=>`<li>${esc(c)}</li>`).join("")}</ul></div>
+      <div class="card"><h3>Užitečné odkazy</h3><ul>${v.links.map(l=>`<li><a href="${l[1]}" target="_blank" rel="noopener">${esc(l[0])}</a></li>`).join("")}</ul></div>
+    </aside>
+  </div>
+  <section class="gallery"><h2>Fotky z místa</h2><div class="gal" id="gal"><p class="loading">Načítám fotky…</p></div></section>`;
+  loadHero(v.hero.wiki);
+  app.querySelectorAll(".ph[data-wiki]").forEach(el=>loadWiki(el.dataset.wiki).then(p=>{if(p)el.innerHTML=imgHtml(p)}));
+  loadGallery(v.gallery);
+}
+
+const cache={};
+async function loadWiki(spec){
+  if(cache[spec]) return cache[spec];
+  const [lang,title]=spec.split(":");
+  try{
+    const r=await fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
+    if(!r.ok) return null; const j=await r.json();
+    const src=(j.originalimage&&j.originalimage.width<=2400?j.originalimage.source:null)||(j.thumbnail&&j.thumbnail.source.replace(/\/\d+px-/,"/1200px-"))||null;
+    if(!src) return null;
+    return cache[spec]={src,alt:j.title,page:(j.content_urls&&j.content_urls.desktop.page)||"#",credit:"Wikipedie"};
+  }catch(e){return null}
+}
+const imgHtml=p=>`<img src="${esc(p.src)}" alt="${esc(p.alt)}" loading="lazy" onerror="this.remove()"><span class="credit"><a href="${esc(p.page)}" target="_blank" rel="noopener">Foto: ${esc(p.credit)}</a></span>`;
+async function loadHero(spec){
+  const p=await loadWiki(spec); const h=document.getElementById("hero");
+  if(p&&h) h.insertAdjacentHTML("afterbegin",imgHtml(p).replace('loading="lazy"','fetchpriority="high"'));
+}
+const BAD=/map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|panorama_360|sign|schild/i;
+async function loadGallery(queries){
+  const g=document.getElementById("gal"); const seen=new Set(); const out=[];
+  await Promise.all(queries.map(async q=>{
+    try{
+      const u=`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=700&format=json&origin=*`;
+      const j=await (await fetch(u)).json();
+      const pages=Object.values((j.query&&j.query.pages)||{}).sort((a,b)=>a.index-b.index);
+      let n=0;
+      for(const p of pages){
+        const ii=p.imageinfo&&p.imageinfo[0]; if(!ii||ii.mime!=="image/jpeg"||BAD.test(p.title)||ii.width<ii.height||ii.width<900) continue;
+        if(seen.has(p.title)) continue; seen.add(p.title);
+        const m=ii.extmetadata||{}; const artist=(m.Artist&&m.Artist.value||"").replace(/<[^>]+>/g,"").trim().slice(0,60); const lic=m.LicenseShortName&&m.LicenseShortName.value||"";
+        out.push({q,src:ii.thumburl,page:ii.descriptionurl,cap:`${q} · ${artist||"Wikimedia Commons"}${lic?" · "+lic:""}`});
+        if(++n>=3) break;
+      }
+    }catch(e){}
+  }));
+  if(!out.length){g.innerHTML='<p class="loading">Fotky se teď nepodařilo načíst. Zkuste stránku obnovit.</p>';return}
+  out.sort((a,b)=>queries.indexOf(a.q)-queries.indexOf(b.q));
+  g.innerHTML=out.map(o=>`<figure><img src="${esc(o.src)}" alt="${esc(o.q)}" loading="lazy" onerror="this.closest('figure').remove()"><figcaption><a href="${esc(o.page)}" target="_blank" rel="noopener">${esc(o.cap)}</a></figcaption></figure>`).join("");
+}
+
+const tabs=document.querySelectorAll(".tabs button");
+function show(k){
+  tabs.forEach(b=>b.setAttribute("aria-selected",String(b.dataset.v===k)));
+  render(k);
+  try{history.replaceState(null,"","#"+k)}catch(e){}
+}
+tabs.forEach(b=>b.addEventListener("click",()=>{show(b.dataset.v);window.scrollTo({top:0})}));
+show(location.hash==="#wolf"?"wolf":"garda");
+
+document.querySelectorAll(".check").forEach(box=>{
+  const key="vylet-"+box.dataset.key; let s={};
+  try{s=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){}
+  box.querySelectorAll("input").forEach(i=>{i.checked=!!s[i.id];i.addEventListener("change",()=>{s[i.id]=i.checked;try{localStorage.setItem(key,JSON.stringify(s))}catch(e){}})});
+});
+</script>
+</body>
+</html>
