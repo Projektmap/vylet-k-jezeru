@@ -11,7 +11,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const old = fs.existsSync("mapy.json") ? JSON.parse(fs.readFileSync("mapy.json", "utf8")) : {};
 const force = process.env.FORCE === "1";
 fs.mkdirSync("mapy", { recursive: true });
+const OV = {"Pyramidenkogel": [46.611, 14.144], "Gernalm": [47.468, 11.651], "Arte Sella Malga Costa": [46.031, 11.476], "Haider See": [46.77, 10.54], "Veliki slap Plitvice": [44.899, 15.61], "Geisterberg St. Johann im Pongau": [47.331, 13.215], "Studenovodské vodopády": [49.17, 20.218], "Penken Mayrhofen": [47.18, 11.836], "Obersee Berchtesgaden": [47.508, 12.99]};
 async function geo(q) {
+  if (OV[q]) return { lat: OV[q][0], lon: OV[q][1] };
   const r = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1${QC[q] ? "&countrycodes=" + QC[q] : ""}`, { headers: { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" } });
   const j = r.ok ? await r.json() : []; await sleep(1100);
   return j[0] ? { lat: +(+j[0].lat).toFixed(5), lon: +(+j[0].lon).toFixed(5) } : null;
