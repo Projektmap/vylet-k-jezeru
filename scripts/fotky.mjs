@@ -8,7 +8,7 @@ const BAD = /map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|sign|
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function j(u) { for (let i = 0; i < 3; i++) { try { const r = await fetch(u, { headers: UA }); if (r.ok) return await r.json(); if (r.status === 404) return null; } catch (e) {} await sleep(800); } return null; }
 async function commons(q, n) {
-  const u = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1200&format=json`;
+  const u = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrnamespace=6&gsrlimit=15&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=960&format=json`;
   const d = await j(u); const out = [];
   for (const p of Object.values(d?.query?.pages || {}).sort((a, b) => a.index - b.index)) {
     const ii = p.imageinfo?.[0];
@@ -25,7 +25,7 @@ for (const s of specs) {
   const [lang, title] = s.split(":");
   if (lang === "c") { const c = await commons(title, 1); if (c[0]) res.places[s] = c[0]; else res.report.push(`${s}: ŽÁDNÁ FOTKA`); continue; }
   const d = await j(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
-  let src = d?.originalimage?.width <= 2400 ? d.originalimage.source : d?.thumbnail?.source?.replace(/\/\d+px-/, "/1200px-");
+  let src = d?.originalimage?.width <= 1280 ? d.originalimage.source : d?.thumbnail?.source?.replace(/\/\d+px-/, "/1280px-");
   if (src) { res.places[s] = { src, page: d.content_urls?.desktop?.page || "", credit: "Wikipedie", alt: d.title }; continue; }
   const c = await commons(title.replace(/_/g, " ").replace(/\(.*?\)/g, ""), 1);
   if (c[0]) { res.places[s] = c[0]; res.report.push(`${s}: bez fotky na Wikipedii, náhrada z Commons`); }
@@ -34,10 +34,10 @@ for (const s of specs) {
 }
 for (const q of galleries) { res.galleries[q] = await commons(q, 3); if (!res.galleries[q].length) res.report.push(`galerie "${q}": prázdná`); await sleep(150); }
 // Ověř, že se každá jednotlivá fotka opravdu stáhne
-async function ok(u) { for (let i = 0; i < 2; i++) { try { const r = await fetch(u, { method: "HEAD", headers: UA }); if (r.ok) return true; } catch (e) {} await sleep(500); } return false; }
+async function ok(u) { for (let i = 0; i < 4; i++) { try { const r = await fetch(u, { headers: { ...UA, Range: "bytes=0-1023" } }); if (r.ok || r.status === 206) return true; if (r.status === 404 || r.status === 410) return false; console.log(`HTTP ${r.status}: ${u}`); } catch (e) {} await sleep(2000 * (i + 1)); } return true; }
 let checked = 0, broken = 0;
-for (const [k, v] of Object.entries(res.places)) { checked++; if (!(await ok(v.src))) { broken++; delete res.places[k]; res.report.push(`${k}: fotka se nenačte, vyřazena`); } }
-for (const [q, list] of Object.entries(res.galleries)) { const good = []; for (const v of list) { checked++; if (await ok(v.src)) good.push(v); else { broken++; res.report.push(`galerie "${q}": nefunkční fotka vyřazena`); } } res.galleries[q] = good; }
+for (const [k, v] of Object.entries(res.places)) { checked++; await sleep(250); if (!(await ok(v.src))) { broken++; delete res.places[k]; res.report.push(`${k}: fotka se nenačte, vyřazena`); } }
+for (const [q, list] of Object.entries(res.galleries)) { const good = []; for (const v of list) { checked++; await sleep(250); if (await ok(v.src)) good.push(v); else { broken++; res.report.push(`galerie "${q}": nefunkční fotka vyřazena`); } } res.galleries[q] = good; }
 console.log(`Zkontrolováno fotek: ${checked}, nefunkčních: ${broken}`);
 fs.writeFileSync("fotky.json", JSON.stringify(res, null, 1));
 console.log(`Míst: ${specs.length}, s fotkou: ${Object.keys(res.places).length}; galerií: ${galleries.length}`);
