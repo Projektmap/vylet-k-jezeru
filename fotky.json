@@ -546,11 +546,11 @@
    "credit": "Wikipedie",
    "alt": "Legoland Deutschland Resort"
   },
-  "en:Lednice_Castle": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg/1280px-Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-   "page": "https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape",
-   "credit": "Wikipedie",
-   "alt": "Lednice–Valtice Cultural Landscape"
+  "c:Lednice Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Lednice_%28Eisgrub%29_-_z%C3%A1mek.JPG/960px-Lednice_%28Eisgrub%29_-_z%C3%A1mek.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Lednice_(Eisgrub)_-_z%C3%A1mek.JPG",
+   "credit": "Pudelek (Marcin Szala) · CC BY-SA 3.0",
+   "alt": "Lednice Castle"
   },
   "en:Riegersburg_Castle": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Riegersburg_Burg_Q1.jpg/1280px-Riegersburg_Burg_Q1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1058,8 +1058,8 @@
     "alt": "Wolfgangsee"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Wolfgangsee_3.jpg/960px-Wolfgangsee_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_3.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Wolfgangsee_7.jpg/960px-Wolfgangsee_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_7.jpg",
     "credit": "Dimitry Anikin · CC0",
     "alt": "Wolfgangsee"
    }
@@ -1298,9 +1298,9 @@
     "alt": "Valsugana"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg/960px-Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pergine_Valsugana,_piazza_tre_chiese_02.jpg",
-    "credit": "Syrio · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Borgo_Valsugana_panorama.jpg/960px-Borgo_Valsugana_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Borgo_Valsugana_panorama.jpg",
+    "credit": "Pottercomuneo · CC BY-SA 4.0",
     "alt": "Valsugana"
    }
   ],
@@ -1378,9 +1378,9 @@
     "alt": "Graun im Vinschgau church tower"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Turm_der_alten_Pfarrkirche_St._Katharina_Graun_im_Vinschgau_20220908_0292.jpg/960px-Turm_der_alten_Pfarrkirche_St._Katharina_Graun_im_Vinschgau_20220908_0292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Turm_der_alten_Pfarrkirche_St._Katharina_Graun_im_Vinschgau_20220908_0292.jpg",
-    "credit": "Tilman2007 · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/39027_Graun_im_Vinschgau%2C_Province_of_Bolzano_-_South_Tyrol%2C_Italy_-_panoramio.jpg/960px-39027_Graun_im_Vinschgau%2C_Province_of_Bolzano_-_South_Tyrol%2C_Italy_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:39027_Graun_im_Vinschgau,_Province_of_Bolzano_-_South_Tyrol,_Italy_-_panoramio.jpg",
+    "credit": "Jürgen Kehrberger · CC BY-SA 3.0",
     "alt": "Graun im Vinschgau church tower"
    }
   ],
@@ -1438,9 +1438,9 @@
     "alt": "Merano"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Merano_Street_Photography_by_Giovanni_Ussi_11.jpg/960px-Merano_Street_Photography_by_Giovanni_Ussi_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Merano_Street_Photography_by_Giovanni_Ussi_11.jpg",
-    "credit": "Giovanni Ussi · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Merano_Liberty.jpg/960px-Merano_Liberty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Merano_Liberty.jpg",
+    "credit": "Caba2011 · CC BY-SA 4.0",
     "alt": "Merano"
    }
   ],
@@ -1972,14 +1972,14 @@
     "alt": "Festung Königstein"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg/960px-Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Medusentor_(Juni_2026).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg/960px-Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Georgenburg_(Juni_2026).jpg",
     "credit": "Romzig · CC0",
     "alt": "Festung Königstein"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg/960px-Festung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Georgenburg_(Juni_2026).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg/960px-Festung_K%C3%B6nigstein%2C_Medusentor_%28Juni_2026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Festung_K%C3%B6nigstein,_Medusentor_(Juni_2026).jpg",
     "credit": "Romzig · CC0",
     "alt": "Festung Königstein"
    }
@@ -2038,9 +2038,9 @@
     "alt": "Pravčická brána"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg/960px-Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Prav%C4%8Dick%C3%A1_br%C3%A1na_v_%C4%8Cesk%C3%A9m_%C5%A0v%C3%BDcarsku_-_17.8.2020.jpg",
-    "credit": "Zrzek007 · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rock_round_Prav%C4%8Dick%C3%A1_br%C3%A1na_%281%29.jpg/960px-Rock_round_Prav%C4%8Dick%C3%A1_br%C3%A1na_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rock_round_Prav%C4%8Dick%C3%A1_br%C3%A1na_(1).jpg",
+    "credit": "Huhulenik · CC BY 3.0",
     "alt": "Pravčická brána"
    }
   ],
@@ -2172,14 +2172,14 @@
     "alt": "Liechtensteinklamm"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liechtensteinklamm_46.JPG/960px-Liechtensteinklamm_46.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_46.JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Liechtensteinklamm_35.JPG/960px-Liechtensteinklamm_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_35.JPG",
     "credit": "Zairon · CC BY-SA 3.0",
     "alt": "Liechtensteinklamm"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Liechtensteinklamm_35.JPG/960px-Liechtensteinklamm_35.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_35.JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Liechtensteinklamm_46.JPG/960px-Liechtensteinklamm_46.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Liechtensteinklamm_46.JPG",
     "credit": "Zairon · CC BY-SA 3.0",
     "alt": "Liechtensteinklamm"
    }
@@ -2358,9 +2358,9 @@
     "alt": "Postojna Cave"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg/960px-Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Jaskinia_Postojna,_S%C5%82owenia,_20240503_1019_8066.jpg",
-    "credit": "Jakub Hałun · CC BY 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Postojna_Cave._2012-07-26_13-41-13.jpg/960px-Postojna_Cave._2012-07-26_13-41-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Postojna_Cave._2012-07-26_13-41-13.jpg",
+    "credit": "Shesmax · CC BY-SA 4.0",
     "alt": "Postojna Cave"
    }
   ],
@@ -2712,14 +2712,14 @@
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    }
@@ -2912,14 +2912,14 @@
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Tihany_%282%29.jpg/960px-Tihany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(2).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tihany_%2860%29.jpg/960px-Tihany_%2860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(60).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tihany_%2859%29.jpg/960px-Tihany_%2859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(59).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tihany_%2865%29.jpg/960px-Tihany_%2865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(65).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    }
@@ -3244,12 +3244,24 @@
     "alt": "Blautopf"
    }
   ],
-  "Merano autumn": [
+  "Merano Passer promenade": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Leo_Putz_Herbst_am_Chiemsee.jpg/960px-Leo_Putz_Herbst_am_Chiemsee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Leo_Putz_Herbst_am_Chiemsee.jpg",
-    "credit": "Leo Putz · Public domain",
-    "alt": "Merano autumn"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Passer_and_riverside_promenade_in_Merano_-_2026-09-14_-_DSC09801.jpg/960px-Passer_and_riverside_promenade_in_Merano_-_2026-09-14_-_DSC09801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Passer_and_riverside_promenade_in_Merano_-_2026-09-14_-_DSC09801.jpg",
+    "credit": "NorbertNagel · CC BY-SA 4.0",
+    "alt": "Merano Passer promenade"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/MERAN_PASSER_PROMENADE_-_panoramio.jpg/960px-MERAN_PASSER_PROMENADE_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:MERAN_PASSER_PROMENADE_-_panoramio.jpg",
+    "credit": "johanvanbetsbrugge · CC BY 3.0",
+    "alt": "Merano Passer promenade"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/070406-10_Meran_Promenade.jpg/960px-070406-10_Meran_Promenade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:070406-10_Meran_Promenade.jpg",
+    "credit": "Aconcagua · CC BY-SA 3.0",
+    "alt": "Merano Passer promenade"
    }
   ],
   "Gardens of Trauttmansdorff Castle": [
@@ -3340,14 +3352,14 @@
     "alt": "Minaret Lednice"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Minaret_in_Lednice_4.jpg/960px-Minaret_in_Lednice_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_4.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Minaret_in_Lednice_3.jpg/960px-Minaret_in_Lednice_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_3.jpg",
     "credit": "Szombat78 · CC0",
     "alt": "Minaret Lednice"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Minaret_in_Lednice_3.jpg/960px-Minaret_in_Lednice_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_3.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Minaret_in_Lednice_4.jpg/960px-Minaret_in_Lednice_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_4.jpg",
     "credit": "Szombat78 · CC0",
     "alt": "Minaret Lednice"
    }
@@ -3432,24 +3444,24 @@
     "alt": "Zotter Schokolade"
    }
   ],
-  "Feistritzklamm": [
+  "Schloss Herberstein": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feistritzklamm.jpg/960px-Feistritzklamm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Feistritzklamm.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Schloss_Herberstein_ONO.jpg/960px-Schloss_Herberstein_ONO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schloss_Herberstein_ONO.jpg",
     "credit": "Niki.L · CC BY-SA 4.0",
-    "alt": "Feistritzklamm"
+    "alt": "Schloss Herberstein"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Feistritzbach_oberhalb_von_Liebenfels_04.jpg/960px-Feistritzbach_oberhalb_von_Liebenfels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Feistritzbach_oberhalb_von_Liebenfels_04.jpg",
-    "credit": "Niki.L · CC BY-SA 4.0",
-    "alt": "Feistritzklamm"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Schloss_Herberstein.JPG/960px-Schloss_Herberstein.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schloss_Herberstein.JPG",
+    "credit": "Zeitblick · CC BY-SA 3.0",
+    "alt": "Schloss Herberstein"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Feistritzbach_oberhalb_von_Liebenfels_03.jpg/960px-Feistritzbach_oberhalb_von_Liebenfels_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Feistritzbach_oberhalb_von_Liebenfels_03.jpg",
-    "credit": "Niki.L · CC BY-SA 4.0",
-    "alt": "Feistritzklamm"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Stubenberg_Schloss_Herberstein_Portal.JPG/960px-Stubenberg_Schloss_Herberstein_Portal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Stubenberg_Schloss_Herberstein_Portal.JPG",
+    "credit": "Wolfgang Glock · CC BY-SA 2.0 at",
+    "alt": "Schloss Herberstein"
    }
   ]
  },

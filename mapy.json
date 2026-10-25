@@ -24,15 +24,20 @@
   "lat": 48.8068,
   "lon": 16.64812
  },
+ "Děvičky Pálava": {
+  "f": "mapy/devicky-palava.jpg",
+  "lat": 48.871,
+  "lon": 16.643
+ },
  "Riegersburg": {
   "f": "mapy/riegersburg.jpg",
   "lat": 47.00083,
   "lon": 15.93598
  },
- "Feistritzklamm": {
-  "f": "mapy/feistritzklamm.jpg",
-  "lat": 46.74182,
-  "lon": 14.28107
+ "Feistritzklamm Herberstein": {
+  "f": "mapy/feistritzklamm-herberstein.jpg",
+  "lat": 47.205,
+  "lon": 15.79
  },
  "Monte Brione": {
   "f": "mapy/monte-brione.jpg",
