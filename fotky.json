@@ -546,6 +546,18 @@
    "credit": "Wikipedie",
    "alt": "Legoland Deutschland Resort"
   },
+  "en:Lednice_Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg/1280px-Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape",
+   "credit": "Wikipedie",
+   "alt": "Lednice–Valtice Cultural Landscape"
+  },
+  "en:Riegersburg_Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Riegersburg_Burg_Q1.jpg/1280px-Riegersburg_Burg_Q1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Riegersburg_Castle",
+   "credit": "Wikipedie",
+   "alt": "Riegersburg Castle"
+  },
   "en:Maribor": {
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Mariborski_Glavni_trg.jpg/1280px-Mariborski_Glavni_trg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
    "page": "https://en.wikipedia.org/wiki/Maribor",
@@ -607,8 +619,8 @@
    "alt": "Forggensee"
   },
   "c:Skywalk Allgäu Scheidegg": {
-   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Skywalk_Scheidegg_11.jpg/960px-Skywalk_Scheidegg_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "page": "https://commons.wikimedia.org/wiki/File:Skywalk_Scheidegg_11.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Skywalk_Scheidegg_1.jpg/960px-Skywalk_Scheidegg_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Skywalk_Scheidegg_1.jpg",
    "credit": "Killarnee · CC BY-SA 4.0",
    "alt": "Skywalk Allgäu Scheidegg"
   },
@@ -869,6 +881,66 @@
    "page": "https://en.wikipedia.org/wiki/Blautopf",
    "credit": "Wikipedie",
    "alt": "Blautopf"
+  },
+  "en:Trauttmansdorff_Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg/960px-Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg",
+   "credit": "NorbertNagel · CC BY-SA 4.0",
+   "alt": "Trauttmansdorff Castle"
+  },
+  "en:Marling": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Marling%2C_2024.jpg/960px-Marling%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Marling,_2024.jpg",
+   "credit": "Reustli · CC BY-SA 4.0",
+   "alt": "Marling"
+  },
+  "en:Tyrol_Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tirol_Schloss_01.jpg/1280px-Tirol_Schloss_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Tyrol_Castle",
+   "credit": "Wikipedie",
+   "alt": "Tyrol Castle"
+  },
+  "en:Lednice": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Lednice-n%C3%A1m%C4%9Bst%C3%AD2009.jpg/1280px-Lednice-n%C3%A1m%C4%9Bst%C3%AD2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Lednice",
+   "credit": "Wikipedie",
+   "alt": "Lednice"
+  },
+  "en:Lednice–Valtice_Cultural_Landscape": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg/1280px-Lednice%E2%80%93Valtice_Cultural_Landscape_Montage_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape",
+   "credit": "Wikipedie",
+   "alt": "Lednice–Valtice Cultural Landscape"
+  },
+  "en:Mikulov": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/2019-11-06_13-04-11_Pentax_JH.jpg/1280px-2019-11-06_13-04-11_Pentax_JH.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Mikulov",
+   "credit": "Wikipedie",
+   "alt": "Mikulov"
+  },
+  "en:Pálava_Protected_Landscape_Area": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Palava.od.SZ.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "page": "https://en.wikipedia.org/wiki/P%C3%A1lava_Protected_Landscape_Area",
+   "credit": "Wikipedie",
+   "alt": "Pálava Protected Landscape Area"
+  },
+  "en:Riegersburg,_Styria": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Riegersburg_-_Ort_mit_Burg.JPG/960px-Riegersburg_-_Ort_mit_Burg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Riegersburg_-_Ort_mit_Burg.JPG",
+   "credit": "C.Stadler/Bwag · CC BY-SA 4.0",
+   "alt": "Riegersburg, Styria"
+  },
+  "c:Zotter Schokoladen Manufaktur Riegersburg": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG/960px-Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG",
+   "credit": "Zerohund · CC BY-SA 4.0",
+   "alt": "Zotter Schokoladen Manufaktur Riegersburg"
+  },
+  "en:Herberstein_Castle": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Steiermark_Schloss_Herberstein_2.jpg/1280px-Steiermark_Schloss_Herberstein_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "page": "https://en.wikipedia.org/wiki/Schloss_Herberstein",
+   "credit": "Wikipedie",
+   "alt": "Schloss Herberstein"
   }
  },
  "galleries": {
@@ -946,8 +1018,8 @@
     "alt": "Lago di Ledro"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Lago-di-ledro-widt-18.jpg/960px-Lago-di-ledro-widt-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lago-di-ledro-widt-18.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Lago-di-ledro-widt-19.jpg/960px-Lago-di-ledro-widt-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago-di-ledro-widt-19.jpg",
     "credit": "NeoMeesje · CC BY-SA 4.0",
     "alt": "Lago di Ledro"
    }
@@ -966,9 +1038,9 @@
     "alt": "Arco Trentino castle"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Castello_di_Arco_01.jpg/960px-Castello_di_Arco_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Castello_di_Arco_01.jpg",
-    "credit": "Davide Mauro · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Castello_di_Arco_03.jpg/960px-Castello_di_Arco_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Castello_di_Arco_03.jpg",
+    "credit": "Vid Pogacnik · CC BY-SA 4.0",
     "alt": "Arco Trentino castle"
    }
   ],
@@ -986,8 +1058,8 @@
     "alt": "Wolfgangsee"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Wolfgangsee_7.jpg/960px-Wolfgangsee_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_7.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Wolfgangsee_3.jpg/960px-Wolfgangsee_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolfgangsee_3.jpg",
     "credit": "Dimitry Anikin · CC0",
     "alt": "Wolfgangsee"
    }
@@ -1226,9 +1298,9 @@
     "alt": "Valsugana"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Borgo_Valsugana_panorama.jpg/960px-Borgo_Valsugana_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Borgo_Valsugana_panorama.jpg",
-    "credit": "Pottercomuneo · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg/960px-Pergine_Valsugana%2C_piazza_tre_chiese_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pergine_Valsugana,_piazza_tre_chiese_02.jpg",
+    "credit": "Syrio · CC BY-SA 4.0",
     "alt": "Valsugana"
    }
   ],
@@ -1546,8 +1618,8 @@
     "alt": "Lake Bohinj"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dng_bohinj_jezero_1_01.jpg/960px-Dng_bohinj_jezero_1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_1_01.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dng_bohinj_jezero_2_2.jpg/960px-Dng_bohinj_jezero_2_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dng_bohinj_jezero_2_2.jpg",
     "credit": "This Photo was taken by Miha Peče.  Feel free to use my phot · CC BY-SA 4.0",
     "alt": "Lake Bohinj"
    }
@@ -1674,14 +1746,14 @@
   ],
   "Poreč": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pore%C4%8D%2C_Croatia.jpg/960px-Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pore%C4%8D,_Croatia.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Square_in_Pore%C4%8D%2C_Croatia.jpg/960px-Square_in_Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Square_in_Pore%C4%8D,_Croatia.jpg",
     "credit": "Viktar Palstsiuk · CC BY-SA 4.0",
     "alt": "Poreč"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Square_in_Pore%C4%8D%2C_Croatia.jpg/960px-Square_in_Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Square_in_Pore%C4%8D,_Croatia.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pore%C4%8D%2C_Croatia.jpg/960px-Pore%C4%8D%2C_Croatia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pore%C4%8D,_Croatia.jpg",
     "credit": "Viktar Palstsiuk · CC BY-SA 4.0",
     "alt": "Poreč"
    },
@@ -1714,15 +1786,15 @@
   ],
   "Rovinj": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Rovinj_Sunrise.jpg/960px-Rovinj_Sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Rovinj_Sunrise.jpg",
-    "credit": "Ironbernietyrol · CC BY-SA 4.0",
-    "alt": "Rovinj"
-   },
-   {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Rovinj_Valdibora_Crkva_svete_Eufemije-1663.jpg/960px-Rovinj_Valdibora_Crkva_svete_Eufemije-1663.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Rovinj_Valdibora_Crkva_svete_Eufemije-1663.jpg",
     "credit": "Isiwal · CC BY-SA 4.0",
+    "alt": "Rovinj"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Rovinj_Sunrise.jpg/960px-Rovinj_Sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rovinj_Sunrise.jpg",
+    "credit": "Ironbernietyrol · CC BY-SA 4.0",
     "alt": "Rovinj"
    },
    {
@@ -2140,15 +2212,15 @@
     "alt": "Pongau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sankt_Johann_im_Pongau%2C_2014_%2810%29.jpg/960px-Sankt_Johann_im_Pongau%2C_2014_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Sankt_Johann_im_Pongau,_2014_(10).jpg",
-    "credit": "Draceane · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Bauernhaus%2C_Haus_Sch%C3%BCtte-Lihotzky.JPG/960px-Bauernhaus%2C_Haus_Sch%C3%BCtte-Lihotzky.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bauernhaus,_Haus_Sch%C3%BCtte-Lihotzky.JPG",
+    "credit": "Oppeneiger Alois · CC BY-SA 3.0 at",
     "alt": "Pongau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Stadtzentrum_Richtung_Heukareck_Sommer.jpg/960px-Stadtzentrum_Richtung_Heukareck_Sommer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Stadtzentrum_Richtung_Heukareck_Sommer.jpg",
-    "credit": "RHolzlechner · CC BY-SA 3.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/SchlossSchernberg.B.jpg/960px-SchlossSchernberg.B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:SchlossSchernberg.B.jpg",
+    "credit": "Anton-kurt · CC BY-SA 3.0 at",
     "alt": "Pongau"
    }
   ],
@@ -2174,21 +2246,21 @@
   ],
   "Baumwipfelpfad Neuschönau": [
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG/960px-Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG",
-    "credit": "Takmocsekretovanej! · CC0",
-    "alt": "Baumwipfelpfad Neuschönau"
-   },
-   {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG/960px-Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_O.JPG",
     "credit": "Takmocsekretovanej! · CC0",
     "alt": "Baumwipfelpfad Neuschönau"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG/960px-Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_Baumturm_innen.JPG",
-    "credit": "High Contrast · CC BY 3.0 de",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG/960px-Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_N.JPG",
+    "credit": "Takmocsekretovanej! · CC0",
+    "alt": "Baumwipfelpfad Neuschönau"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG/960px-Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Baumwipfelpfad_Neusch%C3%B6nau_-_M.JPG",
+    "credit": "Takmocsekretovanej! · CC0",
     "alt": "Baumwipfelpfad Neuschönau"
    }
   ],
@@ -2286,9 +2358,9 @@
     "alt": "Postojna Cave"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Postojna_Cave._2012-07-26_13-41-13.jpg/960px-Postojna_Cave._2012-07-26_13-41-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Postojna_Cave._2012-07-26_13-41-13.jpg",
-    "credit": "Shesmax · CC BY-SA 4.0",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg/960px-Jaskinia_Postojna%2C_S%C5%82owenia%2C_20240503_1019_8066.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaskinia_Postojna,_S%C5%82owenia,_20240503_1019_8066.jpg",
+    "credit": "Jakub Hałun · CC BY 4.0",
     "alt": "Postojna Cave"
    }
   ],
@@ -2346,8 +2418,8 @@
     "alt": "Štrbské pleso"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Strbske_Pleso_-_Mountains.jpg/960px-Strbske_Pleso_-_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Strbske_Pleso_-_Mountains.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Strbske_Pleso_-_Hotels.jpg/960px-Strbske_Pleso_-_Hotels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Strbske_Pleso_-_Hotels.jpg",
     "credit": "Ingo Mehling · CC BY-SA 4.0",
     "alt": "Štrbské pleso"
    }
@@ -2586,8 +2658,8 @@
     "alt": "Zillertal"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg/960px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Burgstall_%2B_Hollenzen-VD_SE_PNr%C2%B00714a.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg/960px-Zillertal_in_Tyrol%2C_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zillertal_in_Tyrol,_Austria-Mayrhofen_%2B_Oberbichl_%2B_Unterbichl-VD_SE_PNr%C2%B00712.jpg",
     "credit": "D-Kuru · CC BY-SA 4.0",
     "alt": "Zillertal"
    }
@@ -2640,14 +2712,14 @@
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Krimml_Waterfalls%2C_2014_%2806%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2806%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(06).JPG",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Krimml_Waterfalls%2C_2014_%2807%29.JPG/960px-Krimml_Waterfalls%2C_2014_%2807%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Krimml_Waterfalls,_2014_(07).JPG",
     "credit": "Bahnfrend · CC BY-SA 4.0",
     "alt": "Krimml Waterfalls"
    }
@@ -2840,14 +2912,14 @@
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tihany_%2865%29.jpg/960px-Tihany_%2865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(65).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Tihany_%282%29.jpg/960px-Tihany_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(2).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Tihany_%2860%29.jpg/960px-Tihany_%2860%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(60).jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tihany_%2859%29.jpg/960px-Tihany_%2859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tihany_(59).jpg",
     "credit": "Elekes Andor · CC BY-SA 4.0",
     "alt": "Tihany"
    }
@@ -2960,14 +3032,14 @@
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/960px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/960px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    },
    {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Triberg_waterfall_Germany.jpg/960px-Triberg_waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Triberg_waterfall_Germany.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Triberg_Waterfall_Germany.jpg/960px-Triberg_Waterfall_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Triberg_Waterfall_Germany.jpg",
     "credit": "Mrunal Sompura · CC BY-SA 4.0",
     "alt": "Triberg waterfalls"
    }
@@ -3114,20 +3186,20 @@
   ],
   "Legoland Deutschland": [
    {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Ansichten_Legoland_Deutschland_%2890177%29.jpg/960px-Ansichten_Legoland_Deutschland_%2890177%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ansichten_Legoland_Deutschland_(90177).jpg",
+    "credit": "Reustli · CC BY-SA 4.0",
+    "alt": "Legoland Deutschland"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ansichten_Legoland_Deutschland_%2849240%29.jpg/960px-Ansichten_Legoland_Deutschland_%2849240%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ansichten_Legoland_Deutschland_(49240).jpg",
+    "credit": "Reustli · CC BY-SA 4.0",
+    "alt": "Legoland Deutschland"
+   },
+   {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Legoland_Deutschland_%2877899%29.jpg/960px-Legoland_Deutschland_%2877899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Legoland_Deutschland_(77899).jpg",
-    "credit": "Reustli · CC BY-SA 4.0",
-    "alt": "Legoland Deutschland"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Legoland_Deutschland_%2816846%29.jpg/960px-Legoland_Deutschland_%2816846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Legoland_Deutschland_(16846).jpg",
-    "credit": "Reustli · CC BY-SA 4.0",
-    "alt": "Legoland Deutschland"
-   },
-   {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Legoland_Deutschland_%2820235%29.jpg/960px-Legoland_Deutschland_%2820235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Legoland_Deutschland_(20235).jpg",
     "credit": "Reustli · CC BY-SA 4.0",
     "alt": "Legoland Deutschland"
    }
@@ -3171,6 +3243,214 @@
     "credit": "Immanuel Giel · CC0",
     "alt": "Blautopf"
    }
+  ],
+  "Merano autumn": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Leo_Putz_Herbst_am_Chiemsee.jpg/960px-Leo_Putz_Herbst_am_Chiemsee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Leo_Putz_Herbst_am_Chiemsee.jpg",
+    "credit": "Leo Putz · Public domain",
+    "alt": "Merano autumn"
+   }
+  ],
+  "Gardens of Trauttmansdorff Castle": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg/960px-Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Trauttmansdorff_Castle_above_the_garden_pond_in_Merano_-_2026-09-15_-_DSC09849.jpg",
+    "credit": "NorbertNagel · CC BY-SA 4.0",
+    "alt": "Gardens of Trauttmansdorff Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Trauttmansdorff_Castle_above_the_garden_terraces_in_Merano_-_2026-09-15_-_DSC09834.jpg/960px-Trauttmansdorff_Castle_above_the_garden_terraces_in_Merano_-_2026-09-15_-_DSC09834.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Trauttmansdorff_Castle_above_the_garden_terraces_in_Merano_-_2026-09-15_-_DSC09834.jpg",
+    "credit": "NorbertNagel · CC BY-SA 4.0",
+    "alt": "Gardens of Trauttmansdorff Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Flower-decorated_footbridge_at_the_Gardens_of_Trauttmansdorff_Castle_-_2026-09-15_-_DSC09871.jpg/960px-Flower-decorated_footbridge_at_the_Gardens_of_Trauttmansdorff_Castle_-_2026-09-15_-_DSC09871.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Flower-decorated_footbridge_at_the_Gardens_of_Trauttmansdorff_Castle_-_2026-09-15_-_DSC09871.jpg",
+    "credit": "NorbertNagel · CC BY-SA 4.0",
+    "alt": "Gardens of Trauttmansdorff Castle"
+   }
+  ],
+  "Marlinger Waalweg": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marlinger_Waalweg_%288%29.JPG/960px-Marlinger_Waalweg_%288%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Marlinger_Waalweg_(8).JPG",
+    "credit": "Benreis · CC BY-SA 4.0",
+    "alt": "Marlinger Waalweg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Marlinger_Waalweg_%289%29.JPG/960px-Marlinger_Waalweg_%289%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Marlinger_Waalweg_(9).JPG",
+    "credit": "Benreis · CC BY-SA 4.0",
+    "alt": "Marlinger Waalweg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Marlinger_Waalweg_%282%29.JPG/960px-Marlinger_Waalweg_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Marlinger_Waalweg_(2).JPG",
+    "credit": "Benreis · CC BY-SA 4.0",
+    "alt": "Marlinger Waalweg"
+   }
+  ],
+  "Tyrol Castle": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Schloss_Tirol_7217.jpg/960px-Schloss_Tirol_7217.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schloss_Tirol_7217.jpg",
+    "credit": "DKrieger · CC BY-SA 3.0",
+    "alt": "Tyrol Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tirol_Schloss_01.jpg/960px-Tirol_Schloss_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tirol_Schloss_01.jpg",
+    "credit": "Herbert Ortner, Vienna, Austria · CC BY 2.5",
+    "alt": "Tyrol Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Schloss_Tirol_04.jpg/960px-Schloss_Tirol_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schloss_Tirol_04.jpg",
+    "credit": "5056468 · CC0",
+    "alt": "Tyrol Castle"
+   }
+  ],
+  "Lednice Castle": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Lednice_%28Eisgrub%29_-_z%C3%A1mek.JPG/960px-Lednice_%28Eisgrub%29_-_z%C3%A1mek.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lednice_(Eisgrub)_-_z%C3%A1mek.JPG",
+    "credit": "Pudelek (Marcin Szala) · CC BY-SA 3.0",
+    "alt": "Lednice Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Lednice-Valtice_Complex_%2833357385560%29.jpg/960px-Lednice-Valtice_Complex_%2833357385560%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lednice-Valtice_Complex_(33357385560).jpg",
+    "credit": "Norio NAKAYAMA from saitama, japan · CC BY-SA 2.0",
+    "alt": "Lednice Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Castle_-_detail%2C_Lednice%2C_Czech_Republic_02.jpg/960px-Castle_-_detail%2C_Lednice%2C_Czech_Republic_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Castle_-_detail,_Lednice,_Czech_Republic_02.jpg",
+    "credit": "Michal Klajban · CC BY-SA 4.0",
+    "alt": "Lednice Castle"
+   }
+  ],
+  "Minaret Lednice": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Minaret_in_Lednice_2.jpg/960px-Minaret_in_Lednice_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_2.jpg",
+    "credit": "Szombat78 · CC0",
+    "alt": "Minaret Lednice"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Minaret_in_Lednice_4.jpg/960px-Minaret_in_Lednice_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_4.jpg",
+    "credit": "Szombat78 · CC0",
+    "alt": "Minaret Lednice"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Minaret_in_Lednice_3.jpg/960px-Minaret_in_Lednice_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Minaret_in_Lednice_3.jpg",
+    "credit": "Szombat78 · CC0",
+    "alt": "Minaret Lednice"
+   }
+  ],
+  "Valtice Castle": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Z%C3%A1mek_Valtice_3.jpg/960px-Z%C3%A1mek_Valtice_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Z%C3%A1mek_Valtice_3.jpg",
+    "credit": "VitVit · CC BY-SA 4.0",
+    "alt": "Valtice Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Valtice_-_Liechtenstein_Castle_02.jpg/960px-Valtice_-_Liechtenstein_Castle_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Valtice_-_Liechtenstein_Castle_02.jpg",
+    "credit": "Txllxt TxllxT · CC BY-SA 4.0",
+    "alt": "Valtice Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Valtice_-_Liechtenstein_Castle_01.jpg/960px-Valtice_-_Liechtenstein_Castle_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Valtice_-_Liechtenstein_Castle_01.jpg",
+    "credit": "Txllxt TxllxT · CC BY-SA 4.0",
+    "alt": "Valtice Castle"
+   }
+  ],
+  "Pálava Děvičky": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/View_from_D%C4%9Bvi%C4%8Dky_to_the_west_2020.jpg/960px-View_from_D%C4%9Bvi%C4%8Dky_to_the_west_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_D%C4%9Bvi%C4%8Dky_to_the_west_2020.jpg",
+    "credit": "Tadeáš Bednarz · CC BY-SA 4.0",
+    "alt": "Pálava Děvičky"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/View_form_D%C4%9Bvi%C4%8Dky_to_the_north-east_2020.jpg/960px-View_form_D%C4%9Bvi%C4%8Dky_to_the_north-east_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:View_form_D%C4%9Bvi%C4%8Dky_to_the_north-east_2020.jpg",
+    "credit": "Tadeáš Bednarz · CC BY-SA 4.0",
+    "alt": "Pálava Děvičky"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hrad_devicky.jpg/960px-Hrad_devicky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hrad_devicky.jpg",
+    "credit": "Gattigas · CC BY-SA 4.0",
+    "alt": "Pálava Děvičky"
+   }
+  ],
+  "Riegersburg Castle": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Riegersburg_-_Burg%2C_Westansicht.JPG/960px-Riegersburg_-_Burg%2C_Westansicht.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Riegersburg_-_Burg,_Westansicht.JPG",
+    "credit": "C.Stadler/Bwag · CC BY-SA 4.0",
+    "alt": "Riegersburg Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Riegersburg_-_Burg%2C_S%C3%BCdwestansicht.JPG/960px-Riegersburg_-_Burg%2C_S%C3%BCdwestansicht.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Riegersburg_-_Burg,_S%C3%BCdwestansicht.JPG",
+    "credit": "C.Stadler/Bwag · CC BY-SA 4.0",
+    "alt": "Riegersburg Castle"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Riegersburg_-_Burganlage%2C_S%C3%BCdansicht.JPG/960px-Riegersburg_-_Burganlage%2C_S%C3%BCdansicht.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Riegersburg_-_Burganlage,_S%C3%BCdansicht.JPG",
+    "credit": "C.Stadler/Bwag · CC BY-SA 4.0",
+    "alt": "Riegersburg Castle"
+   }
+  ],
+  "Zotter Schokolade": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Zotter-schokolade-essbarer-tiergarten-panorama.jpg/960px-Zotter-schokolade-essbarer-tiergarten-panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zotter-schokolade-essbarer-tiergarten-panorama.jpg",
+    "credit": "ZotterSchokoladen · CC BY-SA 4.0",
+    "alt": "Zotter Schokolade"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG/960px-Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schokoladenmanufaktur_Zotter_Bergl_Riegersburg.JPG",
+    "credit": "Zerohund · CC BY-SA 4.0",
+    "alt": "Zotter Schokolade"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Zotter-schokolade-erlebniswelt-shop-aussenansicht-3w6a5832-c-marcel-pail.jpg/960px-Zotter-schokolade-erlebniswelt-shop-aussenansicht-3w6a5832-c-marcel-pail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Zotter-schokolade-erlebniswelt-shop-aussenansicht-3w6a5832-c-marcel-pail.jpg",
+    "credit": "ZotterSchokoladen · CC BY-SA 4.0",
+    "alt": "Zotter Schokolade"
+   }
+  ],
+  "Feistritzklamm": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Feistritzklamm.jpg/960px-Feistritzklamm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Feistritzklamm.jpg",
+    "credit": "Niki.L · CC BY-SA 4.0",
+    "alt": "Feistritzklamm"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Feistritzbach_oberhalb_von_Liebenfels_04.jpg/960px-Feistritzbach_oberhalb_von_Liebenfels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Feistritzbach_oberhalb_von_Liebenfels_04.jpg",
+    "credit": "Niki.L · CC BY-SA 4.0",
+    "alt": "Feistritzklamm"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Feistritzbach_oberhalb_von_Liebenfels_03.jpg/960px-Feistritzbach_oberhalb_von_Liebenfels_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Feistritzbach_oberhalb_von_Liebenfels_03.jpg",
+    "credit": "Niki.L · CC BY-SA 4.0",
+    "alt": "Feistritzklamm"
+   }
   ]
  },
  "report": [
@@ -3182,6 +3462,9 @@
   "en:Fieberbrunn: bez fotky na Wikipedii, náhrada z Commons",
   "en:Haus_der_Natur: bez fotky na Wikipedii, náhrada z Commons",
   "en:Schlegeis_Reservoir: bez fotky na Wikipedii, náhrada z Commons",
-  "en:Berchtesgaden_Salt_Mine: bez fotky na Wikipedii, náhrada z Commons"
+  "en:Berchtesgaden_Salt_Mine: bez fotky na Wikipedii, náhrada z Commons",
+  "en:Trauttmansdorff_Castle: bez fotky na Wikipedii, náhrada z Commons",
+  "en:Marling: bez fotky na Wikipedii, náhrada z Commons",
+  "en:Riegersburg,_Styria: bez fotky na Wikipedii, náhrada z Commons"
  ]
 }

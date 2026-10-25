@@ -1,4 +1,39 @@
 {
+ "Marlinger Waalweg": {
+  "f": "mapy/marlinger-waalweg.jpg",
+  "lat": 46.68025,
+  "lon": 11.09558
+ },
+ "Tappeinerweg Meran": {
+  "f": "mapy/tappeinerweg-meran.jpg",
+  "lat": 46.68223,
+  "lon": 11.15563
+ },
+ "Algunder Waalweg": {
+  "f": "mapy/algunder-waalweg.jpg",
+  "lat": 46.683,
+  "lon": 11.09542
+ },
+ "Janův hrad Lednice": {
+  "f": "mapy/januv-hrad-lednice.jpg",
+  "lat": 48.80332,
+  "lon": 16.83195
+ },
+ "Svatý kopeček Mikulov": {
+  "f": "mapy/svaty-kopecek-mikulov.jpg",
+  "lat": 48.8068,
+  "lon": 16.64812
+ },
+ "Riegersburg": {
+  "f": "mapy/riegersburg.jpg",
+  "lat": 47.00083,
+  "lon": 15.93598
+ },
+ "Feistritzklamm": {
+  "f": "mapy/feistritzklamm.jpg",
+  "lat": 46.74182,
+  "lon": 14.28107
+ },
  "Monte Brione": {
   "f": "mapy/monte-brione.jpg",
   "lat": 45.88498,
