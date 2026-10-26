@@ -463,5 +463,120 @@
   "f": "mapy/ulmer-munster.jpg",
   "lat": 48.39851,
   "lon": 9.9925
+ },
+ "Hrubá Skála": {
+  "f": "mapy/hruba-skala.jpg",
+  "lat": 50.53175,
+  "lon": 15.20705
+ },
+ "Prachovské skály": {
+  "f": "mapy/prachovske-skaly.jpg",
+  "lat": 50.46608,
+  "lon": 15.28734
+ },
+ "Adršpašské skály": {
+  "f": "mapy/adrspasske-skaly.jpg",
+  "lat": 50.61522,
+  "lon": 16.12293
+ },
+ "Teplické skály": {
+  "f": "mapy/teplicke-skaly.jpg",
+  "lat": 50.59486,
+  "lon": 16.14735
+ },
+ "Obří důl": {
+  "f": "mapy/obri-dul.jpg",
+  "lat": 50.72137,
+  "lon": 15.72678
+ },
+ "Černá hora Janské Lázně": {
+  "f": "mapy/cerna-hora-janske-lazne.jpg",
+  "lat": 50.65283,
+  "lon": 15.74184
+ },
+ "Čertova stěna": {
+  "f": "mapy/certova-stena.jpg",
+  "lat": 48.63077,
+  "lon": 14.27764
+ },
+ "Ještěd": {
+  "f": "mapy/jested.jpg",
+  "lat": 50.73277,
+  "lon": 14.98392
+ },
+ "Pustý žleb": {
+  "f": "mapy/pusty-zleb.jpg",
+  "lat": 49.39092,
+  "lon": 16.73294
+ },
+ "Kaňk": {
+  "f": "mapy/kank.jpg",
+  "lat": 49.9775,
+  "lon": 15.26768
+ },
+ "Kleť": {
+  "f": "mapy/klet.jpg",
+  "lat": 48.86524,
+  "lon": 14.28359
+ },
+ "Rybník Svět": {
+  "f": "mapy/rybnik-svet.jpg",
+  "lat": 49.56367,
+  "lon": 15.61148
+ },
+ "Telč": {
+  "f": "mapy/telc.jpg",
+  "lat": 49.18477,
+  "lon": 15.45248
+ },
+ "Svatý Kopeček": {
+  "f": "mapy/svaty-kopecek.jpg",
+  "lat": 49.63344,
+  "lon": 17.33891
+ },
+ "Radhošť": {
+  "f": "mapy/radhost.jpg",
+  "lat": 49.98755,
+  "lon": 16.07602
+ },
+ "Bílá Opava": {
+  "f": "mapy/bila-opava.jpg",
+  "lat": 50.07286,
+  "lon": 17.31054
+ },
+ "Landek": {
+  "f": "mapy/landek.jpg",
+  "lat": 50.03228,
+  "lon": 12.89229
+ },
+ "Radyně": {
+  "f": "mapy/radyne.jpg",
+  "lat": 49.681,
+  "lon": 13.46511
+ },
+ "Svatošské skály": {
+  "f": "mapy/svatosske-skaly.jpg",
+  "lat": 50.19342,
+  "lon": 12.815
+ },
+ "Kokořínský důl": {
+  "f": "mapy/kokorinsky-dul.jpg",
+  "lat": 50.43996,
+  "lon": 14.58081
+ },
+ "Brněnská přehrada": {
+  "f": "mapy/brnenska-prehrada.jpg",
+  "lat": 49.25201,
+  "lon": 16.48461
+ },
+ "Velká Amerika": {
+  "f": "mapy/velka-amerika.jpg",
+  "lat": 49.95956,
+  "lon": 14.19797
+ },
+ "Králický Sněžník": {
+  "f": "mapy/kralicky-sneznik.jpg",
+  "lat": 50.15808,
+  "lon": 16.86524
  }
 }
