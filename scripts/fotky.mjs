@@ -2,6 +2,8 @@
 import fs from "node:fs";
 const html = fs.readFileSync("index.html", "utf8");
 const specs = [...new Set([...html.matchAll(/wiki:"([a-z]{1,2}:[^"]+)"/g), ...html.matchAll(/D\("[^"]*","[^"]*","([a-z]{1,2}:[^"]+)"/g)].map(m => m[1]))];
+// GENERIC: specy v datech podzimu ("en:Název" nebo "c:hledání")
+for (const g of html.matchAll(/"((?:en|it|de|cs|c):[^"<>]{2,80})"/g)) if (!specs.includes(g[1])) specs.push(g[1]);
 const galleries = [...new Set([...html.matchAll(/gallery:\[([^\]]*)\]/g)].flatMap(m => [...m[1].matchAll(/"([^"]+)"/g)].map(x => x[1])))];
 const UA = { "User-Agent": "vylet-k-jezeru/1.0 (https://vylet-k-jezeru.vercel.app)" };
 const BAD = /map|karte|carta|wappen|coat|logo|plan|stemma|flag|diagram|svg|sign|schild|locator|location|pompage|station_de/i;

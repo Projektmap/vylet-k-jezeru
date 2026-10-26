@@ -3,7 +3,7 @@ import fs from "node:fs";
 import { chromium } from "playwright";
 const html = fs.readFileSync("index.html", "utf8");
 const H = JSON.parse(html.match(/const HIKEQ=(\{.*?\});/)[1]);
-const CC = {merano:"it",lednice:"cz",riegersburg:"at",garda:"it",wolf:"at",faak:"at",valsugana:"it",reschen:"it",bodensee:"de,at,ch",bled:"si",dolomity:"it",istrie:"hr",wachau:"at",sasko:"de,cz",plitvice:"hr",achensee:"at",pongau:"at",bavorsky:"de",allgau:"de",kras:"si",tatry:"sk",pillersee:"at",alsasko:"fr",salcburk:"at",zillertal:"at",krimml:"at",luzern:"ch",krakov:"pl",balaton:"hu",berchtesgaden:"de",schwarzwald:"de",benatky:"it",harz:"de",legoland:"de"};
+const CC = {merano:"it",lednice:"cz",riegersburg:"at",garda:"it",wolf:"at",faak:"at",valsugana:"it",reschen:"it",bodensee:"de,at,ch",bled:"si",dolomity:"it",istrie:"hr",wachau:"at",sasko:"de,cz",plitvice:"hr",achensee:"at",pongau:"at",bavorsky:"de",allgau:"de",kras:"si",tatry:"sk",pillersee:"at",alsasko:"fr",salcburk:"at",zillertal:"at",krimml:"at",luzern:"ch",krakov:"pl",balaton:"hu",berchtesgaden:"de",schwarzwald:"de",benatky:"it",harz:"de",legoland:"de",merano:"it",lednice:"cz",riegersburg:"at",cr_raj:"cz",adrspach:"cz",krkonose:"cz",lipno:"cz",liberec:"cz",mkras:"cz",kutnahora:"cz",krumlov:"cz",trebon:"cz",telc:"cz",olomouc:"cz",beskydy:"cz",jeseniky:"cz",ostrava:"cz",plzen:"cz",kvary:"cz",kokorin:"cz",brno:"cz",karlstejn:"cz",dmorava:"cz"};
 const QC = {}; for (const [k, l] of Object.entries(H)) for (const q of l) QC[q] = CC[k] || "";
 const qs = [...new Set(Object.values(H).flat())];
 const slug = q => q.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
